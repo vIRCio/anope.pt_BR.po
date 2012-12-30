@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: anope 1.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-25 12:24-0300\n"
-"PO-Revision-Date: 2012-12-27 12:18-0300\n"
-"Last-Translator: Ivan Gonzaga <contato@ivangonzaga.com>\n"
+"PO-Revision-Date: 2012-12-30 16:55-0300\n"
+"Last-Translator: Ciro Roberto <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -8553,17 +8553,17 @@ msgstr "Seu apelido está sendo alterado para %s"
 
 #: modules/commands/os_login.cpp:36 modules/commands/os_login.cpp:82
 msgid "Your oper block doesn't require logging in."
-msgstr ""
+msgstr "Seu oper block não requer login"
 
 #: modules/commands/ns_register.cpp:306
 #, c-format
 msgid "Your passcode has been re-sent to %s."
-msgstr ""
+msgstr "Seu código foi re-enviado para %s."
 
 #: modules/commands/ns_register.cpp:210
 #, c-format
 msgid "Your password is %s - remember this for later use."
-msgstr ""
+msgstr "Sua senha é %s - lembre-se disso para uso posterior."
 
 #: include/language.h:77
 msgid "Your password is too long. Please try again with a shorter password."
@@ -8576,21 +8576,21 @@ msgstr "Sua solicitação de recuperação de senha expirou."
 
 #: modules/commands/hs_request.cpp:160
 msgid "Your vHost has been requested"
-msgstr ""
+msgstr "Seu vhost foi solicitado"
 
 #: modules/commands/hs_on.cpp:38 modules/pseudoclients/hostserv.cpp:68
 #, c-format
 msgid "Your vhost of %s is now activated."
-msgstr ""
+msgstr "Seu vhost para %s está agora ativado."
 
 #: modules/commands/hs_on.cpp:36 modules/pseudoclients/hostserv.cpp:66
 #, c-format
 msgid "Your vhost of %s@%s is now activated."
-msgstr ""
+msgstr "Seu vhost para %s@%s está agora ativado."
 
 #: modules/commands/hs_off.cpp:37
 msgid "Your vhost was removed and the normal cloaking restored."
-msgstr ""
+msgstr "Seu vhost foi removido e a encriptação normal ativada."
 
 #: modules/commands/os_dns.cpp:269
 #, c-format
@@ -8819,7 +8819,7 @@ msgstr "vhost"
 #: modules/commands/hs_del.cpp:73
 #, c-format
 msgid "vhosts for group %s have been removed."
-msgstr ""
+msgstr "vhosts para o grupo %s foram removidos."
 
 #: modules/commands/os_config.cpp:38
 msgid "{MODIFY|VIEW} [block name item name item value]"
