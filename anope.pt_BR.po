@@ -6621,11 +6621,11 @@ msgstr ""
 
 #: modules/commands/bs_kick.cpp:984
 msgid "Stop flooding!"
-msgstr ""
+msgstr "Para de mandar várias linhas de texto em poucos segundos, isso atrapalha o andamento do chat."
 
 #: modules/commands/bs_kick.cpp:1000
 msgid "Stop repeating yourself!"
-msgstr ""
+msgstr "Pare de repetir!"
 
 #: modules/commands/cs_set.cpp:824
 msgid "Stricter control of channel founder status"
