@@ -6585,12 +6585,12 @@ msgstr ""
 #: modules/commands/cs_akick.cpp:146
 #, c-format
 msgid "Sorry, you can only have %d autokick masks on a channel."
-msgstr ""
+msgstr "Desculpe, você só pode ter %d máscaras no autokick do canal."
 
 #: modules/commands/bs_badwords.cpp:151
 #, c-format
 msgid "Sorry, you can only have %d bad words entries on a channel."
-msgstr ""
+msgstr "Desculpe, você só pode ter %d palavrões setados no canal."
 
 #: modules/commands/ns_cert.cpp:59
 #, c-format
@@ -7638,6 +7638,9 @@ msgid ""
 "nick, type %s%s IDENTIFY password.  Otherwise,\n"
 "please choose a different nick."
 msgstr ""
+"Esse apelido está registrado e protegido. Se pertencer a você,\n"
+"digite %s%s IDENTIFY senha.  Caso contrário\n"
+"escolha outro apelido por favor."
 
 #: modules/commands/ns_info.cpp:90
 msgid "Time registered"
