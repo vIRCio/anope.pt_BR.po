@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: anope 1.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-25 12:24-0300\n"
-"PO-Revision-Date: 2013-02-04 00:35-0300\n"
+"PO-Revision-Date: 2013-02-04 01:07-0300\n"
 "Last-Translator: Ciro Roberto <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -8451,7 +8451,7 @@ msgstr ""
 
 #: modules/commands/ns_register.cpp:298
 msgid "Your account is already confirmed."
-msgstr ""
+msgstr "Sua conta está confirmada."
 
 #: modules/pseudoclients/nickserv.cpp:277
 #, c-format
@@ -8577,12 +8577,12 @@ msgstr "Sua solicitação de recuperação de senha expirou."
 
 #: modules/commands/hs_request.cpp:160
 msgid "Your vHost has been requested"
-msgstr ""
+msgstr "Seu vHost foi solicitado"
 
 #: modules/commands/hs_on.cpp:38 modules/pseudoclients/hostserv.cpp:68
 #, c-format
 msgid "Your vhost of %s is now activated."
-msgstr ""
+msgstr "Seu vHost para %s agora está ativado."
 
 #: modules/commands/hs_on.cpp:36 modules/pseudoclients/hostserv.cpp:66
 #, c-format
