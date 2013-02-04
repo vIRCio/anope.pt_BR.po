@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: anope 1.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-25 12:24-0300\n"
-"PO-Revision-Date: 2013-01-07 18:32-0300\n"
-"Last-Translator: Ivan Gonzaga <contato@ivangonzaga.com>\n"
+"PO-Revision-Date: 2013-02-04 00:35-0300\n"
+"Last-Translator: Ciro Roberto <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr "%s adicionado à lista %s %s ."
 #: modules/commands/cs_access.cpp:182
 #, c-format
 msgid "%s added to %s access list at level %d."
-msgstr "%s adicionado à %s lista de acesso no nível%d."
+msgstr "%s adicionado à %s lista de acesso no nível %d."
 
 #: modules/commands/cs_akick.cpp:160
 #, c-format
