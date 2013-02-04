@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: anope 1.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-25 12:24-0300\n"
-"PO-Revision-Date: 2013-02-04 01:22-0300\n"
+"PO-Revision-Date: 2013-02-04 14:23-0300\n"
 "Last-Translator: Ciro Roberto <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -1796,11 +1796,11 @@ msgstr ""
 
 #: modules/commands/os_news.cpp:239
 msgid "ADD text"
-msgstr ""
+msgstr "ADD texto"
 
 #: modules/commands/os_ignore.cpp:262
 msgid "ADD time nick reason"
-msgstr ""
+msgstr "ADD tempo apelido motivo"
 
 #: modules/commands/os_session.cpp:533
 msgid "ADD [+expiry] mask limit reason"
@@ -1808,7 +1808,7 @@ msgstr ""
 
 #: modules/commands/ns_access.cpp:90
 msgid "ADD [user] mask"
-msgstr ""
+msgstr "ADD [ usuário ] mascará"
 
 #: modules/commands/os_akill.cpp:363 modules/commands/os_sxline.cpp:638
 msgid "ADD [+expiry] mask reason"
@@ -6327,7 +6327,7 @@ msgstr ""
 
 #: modules/commands/ns_set.cpp:106
 msgid "Set your nickname password"
-msgstr ""
+msgstr "Defina a senha do seu apelido"
 
 #: modules/commands/cs_set.cpp:206
 msgid ""
@@ -6623,10 +6623,12 @@ msgstr ""
 #: modules/commands/bs_kick.cpp:984
 msgid "Stop flooding!"
 msgstr ""
+"Pare de enviar muitas frases em poucos segundos, isso atrapalha o andamento "
+"do chat."
 
 #: modules/commands/bs_kick.cpp:1000
 msgid "Stop repeating yourself!"
-msgstr ""
+msgstr "Pare de repetir!"
 
 #: modules/commands/cs_set.cpp:824
 msgid "Stricter control of channel founder status"
