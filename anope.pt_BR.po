@@ -8059,7 +8059,7 @@ msgstr ""
 
 #: modules/commands/cs_modes.cpp:158
 msgid "Voices a selected nick on a channel"
-msgstr ""
+msgstr "Dá voz ao nick selecionado no canal"
 
 #: modules/commands/cs_modes.cpp:172
 msgid ""
