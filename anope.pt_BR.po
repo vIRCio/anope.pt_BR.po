@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: anope 1.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-25 12:24-0300\n"
-"PO-Revision-Date: 2013-02-20 02:39-0300\n"
+"PO-Revision-Date: 2013-02-20 03:50-0300\n"
 "Last-Translator: Ciro Roberto <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -82,8 +82,9 @@ msgstr ""
 "%s permite que você \"registre\" um apelido e evita que\n"
 "outras pessoas o usem. Os seguintes comandos permitem o registro\n"
 "e manutenção dos apelidos; para utilizá-los, você deverá digitar\n"
-"%s %s comando. Para mais informações sobre um comando\n"
-"digite %s %s %s comando."
+"%s%s comando. Para mais informações sobre um comando\n"
+"digite %s%s %s comando.\n"
+" "
 
 #: modules/pseudoclients/botserv.cpp:220
 #, c-format
@@ -133,13 +134,14 @@ msgid ""
 "specific command, type %s%s HELP command.\n"
 " "
 msgstr ""
-"%s permite a você registrar e controlar varios\n"
-"aspectos da sala. %s pode prevenir\n"
-"usuários maliciosos de \"take over\" a sala limitando\n"
-"quem tem privilégios de operador da sala. Comandos\n"
-"disponiveis listandos abaixo; para usá-los, digite\n"
-"%s%s comando. Para maiores informações sobre\n"
-"um comando específico, digite %s%s HELP comando.\n"
+"%s permite a você registrar e controlar vários\n"
+"aspectos da sala. %s pode prevenir \"take over\"\n"
+"de usuários maliciosos, limitando assim quem possui\n"
+"o privilégio de operador da sala. Os comandos estão\n"
+"dispoínveis e listados abaixo; para usá-los, digite\n"
+"%s%s comando. Para maiores informações\n"
+"sobre um comando específico, digite\n"
+"%s%s HELP comando.\n"
 " "
 
 #: modules/commands/bs_badwords.cpp:161
@@ -261,12 +263,13 @@ msgid ""
 "registered in order to send a memo.\n"
 "%s's commands include:"
 msgstr ""
-"%s é uma utilidade que permite usuários de IRC enviar curtas\n"
-"mensagens para outros usuários de IRC, estando ele online no\n"
-"momento ou não, ou para salas(*). Tanto o apelido do remetente\n"
-"como o apelido do destinatário ou sala tem que estar\n"
-"registrado para que possa enviar memo.\n"
-"%s's comandos incluem:"
+"%s é um utilitário que permite aos usuários do\n"
+"CHAT enviar mensagens para outros usuários, mesmo que\n"
+"eles não estejam conectados, permitindo também enviar\n"
+"mensagens para salas(*). Tanto o apelido do remetente\n"
+"quanto o apelido do destinatário ou da sala, tem que\n"
+"estar registrado para que possa enviar memo.\n"
+"Os comandos do %s incluem:"
 
 #: modules/commands/cs_invite.cpp:68
 #, c-format
@@ -881,8 +884,8 @@ msgstr ""
 "NOTICE: Este serviço tem a intenção de promover uma forma para que\n"
 "usuários de CHAT garantam que sua identidade não seja comprometida.\n"
 "Isto NÃO tem a intenção de facilitar \"roubo\" de apelidos ou então\n"
-"outras atitudes maliciosas. O Abuso do %s resultará em, no míni­-\n"
-"mo, perda do(s) nick(s) abusivo(s)."
+"outras atitudes maliciosas. O Abuso do %s resultará em, no\n"
+"mínimo, perda do(s) nick(s) abusivo(s)."
 
 #: modules/commands/os_sxline.cpp:424
 msgid ""
@@ -1007,6 +1010,11 @@ msgid ""
 "(i.e. which no user on the channel's access list enters\n"
 "for that period of time) will be automatically dropped."
 msgstr ""
+" \n"
+"Note que qualquer sala que não é utilizada por mais\n"
+"de %d dias (entenda como se nenhum usuário da lista\n"
+"de acesso dessa sala entrar neste período de tempo)\n"
+"será automaticamente cancelado o seu registro."
 
 #: modules/pseudoclients/nickserv.cpp:343
 msgid ""
@@ -3001,7 +3009,7 @@ msgstr ""
 
 #: modules/commands/ms_check.cpp:21
 msgid "Checks if last memo to a nick was read"
-msgstr ""
+msgstr "Verifica se o último memo para o apelido foi lido"
 
 #: modules/commands/ms_check.cpp:68
 msgid ""
@@ -3187,7 +3195,7 @@ msgstr ""
 
 #: modules/commands/hs_off.cpp:22
 msgid "Deactivates your assigned vhost"
-msgstr ""
+msgstr "Desativa seu vhost associado"
 
 #: modules/commands/os_stats.cpp:67
 #, c-format
@@ -3311,7 +3319,7 @@ msgstr ""
 
 #: modules/commands/ms_del.cpp:46
 msgid "Delete a memo or memos"
-msgstr "Excluir uma mensagem ou mais mensagens"
+msgstr "Excluir um ou vários memos"
 
 #: modules/commands/hs_del.cpp:55
 msgid "Delete the vhost for all nicks in a group"
@@ -3950,7 +3958,7 @@ msgstr ""
 
 #: modules/commands/cs_status.cpp:21
 msgid "Find a user's status on a channel"
-msgstr ""
+msgstr "Procura status de um usuário em uma sala"
 
 #: modules/commands/ns_cert.cpp:78
 #, c-format
@@ -4081,7 +4089,7 @@ msgstr ""
 
 #: modules/commands/ns_resetpass.cpp:24
 msgid "Helps you reset lost passwords"
-msgstr ""
+msgstr "Ajuda você a redefinir senhas perdidas"
 
 #: modules/commands/ns_set.cpp:653
 msgid "Hide certain pieces of nickname information"
@@ -4224,7 +4232,7 @@ msgstr ""
 
 #: modules/commands/cs_invite.cpp:21
 msgid "Invites you or an optionally specified nick into a channel"
-msgstr ""
+msgstr "Convida você ou opcionalmente um apelido especificado para uma sala"
 
 #: modules/commands/bs_info.cpp:187 modules/commands/bs_info.cpp:189
 #: modules/commands/bs_info.cpp:192
@@ -4342,6 +4350,7 @@ msgstr ""
 #: modules/commands/ns_list.cpp:21
 msgid "List all registered nicknames that match a given pattern"
 msgstr ""
+"Lista todos os apelidos registrados que correspondem a um determinado padrão"
 
 #: modules/commands/ns_alist.cpp:21
 msgid "List channels you have access on"
@@ -4367,7 +4376,7 @@ msgstr ""
 
 #: modules/commands/ms_list.cpp:21
 msgid "List your memos"
-msgstr ""
+msgstr "Lista seus memos"
 
 #: modules/commands/bs_botlist.cpp:67
 msgid ""
@@ -4503,7 +4512,7 @@ msgstr ""
 
 #: modules/commands/cs_info.cpp:33
 msgid "Lists information about the named registered channel"
-msgstr ""
+msgstr "Lista informações sobre o nome da sala registrada"
 
 #: modules/commands/cs_info.cpp:130
 msgid ""
@@ -5655,7 +5664,7 @@ msgstr ""
 
 #: modules/commands/ms_read.cpp:90
 msgid "Read a memo or memos"
-msgstr ""
+msgstr "Ler um ou mais memo"
 
 #: modules/commands/bs_info.cpp:70
 msgid "Real name"
@@ -5691,7 +5700,7 @@ msgstr ""
 
 #: modules/commands/cs_register.cpp:21
 msgid "Register a channel"
-msgstr "Registrar um canal"
+msgstr "Registra uma sala"
 
 #: modules/commands/ns_register.cpp:104
 msgid "Register a nickname"
@@ -5797,7 +5806,7 @@ msgstr "Remove o apelido de um grupo"
 
 #: modules/commands/cs_unban.cpp:21
 msgid "Remove all bans preventing a user from entering a channel"
-msgstr ""
+msgstr "Remove todos os bans permitindo que um usuário entre em uma sala"
 
 #: modules/commands/os_noop.cpp:21
 msgid "Remove all operators from a server remotely"
@@ -5853,7 +5862,7 @@ msgstr ""
 
 #: modules/commands/hs_request.cpp:80
 msgid "Request a vHost for your nick"
-msgstr ""
+msgstr "Requisita um vHost para seu apelido"
 
 #: modules/commands/hs_request.cpp:171
 msgid ""
@@ -5894,7 +5903,7 @@ msgstr ""
 
 #: modules/commands/cs_getkey.cpp:21
 msgid "Returns the key of the given channel"
-msgstr ""
+msgstr "Retorna a chave de uma determinada sala"
 
 #: modules/commands/cs_getkey.cpp:60
 msgid "Returns the key of the given channel."
@@ -6048,7 +6057,7 @@ msgstr ""
 
 #: modules/commands/ms_send.cpp:22
 msgid "Send a memo to a nick or channel"
-msgstr ""
+msgstr "Envia um memo para um apelido ou sala"
 
 #: modules/commands/ms_staff.cpp:22
 msgid "Send a memo to all opers/admins"
@@ -6303,7 +6312,7 @@ msgstr ""
 
 #: modules/commands/ms_set.cpp:205
 msgid "Set options related to memos"
-msgstr ""
+msgstr "Define opções relacionadas aos memos"
 
 #: modules/commands/ns_set.cpp:19
 msgid "Set options, including kill protection"
@@ -6705,7 +6714,7 @@ msgstr ""
 
 #: modules/commands/hs_group.cpp:34
 msgid "Syncs the vhost for all nicks in a group"
-msgstr ""
+msgstr "Sincroniza o vhost de todos os apelidos de um grupo"
 
 #: modules/commands/bs_kick.cpp:488
 #, c-format
