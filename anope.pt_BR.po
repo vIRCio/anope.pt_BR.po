@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: anope 1.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-25 12:24-0300\n"
-"PO-Revision-Date: 2013-02-10 01:15-0300\n"
-"Last-Translator: Zeca <zeca@radiocabrito.com>\n"
+"PO-Revision-Date: 2013-02-20 02:39-0300\n"
+"Last-Translator: Ciro Roberto <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: modules/commands/cs_xop.cpp:288
 #, c-format
@@ -26,7 +26,7 @@ msgstr "%s adicionado à lista %s %s ."
 #: modules/commands/cs_access.cpp:182
 #, c-format
 msgid "%s added to %s access list at level %d."
-msgstr "%s adicionado à %s lista de acesso no nível %d."
+msgstr "%s adicionado à lista de acesso da sala %s com o nível %d."
 
 #: modules/commands/cs_akick.cpp:160
 #, c-format
@@ -79,13 +79,11 @@ msgid ""
 "%s%s %s command.\n"
 " "
 msgstr ""
-"%s permite a você \"registrar\" um apelido e\n"
-"prevenir que outros usem ele. Os seguintes\n"
-"comandos permitem registro e manutenção dos\n"
-"apelidos; para usá-los, digite %s%s comando.\n"
-"Para maiores informações sobre um comando específico, digite\n"
-"%s%s %s comando.\n"
-" "
+"%s permite que você \"registre\" um apelido e evita que\n"
+"outras pessoas o usem. Os seguintes comandos permitem o registro\n"
+"e manutenção dos apelidos; para utilizá-los, você deverá digitar\n"
+"%s %s comando. Para mais informações sobre um comando\n"
+"digite %s %s %s comando."
 
 #: modules/pseudoclients/botserv.cpp:220
 #, c-format
@@ -881,10 +879,10 @@ msgid ""
 msgstr ""
 " \n"
 "NOTICE: Este serviço tem a intenção de promover uma forma para que\n"
-"usuários de IRC garantam que sua identidade não seja comprometida.\n"
-"Isto  NÃO  tem a intenção de facilitar \"roubo\" de\n"
-"apelidos ou outras ações maliciosas. Abuso do %s\n"
-"terá como resultado, no mínimo, perda do apelido abusivo."
+"usuários de CHAT garantam que sua identidade não seja comprometida.\n"
+"Isto NÃO tem a intenção de facilitar \"roubo\" de apelidos ou então\n"
+"outras atitudes maliciosas. O Abuso do %s resultará em, no míni­-\n"
+"mo, perda do(s) nick(s) abusivo(s)."
 
 #: modules/commands/os_sxline.cpp:424
 msgid ""
@@ -4114,7 +4112,7 @@ msgstr ""
 
 #: modules/commands/ns_identify.cpp:69
 msgid "Identify yourself with your password"
-msgstr ""
+msgstr "Identifica o seu apelido com a sua senha"
 
 #: modules/commands/cs_enforce.cpp:205
 msgid ""
@@ -4347,7 +4345,7 @@ msgstr ""
 
 #: modules/commands/ns_alist.cpp:21
 msgid "List channels you have access on"
-msgstr ""
+msgstr "Lista de canais que você possui acesso"
 
 #: modules/commands/os_modinfo.cpp:78
 msgid "List loaded modules"
@@ -4406,7 +4404,7 @@ msgstr ""
 
 #: modules/commands/ns_group.cpp:274
 msgid "Lists all nicknames in your group"
-msgstr ""
+msgstr "Lista todos os apelidos em seu grupo"
 
 #: modules/commands/cs_list.cpp:22
 msgid "Lists all registered channels matching the given pattern"
@@ -4858,7 +4856,7 @@ msgstr ""
 
 #: modules/commands/ns_ajoin.cpp:173
 msgid "Manage your auto join list"
-msgstr ""
+msgstr "Gerencia sua lista de auto join"
 
 #: modules/commands/ms_ignore.cpp:23
 msgid "Manage your memo ignore list"
@@ -5014,7 +5012,7 @@ msgstr ""
 
 #: modules/commands/ns_access.cpp:89
 msgid "Modify the list of authorized addresses"
-msgstr ""
+msgstr "Modifica a lista de endereços autorizados"
 
 #: modules/commands/cs_access.cpp:449 modules/commands/cs_flags.cpp:303
 msgid "Modify the list of privileged users"
@@ -5452,7 +5450,7 @@ msgstr "Senha para %s é %s."
 
 #: include/language.h:72
 msgid "Password incorrect."
-msgstr "Senha incorreta."
+msgstr "Senha incorreta. Se ele pertence a você, identifique-se."
 
 #: modules/commands/ns_resetpass.cpp:41
 #, c-format
@@ -5684,7 +5682,7 @@ msgstr ""
 
 #: modules/commands/ns_recover.cpp:130
 msgid "Regains control of your nick"
-msgstr ""
+msgstr "Retoma o controle do seu apelido"
 
 #: modules/commands/os_akill.cpp:126 modules/commands/os_sxline.cpp:317
 #: modules/commands/os_sxline.cpp:527
@@ -5795,7 +5793,7 @@ msgstr ""
 
 #: modules/commands/ns_group.cpp:207
 msgid "Remove a nick from a group"
-msgstr ""
+msgstr "Remove o apelido de um grupo"
 
 #: modules/commands/cs_unban.cpp:21
 msgid "Remove all bans preventing a user from entering a channel"
@@ -5912,7 +5910,7 @@ msgstr ""
 
 #: modules/commands/ns_status.cpp:22
 msgid "Returns the owner status of the given nickname"
-msgstr ""
+msgstr "Retorna o status dono do apelido informado"
 
 #: modules/commands/ns_getpass.cpp:52
 msgid ""
@@ -5951,7 +5949,7 @@ msgstr ""
 
 #: modules/commands/ns_logout.cpp:22
 msgid "Reverses the effect of the IDENTIFY command"
-msgstr ""
+msgstr "Reverte o efeito do comando IDENTIFY"
 
 #: include/language.h:129
 msgid "SEND {nick | channel} memo-text"
@@ -6309,7 +6307,7 @@ msgstr ""
 
 #: modules/commands/ns_set.cpp:19
 msgid "Set options, including kill protection"
-msgstr ""
+msgstr "Define as opções do apelido, incluindo as proteções"
 
 #: modules/commands/cs_set.cpp:512
 msgid "Set the channel as permanent"
@@ -7707,9 +7705,10 @@ msgid ""
 "nick, type %s%s IDENTIFY password.  Otherwise,\n"
 "please choose a different nick."
 msgstr ""
-"Esse apelido está registrado e protegido. Se ele pertence\n"
-"a você, digite %s %s IDENTIFY senha . Caso contrário,\n"
-"escolha um apelido diferente."
+"Este apelido possui um DONO e está REGISTRADO e protegido. Se ele pertence a "
+"você,\n"
+"digite %s %s IDENTIFY senha ou apenas /IDENTIFY senha. Caso contrário,\n"
+"escolha um outro apelido diferente."
 
 #: modules/commands/ns_info.cpp:90
 msgid "Time registered"
@@ -7999,7 +7998,7 @@ msgstr ""
 
 #: modules/commands/ns_update.cpp:22
 msgid "Updates your current status, i.e. it checks for new memos"
-msgstr ""
+msgstr "Atualiza seu status atual, ou seja, verifica se há novas mensagens"
 
 #: modules/commands/ns_update.cpp:46
 msgid ""
