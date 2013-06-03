@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: anope 1.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-25 12:24-0300\n"
-"PO-Revision-Date: 2013-06-03 04:49-0300\n"
+"PO-Revision-Date: 2013-06-03 05:07-0300\n"
 "Last-Translator: Fabio Morais <fabio@netsplit.org>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -1940,7 +1940,7 @@ msgstr "Ativa seu vHost."
 
 #: modules/commands/cs_appendtopic.cpp:47
 msgid "Add text to a channels topic"
-msgstr ""
+msgstr "Adicione um texto para o tópico do canal"
 
 #: modules/commands/ns_ajoin.cpp:142
 #, c-format
@@ -2063,7 +2063,7 @@ msgstr ""
 #: modules/commands/hs_group.cpp:47
 #, c-format
 msgid "All vhost's in the group %s have been set to %s"
-msgstr ""
+msgstr "Todos os vhost's no grupo %s foram mudados para %s"
 
 #: modules/commands/hs_group.cpp:45
 #, c-format
@@ -4158,7 +4158,7 @@ msgstr ""
 
 #: modules/commands/os_ignore.cpp:204
 msgid "Ignore list is empty."
-msgstr ""
+msgstr "A lista de Ignore está vazia."
 
 #: modules/commands/ms_ignore.cpp:88
 msgid "Ignore list:"
@@ -4271,7 +4271,7 @@ msgstr ""
 
 #: modules/commands/cs_clearusers.cpp:21
 msgid "Kicks all users on a channel"
-msgstr ""
+msgstr "Chuta todos os usuários de uma sala"
 
 #: modules/commands/os_kill.cpp:21
 msgid "Kill a user"
@@ -5195,7 +5195,7 @@ msgstr ""
 #: modules/commands/ns_drop.cpp:62 modules/commands/ns_drop.cpp:67
 #, c-format
 msgid "Nickname %s has been dropped."
-msgstr ""
+msgstr "Apelido %s foi desregistrado."
 
 #: include/language.h:101
 #, c-format
@@ -5563,7 +5563,7 @@ msgstr ""
 #: modules/commands/bs_info.cpp:72 modules/commands/ns_info.cpp:118
 #: modules/commands/cs_info.cpp:85
 msgid "Private"
-msgstr ""
+msgstr "Privado"
 
 #: modules/commands/bs_set.cpp:397
 #, c-format
@@ -5668,7 +5668,7 @@ msgstr "Ler um ou mais memo"
 
 #: modules/commands/bs_info.cpp:70
 msgid "Real name"
-msgstr ""
+msgstr "Nome Real"
 
 #: src/xline.cpp:348
 #, c-format
@@ -5877,7 +5877,7 @@ msgstr ""
 
 #: modules/commands/cs_info.cpp:86
 msgid "Restricted Access"
-msgstr ""
+msgstr "Acesso Restrito"
 
 #: modules/commands/cs_set.cpp:742
 #, c-format
@@ -6524,7 +6524,7 @@ msgstr ""
 #: modules/commands/cs_seen.cpp:217
 #, c-format
 msgid "Sorry, I have not seen %s."
-msgstr ""
+msgstr "Desculpe, eu não vi %s."
 
 #: modules/commands/ms_rsend.cpp:48
 msgid "Sorry, RSEND has been disabled on this network."
@@ -6624,7 +6624,7 @@ msgstr ""
 #: modules/commands/bs_badwords.cpp:151
 #, c-format
 msgid "Sorry, you can only have %d bad words entries on a channel."
-msgstr ""
+msgstr "Desculpe, você só pode ter %d palavrões definidos para esta sala."
 
 #: modules/commands/ns_cert.cpp:59
 #, c-format
@@ -7325,7 +7325,7 @@ msgstr ""
 #: modules/extra/ns_maxemail.cpp:30
 #, c-format
 msgid "The given email address has reached its usage limit of %d users."
-msgstr ""
+msgstr "O e-mail fornecido atingiu o limite de %d usuários."
 
 #: modules/extra/ns_maxemail.cpp:28
 msgid "The given email address has reached its usage limit of 1 user."
@@ -8428,6 +8428,7 @@ msgstr ""
 #: modules/commands/ns_drop.cpp:49
 msgid "You may not drop other services operators nicknames."
 msgstr ""
+"Você não pode desregistrar o apelido de outros operadores dos serviços."
 
 #: modules/commands/ns_getpass.cpp:34
 msgid "You may not get the password of other services operators."
@@ -8502,7 +8503,7 @@ msgstr ""
 
 #: modules/commands/ms_info.cpp:181
 msgid "You will not be notified of new memos."
-msgstr ""
+msgstr "Você não será notificado de novos memos."
 
 #: modules/commands/ms_set.cpp:47
 msgid "You will now be informed about new memos via email."
@@ -8686,7 +8687,7 @@ msgstr ""
 #: modules/commands/os_dns.cpp:299
 #, c-format
 msgid "Zone %s removed."
-msgstr ""
+msgstr "Zona %s removida."
 
 #: modules/commands/os_defcon.cpp:169
 msgid "[1|2|3|4|5]"
@@ -8851,7 +8852,7 @@ msgstr "expira em %d minutos"
 
 #: src/misc.cpp:319
 msgid "expires momentarily"
-msgstr ""
+msgstr "expira momentaneamente"
 
 #: src/misc.cpp:289
 msgid "hour"
