@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: anope 1.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-25 12:24-0300\n"
-"PO-Revision-Date: 2013-02-20 03:50-0300\n"
-"Last-Translator: Ciro Roberto <cirinho@canalbahia.net>\n"
+"PO-Revision-Date: 2013-06-03 04:49-0300\n"
+"Last-Translator: Fabio Morais <fabio@netsplit.org>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -3119,7 +3119,7 @@ msgstr ""
 #: modules/commands/os_stats.cpp:64
 #, c-format
 msgid "Current number of AKILLs: %d"
-msgstr ""
+msgstr "Numero atual de AKILLs: %d"
 
 #: modules/commands/os_stats.cpp:84
 #, c-format
