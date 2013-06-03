@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: anope 1.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-25 12:24-0300\n"
-"PO-Revision-Date: 2013-06-03 05:07-0300\n"
+"PO-Revision-Date: 2013-06-03 05:19-0300\n"
 "Last-Translator: Fabio Morais <fabio@netsplit.org>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -1972,7 +1972,7 @@ msgstr ""
 #: modules/commands/os_dns.cpp:350
 #, c-format
 msgid "Added server %s."
-msgstr ""
+msgstr "Adicionado servidor %s."
 
 #: modules/commands/os_dns.cpp:276
 #, c-format
@@ -2068,7 +2068,7 @@ msgstr "Todos os vhost's no grupo %s foram mudados para %s"
 #: modules/commands/hs_group.cpp:45
 #, c-format
 msgid "All vhost's in the group %s have been set to %s@%s"
-msgstr ""
+msgstr "Todos os vhost's para o grupo%s foram definidos como %s@%s"
 
 #: modules/commands/gl_global.cpp:43
 #, c-format
@@ -4228,7 +4228,7 @@ msgstr ""
 
 #: modules/commands/os_dns.cpp:515
 msgid "Invalid value for LIMIT. Must be numerical."
-msgstr ""
+msgstr "Valor para LIMITE inválido. Precisa ser numérico."
 
 #: modules/commands/cs_invite.cpp:21
 msgid "Invites you or an optionally specified nick into a channel"
@@ -4358,7 +4358,7 @@ msgstr "Lista de canais que você possui acesso"
 
 #: modules/commands/os_modinfo.cpp:78
 msgid "List loaded modules"
-msgstr ""
+msgstr "Lista de módulos carregada"
 
 #: modules/commands/ns_list.cpp:120 modules/commands/cs_list.cpp:73
 #, c-format
@@ -4948,7 +4948,7 @@ msgstr ""
 #: modules/commands/ms_send.cpp:36 modules/commands/ms_rsend.cpp:61
 #, c-format
 msgid "Memo sent to %s."
-msgstr ""
+msgstr "Mensagem enviada para %s."
 
 #: modules/commands/ms_list.cpp:133
 #, c-format
@@ -6233,7 +6233,7 @@ msgstr ""
 
 #: src/mail.cpp:74
 msgid "Services have been configured to not send mail."
-msgstr ""
+msgstr "Os serviços foram configurados para não enviar e-mail."
 
 #: modules/commands/os_ignore.cpp:221
 msgid "Services ignore list:"
@@ -6344,7 +6344,7 @@ msgstr ""
 
 #: modules/commands/cs_set.cpp:1006
 msgid "Set the successor for a channel"
-msgstr ""
+msgstr "Estabelece um sucessor para a sala"
 
 #: modules/commands/hs_set.cpp:122
 msgid "Set the vhost for all nicks in a group"
@@ -6489,7 +6489,7 @@ msgstr ""
 
 #: modules/commands/os_stats.cpp:199
 msgid "Show status of Services and network"
-msgstr ""
+msgstr "Mostra o status dos Serviços e rede"
 
 #: modules/commands/os_logsearch.cpp:124
 #, c-format
@@ -6647,7 +6647,7 @@ msgstr ""
 
 #: modules/commands/os_stats.cpp:127
 msgid "Statistics reset."
-msgstr ""
+msgstr "Estatísticas resetadas."
 
 #: modules/commands/ns_update.cpp:39
 msgid "Status updated (memos, vhost, chmodes, flags)."
@@ -7725,7 +7725,7 @@ msgstr "Tempo registrado"
 
 #: modules/commands/bs_set.cpp:62
 msgid "To protect ops against bot kicks"
-msgstr ""
+msgstr "Para proteger os operadores contra kicks do bot"
 
 #: modules/commands/bs_set.cpp:124
 msgid "To protect voices against bot kicks"
@@ -7776,7 +7776,7 @@ msgstr ""
 
 #: modules/commands/bs_kick.cpp:885
 msgid "Turn caps lock OFF!"
-msgstr ""
+msgstr "Desligue sua tecla de CAPS LOCK!"
 
 #: modules/commands/ns_set.cpp:285
 msgid "Turn chanstat statistic on or off"
@@ -8155,7 +8155,7 @@ msgstr ""
 
 #: modules/commands/bs_kick.cpp:958
 msgid "Watch your language!"
-msgstr ""
+msgstr "Olhe seu linguajar!"
 
 #: modules/commands/ms_info.cpp:190
 msgid ""
@@ -8391,11 +8391,11 @@ msgstr ""
 
 #: include/language.h:127
 msgid "You have no memos."
-msgstr ""
+msgstr "Você não possui mensagens."
 
 #: include/language.h:131
 msgid "You have no new memos."
-msgstr ""
+msgstr "Você não possui novas mensagens."
 
 #: modules/pseudoclients/memoserv.cpp:156
 #, c-format
@@ -8423,7 +8423,7 @@ msgstr ""
 
 #: modules/commands/ns_set.cpp:167
 msgid "You may not change the password of other services operators."
-msgstr ""
+msgstr "Você não pode mudar a senha de outros operadores dos serviços."
 
 #: modules/commands/ns_drop.cpp:49
 msgid "You may not drop other services operators nicknames."
