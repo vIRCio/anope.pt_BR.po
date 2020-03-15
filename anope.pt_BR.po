@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-15 12:11+0100\n"
+"PO-Revision-Date: 2020-03-15 12:16+0100\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -6261,7 +6261,7 @@ msgstr "Reenvia o código de confirmação do registro por e-mail"
 
 #: modules/commands/cs_set.cpp:621
 msgid "Restrict access to the channel"
-msgstr ""
+msgstr "Acesso restrito ao canal"
 
 #: modules/commands/cs_set.cpp:1291
 msgid "Restricted access"
