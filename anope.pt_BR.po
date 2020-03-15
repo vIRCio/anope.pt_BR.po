@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-15 07:27-0300\n"
+"PO-Revision-Date: 2020-03-15 08:23-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -8346,7 +8346,7 @@ msgstr ""
 #: modules/commands/os_module.cpp:145 modules/commands/os_module.cpp:159
 #, c-format
 msgid "Unable to remove module %s."
-msgstr ""
+msgstr "Impossível remover o módulo %s."
 
 #: modules/commands/bs_assign.cpp:90
 msgid "Unassigns a bot from a channel"
