@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-15 16:46+0100\n"
+"PO-Revision-Date: 2020-03-22 14:21+0100\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -463,34 +463,34 @@ msgid "%s not found on the AKILL list."
 msgstr ""
 
 #: modules/commands/cs_flags.cpp:251
-#, c-format
+#, fuzzy, c-format
 msgid "%s removed from the %s access list."
-msgstr ""
+msgstr "%s removido(a) da lista de acesso %s ."
 
 #: modules/commands/ms_ignore.cpp:74
 #, c-format
 msgid "%s removed from the ignore list."
-msgstr ""
+msgstr "%s removido da lista de ignore."
 
 #: modules/commands/os_list.cpp:157
 #, c-format
 msgid "%s users list:"
-msgstr ""
+msgstr "%s lista de usuários:"
 
 #: modules/commands/os_ignore.cpp:316
 #, c-format
 msgid "%s will no longer be ignored."
-msgstr ""
+msgstr "%s não está mais no ignore."
 
 #: modules/commands/os_ignore.cpp:238
-#, c-format
+#, fuzzy, c-format
 msgid "%s will now be ignored for %s."
-msgstr ""
+msgstr "%s será ignorado por %s"
 
 #: modules/commands/os_ignore.cpp:233
 #, c-format
 msgid "%s will now permanently be ignored."
-msgstr ""
+msgstr "%s será permanentemente ignorado."
 
 #: include/language.h:66
 #, c-format
@@ -5062,12 +5062,17 @@ msgid "Makes the bot say the specified text on the specified channel."
 msgstr "Faz o botserv enviar uma mensagem específica no canal."
 
 #: modules/commands/greet.cpp:157
+#, fuzzy
 msgid ""
 "Makes the given message the greet of the nickname, that\n"
 "will be displayed when joining a channel that has GREET\n"
 "option enabled, provided that the user has the necessary\n"
 "access on it."
 msgstr ""
+"Faz com que a mensagem dada seja de saudação do seu nick,\n"
+"que será mostrada ao entrar em um canal que \n"
+"tenha a opção GREET ativada, desde que você tenha\n"
+"o acesso necessário."
 
 #: modules/commands/greet.cpp:131
 msgid ""
@@ -5076,6 +5081,10 @@ msgid ""
 "option enabled, provided that you have the necessary\n"
 "access on it."
 msgstr ""
+"Faz com que a mensagem dada seja de saudação do seu nick,\n"
+"que será mostrada ao entrar em um canal que \n"
+"tenha a opção GREET ativada, desde que você tenha\n"
+"o acesso necessário."
 
 #: modules/commands/os_dns.cpp:660
 msgid "Manage DNS zones for this network"
@@ -6129,7 +6138,7 @@ msgid ""
 msgstr ""
 
 #: modules/commands/ns_register.cpp:269
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Registers your nickname in the %s database. Once\n"
 "your nick is registered, you can use the SET and ACCESS\n"
@@ -6149,36 +6158,55 @@ msgid ""
 "you should choose a password at least 5 characters long.\n"
 "Finally, the space character cannot be used in passwords."
 msgstr ""
+"Registra seu nick name na base de dados %s . Uma vez\n"
+"que seu nick for registrado, você pode usar os comandos \n"
+"SET e ACCESS para configurar seu nick se desejar.\n"
+" Certifique-se de utilizar uma senha a qual você se lembre\n"
+"ao registrar - você precisará dela ao trocar de nick\n"
+"mais tarde. (IMPORTANTE: há distinção entre o uso de letras\n"
+"maiúsculas e minúsculas! ANOPE, Anope e \n"
+" anope são senhas diferentes!)\n"
+"Orientações para o uso de senhas:\n"
+" \n"
+"Senhas não devem ser adivinhadas facilmente. Por exemplo,,\n"
+"usar o seu nomo como senha é uma má ideia. Usar\n"
+"seu nick como senha é uma ideia pior ainda ;) e,\n"
+"na verdade, %s não irá autorizar. Também, senhas\n"
+"curtas são vulneráveis a processos de tentativa e erro.\n"
+"Então, você deveria escolher uma senha de ao menos 5 caracteres.\n"
+"Finalmente, a barra de espaço não pode ser usada em senhas."
 
 #: modules/commands/ns_register.cpp:145
 msgid "Registration is currently disabled."
-msgstr ""
+msgstr "Registro desativado no momento."
 
 #: modules/commands/cs_set.cpp:400
 msgid "Regulate the use of critical commands"
-msgstr ""
+msgstr "Regulariza o uso de comandos críticos"
 
 #: modules/commands/hs_request.cpp:283
 msgid "Reject the requested vHost for the given nick."
-msgstr ""
+msgstr "Rejeita o pedido de vHost para o nick dado."
 
 #: modules/commands/hs_request.cpp:240
 msgid "Reject the requested vHost of a user"
-msgstr ""
+msgstr "Rejeita o pedido de vHost de um usuário"
 
 #: modules/commands/cs_suspend.cpp:151
 msgid "Releases a suspended channel"
-msgstr ""
+msgstr "Libera um canal suspenso"
 
 #: modules/commands/cs_suspend.cpp:191
 msgid ""
 "Releases a suspended channel. All data and settings\n"
 "are preserved from before the suspension."
 msgstr ""
+"Libera um canal suspenso. Todos os dados e configurações\n"
+"foram preservados antes da suspensão."
 
 #: modules/commands/os_module.cpp:56
 msgid "Reload a module"
-msgstr ""
+msgstr "Recarrega um módulo"
 
 #: modules/commands/os_reload.cpp:19
 msgid "Reload services' configuration file"
