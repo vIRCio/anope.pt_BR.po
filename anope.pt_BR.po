@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-22 14:27+0100\n"
+"PO-Revision-Date: 2020-03-22 15:45-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -455,7 +455,7 @@ msgstr ""
 #: modules/commands/os_sxline.cpp:92
 #, c-format
 msgid "%s not found on the %s list."
-msgstr "%s não encontrado na lista %s ."
+msgstr "%s não encontrado na lista %s ."
 
 #: modules/commands/os_akill.cpp:237
 #, c-format
@@ -485,7 +485,7 @@ msgstr "%s não está mais no ignore."
 #: modules/commands/os_ignore.cpp:238
 #, c-format
 msgid "%s will now be ignored for %s."
-msgstr "%s será ignorado por %s ."
+msgstr "%s será ignorado por %s."
 
 #: modules/commands/os_ignore.cpp:233
 #, c-format
@@ -6140,7 +6140,7 @@ msgid ""
 msgstr ""
 
 #: modules/commands/ns_register.cpp:269
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Registers your nickname in the %s database. Once\n"
 "your nick is registered, you can use the SET and ACCESS\n"
@@ -6161,17 +6161,17 @@ msgid ""
 "Finally, the space character cannot be used in passwords."
 msgstr ""
 "Registra seu nick name na base de dados %s . Uma vez\n"
-"que seu nick for registrado, você pode usar os comandos \n"
-"SET e ACCESS para configurar seu nick se desejar.\n"
-" Certifique-se de utilizar uma senha a qual você se lembre\n"
-"ao registrar - você precisará dela ao trocar de nick\n"
-"mais tarde. (IMPORTANTE: há distinção entre o uso de letras\n"
-"maiúsculas e minúsculas! ANOPE, Anope e \n"
-" anope são senhas diferentes!)\n"
+"que seu nick for registrado, você pode usar os comandos\n"
+" SET e ACCESS para configurar seu nick se desejar.\n"
+"Certifique-se de utilizar uma senha a qual você se lembre\n"
+"ao registrar - você precisará dela ao trocar de nick mais tarde.\n"
+"(IMPORTANTE: Há distinção entre o uso de letras\n"
+"maiúsculas e minúsculas! ANOPE, Anope e anope \n"
+"são senhas diferentes!)\n"
 "Orientações para o uso de senhas:\n"
 " \n"
-"Senhas não devem ser adivinhadas facilmente. Por exemplo,,\n"
-"usar o seu nomo como senha é uma má ideia. Usar\n"
+"Senhas não devem ser adivinhadas facilmente. Por exemplo,\n"
+"usar o seu nomo como senha é uma péssima ideia. Usar\n"
 "seu nick como senha é uma ideia pior ainda ;) e,\n"
 "na verdade, %s não irá autorizar. Também, senhas\n"
 "curtas são vulneráveis a processos de tentativa e erro.\n"
