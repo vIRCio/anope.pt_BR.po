@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-23 18:53-0300\n"
+"PO-Revision-Date: 2020-03-23 19:33-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -1879,10 +1879,11 @@ msgid ""
 "A memo informing the user will also be sent, which includes the reason for the rejection if "
 "supplied."
 msgstr ""
+"Um memo informando ao usuário também será enviado, incluindo o motivo da rejeição, se fornecida."
 
 #: modules/commands/hs_request.cpp:229
 msgid "A memo informing the user will also be sent."
-msgstr ""
+msgstr "Um memo informando ao usuário também será enviado."
 
 #: modules/commands/ms_read.cpp:42
 #, c-format
@@ -2014,7 +2015,7 @@ msgstr ""
 #: modules/commands/help.cpp:166
 #, c-format
 msgid "Access to this command requires the permission %s to be present in your opertype."
-msgstr ""
+msgstr "O acesso a este comando requer que esteja presente a permissão %s no seu tipo de operador."
 
 #: modules/commands/ns_cert.cpp:368 modules/commands/ns_cert.cpp:392
 #: modules/commands/ns_identify.cpp:94
@@ -2028,7 +2029,7 @@ msgstr ""
 
 #: modules/commands/hs_request.cpp:227
 msgid "Activate the requested vHost for the given nick."
-msgstr ""
+msgstr "Ativa o vHost requisitado para o nick especificado"
 
 #: modules/commands/hs_on.cpp:55
 msgid ""
@@ -2036,6 +2037,10 @@ msgid ""
 "When you use this command any user who performs a /whois\n"
 "on you will see the vhost instead of your real host/IP address."
 msgstr ""
+"Ativa o vhost atualmente atribuído ao nick em uso.\n"
+"Quando você usa este comando, qualquer usuário que\n"
+"executar o comando /whois verá o vhost ao invés de ver\n"
+"o seu endereço host/IP real."
 
 #: modules/commands/hs_on.cpp:19
 msgid "Activates your assigned vhost"
@@ -3512,6 +3517,10 @@ msgid ""
 "When you use this command any user who performs a /whois\n"
 "on you will see your real host/IP address."
 msgstr ""
+"Desativa o vhost atualmente atribuído ao nick em uso.\n"
+"Quando você usa este comando, qualquer usuário que\n"
+"executar o comando /whois em você verá seu endereço\n"
+"de host/IP real."
 
 #: modules/commands/hs_off.cpp:19
 msgid "Deactivates your assigned vhost"
@@ -3725,7 +3734,7 @@ msgstr ""
 msgid ""
 "Deletes the vhost assigned to the given nick from the\n"
 "database."
-msgstr ""
+msgstr "Exclui do banco de dados o vHost atribuído ao nick especificado."
 
 #: modules/commands/hs_del.cpp:59
 msgid "Deletes the vhost for all nicks in a group"
@@ -3736,6 +3745,8 @@ msgid ""
 "Deletes the vhost for all nicks in the same group as\n"
 "that of the given nick."
 msgstr ""
+"Exclui do banco de dados o vHost atribuído ao\n"
+"grupo do nick especificado."
 
 #: modules/commands/os_dns.cpp:653
 #, c-format
@@ -6400,6 +6411,8 @@ msgid ""
 "network administrators. Please be patient while your request\n"
 "is being considered."
 msgstr ""
+"Requisita aos administradores da rede que o vHost seja ativado.\n"
+"Por favor, seja paciente enquanto sua solicitação é processada."
 
 #: modules/commands/ns_register.cpp:312
 msgid "Resend registration confirmation email"
@@ -7092,6 +7105,11 @@ msgid ""
 "* NOTE, this will not update the vhost for any nicks\n"
 "added to the group after this command was used."
 msgstr ""
+"Define o vhost para todos os nicks que pertecem ao mesmo grupo.\n"
+"Se o seu IRCD suportar vIdents, para definir use o comando:\n"
+"SETALL <nick> <ident>@<hostmask> .\n"
+"* OBSERVAÇÃO, isso não atualizará o vhost para quaisquer nicks\n"
+"adicionados ao grupo após a utilização deste comando."
 
 #: modules/commands/hs_set.cpp:99
 msgid ""
@@ -7100,6 +7118,9 @@ msgid ""
 "SET <nick> <ident>@<hostmask> set idents for users as\n"
 "well as vhosts."
 msgstr ""
+"Define o vhost para o nick como a máscara requisitada.\n"
+"Se o seu IRCD oferecer suporte a vIdents, para definir use\n"
+"SET <nick> <ident>@<hostmask> ."
 
 #: modules/commands/os_set.cpp:199
 msgid ""
@@ -8173,6 +8194,13 @@ msgid ""
 "and Y will be displayed, e.g. #1-3 will display the first 3\n"
 "nick/vhost entries."
 msgstr ""
+"Este comando lista os vhosts registrados para o operador.\n"
+"Se uma key for especificada, apenas as entradas cujo nick\n"
+"ou vhost correspondem ao padrão fornecido na \"key\" são\n"
+"exibidas, por exemplo: Rob* para todas as entradas que\n"
+"começam com \"Rob\". Se for usado um estilo #X-Y , apenas as\n"
+"entradas entre o intervalo de Xe Yserão exibidas, por exemplo:\n"
+"#1-3 exibirá as 3 primeiras entradas de nick / vhost."
 
 #: modules/commands/os_module.cpp:45
 msgid ""
@@ -8257,7 +8285,7 @@ msgstr ""
 
 #: modules/commands/hs_request.cpp:344
 msgid "This command retrieves the vhost requests."
-msgstr ""
+msgstr "Este comando lista todas as requisições de vHost pendentes."
 
 #: modules/commands/os_logsearch.cpp:159
 msgid ""
