@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-23 04:57-0300\n"
+"PO-Revision-Date: 2020-03-23 05:40-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -2533,6 +2533,13 @@ msgid ""
 "The second parameter specifies whether the information should\n"
 "be displayed (OFF) or hidden (ON)."
 msgstr ""
+"Previne que algumas informações sejam exibidas quando alguém\n"
+"executa o comando %s INFO no nick. Você pode ocultar\n"
+"o endereço de e-mail (EMAIL), a última máscara do usuário\n"
+"user@host mask (USERMASK), o status de acesso aos serviços\n"
+"(STATUS) e a última mensagem de saída (QUIT). O segundo\n"
+"parâmetro especifica se as informações devem ser exibidas (OFF)\n"
+"ou ocultas (ON)."
 
 #: modules/commands/ns_info.cpp:223
 #, c-format
@@ -3041,6 +3048,8 @@ msgid ""
 "Changes the display used to refer to your nickname group in\n"
 "Services. The new display MUST be a nick of your group."
 msgstr ""
+"Altera a exibição utilizada para se referenciar-se ao seu grupo de nicks\n"
+"nos Serviços. O novo nick a ser exibido deve ser um nick do seu grupo."
 
 #: modules/commands/cs_set.cpp:324
 msgid ""
@@ -3055,6 +3064,10 @@ msgid ""
 "language should be chosen from the following list of\n"
 "supported languages:"
 msgstr ""
+"Altera o idioma que os Serviços usam ao enviar mensagens\n"
+"para o nick especificado (por exemplo,  as mensagens ao \n"
+"responder a um enviado aos Serviços). language deve ser\n"
+"escolhido na lista dos seguintes idiomas suportados:"
 
 #: modules/commands/ns_set.cpp:848
 msgid ""
@@ -3073,6 +3086,8 @@ msgid ""
 "Changes the password used to identify you as the nick's\n"
 "owner."
 msgstr ""
+"Altera a senha usada para identificá-lo como o \n"
+"proprietário do nick."
 
 #: modules/commands/cs_set.cpp:1017
 msgid ""
@@ -3968,6 +3983,10 @@ msgid ""
 "modes is enabled, services will remember your usermodes\n"
 "and attempt to re-set them the next time you authenticate."
 msgstr ""
+"Ativa e desativa os modos de manutenção do seu nick.\n"
+"Se os modos de manutenção estiverem ativados, os\n"
+"serviços lembrarão seus modos de usuário e tentarão\n"
+"reconfigurá-los na próxima vez que você se autenticar."
 
 #: modules/commands/cs_set.cpp:733
 msgid ""
@@ -5127,7 +5146,6 @@ msgid "Makes the bot say the specified text on the specified channel."
 msgstr "Faz o botserv enviar uma mensagem específica no canal."
 
 #: modules/commands/greet.cpp:157
-#, fuzzy
 msgid ""
 "Makes the given message the greet of the nickname, that\n"
 "will be displayed when joining a channel that has GREET\n"
@@ -5135,9 +5153,8 @@ msgid ""
 "access on it."
 msgstr ""
 "Faz com que a mensagem dada seja de saudação do seu nick,\n"
-"que será mostrada ao entrar em um canal que \n"
-"tenha a opção GREET ativada, desde que você tenha\n"
-"o acesso necessário."
+"que será mostrada ao entrar em um canal que tenha a opção\n"
+"GREET ativada, desde que você tenha o acesso necessário."
 
 #: modules/commands/greet.cpp:131
 msgid ""
@@ -7147,6 +7164,11 @@ msgid ""
 "when entering channels. Note that depending on channel settings some modes\n"
 "may not get set automatically."
 msgstr ""
+"Define se você receberá seus modos de status do canal automaticamente.\n"
+"Defina como ON para permitir que %s defina automaticamente\n"
+"os modos de status ao entrar nos canais. Observe que, dependendo\n"
+"das configurações do canal, alguns modos podem não ser definidos\n"
+"automaticamente."
 
 #: modules/commands/cs_access.cpp:648 modules/commands/cs_access.cpp:689
 #, c-format
@@ -8427,6 +8449,12 @@ msgid ""
 "(However, anyone who knows your nickname can still get\n"
 "information on it using the INFO command.)"
 msgstr ""
+"Ativa e desativa a opção de privacidade do %s\n"
+"para o seu nick. Com PRIVATE definido, seu apelido\n"
+"não aparecerá nas listas de apelidos geradas com o comando\n"
+"LIST do %s. (No entanto, quem conhece\n"
+"seu apelido ainda pode obter informações usando o\n"
+"comando INFO.)"
 
 #: modules/commands/ns_set.cpp:1059 modules/commands/ns_set.cpp:1088
 #, c-format
@@ -8439,6 +8467,14 @@ msgid ""
 "will not auto-kill you regardless of the setting of the\n"
 "KILL option."
 msgstr ""
+"Ativa ou desativa os recursos de segurança do %s\n"
+"para o seu nick. Com a opção SECURE definido, você\n"
+"deve digitar sua senha antes de ser identificado como\n"
+"o proprietário do nick, independentemente de o seu\n"
+"endereço estar na lista de acesso. No entanto, se você\n"
+"estiver na lista de acesso, o %s não o derrubará\n"
+"automaticamente, independentemente da configuração de\n"
+"opção KILL ."
 
 #: modules/extra/stats/m_chanstats.cpp:142
 msgid "Turns chanstats channel statistics ON or OFF for this user."
@@ -8446,7 +8482,7 @@ msgstr ""
 
 #: modules/extra/stats/m_chanstats.cpp:61 modules/extra/stats/m_chanstats.cpp:119
 msgid "Turns chanstats statistics ON or OFF."
-msgstr ""
+msgstr "Ativa e desativa as estatísticas do canal."
 
 #: modules/commands/ns_set.cpp:772
 #, c-format
@@ -8481,6 +8517,20 @@ msgid ""
 "do not use this option unless necessary. Also, your\n"
 "network's administrators may have disabled this option."
 msgstr ""
+"Ativa e desativa a opção de proteção automática\n"
+"de segurança do seu nick. Com a proteção ativada,\n"
+"se outro usuário tentar usar o seu nick, eles terão\n"
+"um minuto para mudar para outro nick, após o qual\n"
+"o %s alterará o nick à força.\n"
+" \n"
+"Se você selecionar a opção QUICK, o usuário terá\n"
+"apenas 20 segundos para mudar de nick em vez dos \n"
+"60 segundos habituais. Se você selecionar a opção\n"
+"IMMED, o nick será mudado imediatamente sem aviso\n"
+"prévio ou sem a chance de mudar de nick; por favor,\n"
+"não use esta opção, a não ser que seja realmente \n"
+"necessário. Além disso, os administradores da rede\n"
+"podem desativar esta opção."
 
 #: modules/commands/bs_badwords.cpp:194 modules/commands/os_forbid.cpp:358
 msgid "Type"
