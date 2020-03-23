@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-23 17:57-0300\n"
+"PO-Revision-Date: 2020-03-23 18:53-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -4569,7 +4569,7 @@ msgstr ""
 
 #: modules/commands/cs_invite.cpp:19
 msgid "Invites you or an optionally specified nick into a channel"
-msgstr ""
+msgstr "Convida você ou o nick fornecido para um canal"
 
 #: modules/commands/bs_kick.cpp:1201 modules/commands/bs_kick.cpp:1203
 #: modules/commands/bs_kick.cpp:1206
@@ -4614,7 +4614,7 @@ msgstr ""
 
 #: modules/commands/cs_kick.cpp:19
 msgid "Kicks a specified nick from a channel"
-msgstr ""
+msgstr "Kicka um nick específico do canal"
 
 #: modules/commands/cs_kick.cpp:128
 msgid ""
@@ -4799,7 +4799,7 @@ msgstr "Lista todos os nicks de seu grupo"
 
 #: modules/commands/cs_list.cpp:20
 msgid "Lists all registered channels matching the given pattern"
-msgstr ""
+msgstr "Lista todos os canais registrados que correspondem ao padrão especificado"
 
 #: modules/commands/cs_list.cpp:137
 msgid ""
@@ -8718,7 +8718,7 @@ msgstr "Usado em"
 
 #: data/chanserv.example.conf:821
 msgid "Used to manage channels"
-msgstr ""
+msgstr "Usado para gerenciar os canais"
 
 #: data/chanserv.example.conf:809
 msgid "Used to manage the list of privileged users"
