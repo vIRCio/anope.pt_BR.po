@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-23 04:44-0300\n"
+"PO-Revision-Date: 2020-03-23 04:57-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -2600,11 +2600,11 @@ msgstr ""
 
 #: data/nickserv.example.conf:593
 msgid "Associate a URL with your account"
-msgstr ""
+msgstr "Associe uma URL à sua conta"
 
 #: modules/commands/greet.cpp:83
 msgid "Associate a greet message with your nickname"
-msgstr ""
+msgstr "Associa uma mensagem de saudação ao entrar nos canais para seu nick"
 
 #: data/chanserv.example.conf:1198
 msgid "Associate an E-mail address with the channel"
@@ -3934,7 +3934,7 @@ msgstr ""
 
 #: modules/commands/ns_set.cpp:568
 msgid "Enable or disable keep modes"
-msgstr ""
+msgstr "Ativa e desativa os modos de manutenção"
 
 #: modules/commands/bs_info.cpp:89 modules/commands/bs_kick.cpp:1114
 msgid "Enabled"
@@ -4412,7 +4412,7 @@ msgstr "Ajuda você se perdeu a senha"
 
 #: modules/commands/ns_info.cpp:141
 msgid "Hide certain pieces of nickname information"
-msgstr ""
+msgstr "Oculta algumas informações do nick"
 
 #: modules/commands/cs_list.cpp:180
 msgid "Hide channel from the LIST command"
@@ -5997,7 +5997,7 @@ msgstr ""
 
 #: modules/commands/ns_list.cpp:186
 msgid "Prevent the nickname from appearing in the LIST command"
-msgstr ""
+msgstr "Impede do nick aparecer no comando LIST"
 
 #: modules/commands/ns_set.cpp:1104
 msgid "Prevent the nickname from expiring"
@@ -6896,7 +6896,7 @@ msgstr ""
 
 #: modules/commands/ns_set.cpp:329
 msgid "Set the display of your group in Services"
-msgstr ""
+msgstr "Configura a exibição do seu grupo nos Serviços"
 
 #: modules/commands/cs_set.cpp:266
 msgid "Set the founder of a channel"
@@ -6904,7 +6904,7 @@ msgstr ""
 
 #: modules/commands/ns_set.cpp:793
 msgid "Set the language Services will use when messaging you"
-msgstr ""
+msgstr "Define o idioma que os Serviços usará"
 
 #: modules/commands/ns_set.cpp:172
 msgid "Set the nickname password"
@@ -6928,7 +6928,7 @@ msgstr ""
 
 #: modules/commands/ns_set.cpp:119
 msgid "Set your nickname password"
-msgstr ""
+msgstr "Define a senha do nick"
 
 #: modules/commands/bs_kick.cpp:271
 #, c-format
@@ -7115,7 +7115,7 @@ msgstr ""
 
 #: modules/commands/ns_set.cpp:237
 msgid "Sets whether services should set channel status modes on you automatically."
-msgstr ""
+msgstr "Define para adquirir status no canal automaticamente."
 
 #: modules/commands/cs_set.cpp:1090
 msgid ""
@@ -8398,15 +8398,15 @@ msgstr ""
 
 #: modules/extra/stats/m_chanstats.cpp:17 modules/extra/stats/m_chanstats.cpp:71
 msgid "Turn chanstats statistics on or off"
-msgstr ""
+msgstr "Ativa e desativa as estatísticas do canal"
 
 #: modules/commands/ns_set.cpp:1009
 msgid "Turn nickname security on or off"
-msgstr ""
+msgstr "Ativa ou desativa a segurança dos nicks"
 
 #: modules/commands/ns_set.cpp:655
 msgid "Turn protection on or off"
-msgstr ""
+msgstr "Ativa e desativa a proteção"
 
 #: modules/commands/ns_list.cpp:264
 #, c-format
