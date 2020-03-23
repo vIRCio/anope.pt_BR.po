@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-23 05:40-0300\n"
+"PO-Revision-Date: 2020-03-23 17:57-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -2039,7 +2039,7 @@ msgstr ""
 
 #: modules/commands/hs_on.cpp:19
 msgid "Activates your assigned vhost"
-msgstr ""
+msgstr "Ativa seu vHost associado"
 
 #: modules/commands/os_info.cpp:243
 msgid ""
@@ -2576,7 +2576,7 @@ msgstr ""
 
 #: modules/commands/hs_request.cpp:191
 msgid "Approve the requested vHost of a user"
-msgstr ""
+msgstr "Aprova um vHost solicitado pelo usuário"
 
 #: modules/commands/ns_drop.cpp:68
 msgid "As a Services Operator, you may drop any nick."
@@ -3515,7 +3515,7 @@ msgstr ""
 
 #: modules/commands/hs_off.cpp:19
 msgid "Deactivates your assigned vhost"
-msgstr ""
+msgstr "Desativa seu vHost associado"
 
 #: modules/commands/os_stats.cpp:72
 #, c-format
@@ -3628,7 +3628,7 @@ msgstr ""
 
 #: modules/commands/hs_del.cpp:19
 msgid "Delete the vhost of another user"
-msgstr ""
+msgstr "Remove o vHost de outro usuário"
 
 #: modules/commands/cs_xop.cpp:302
 #, c-format
@@ -3729,7 +3729,7 @@ msgstr ""
 
 #: modules/commands/hs_del.cpp:59
 msgid "Deletes the vhost for all nicks in a group"
-msgstr ""
+msgstr "Remove o vHost de todos os nicks de um grupo"
 
 #: modules/commands/hs_del.cpp:93
 msgid ""
@@ -6392,7 +6392,7 @@ msgstr ""
 
 #: modules/commands/hs_request.cpp:78
 msgid "Request a vHost for your nick"
-msgstr ""
+msgstr "Solicita um vHost para seu nick"
 
 #: modules/commands/hs_request.cpp:179
 msgid ""
@@ -6442,7 +6442,7 @@ msgstr ""
 
 #: modules/commands/hs_request.cpp:296
 msgid "Retrieves the vhost requests"
-msgstr ""
+msgstr "Lista os vHost requisitados e pendentes"
 
 #: modules/commands/cs_getkey.cpp:19
 msgid "Returns the key of the given channel"
@@ -6933,11 +6933,11 @@ msgstr ""
 
 #: modules/commands/hs_set.cpp:125
 msgid "Set the vhost for all nicks in a group"
-msgstr ""
+msgstr "Define o vHost para todos os nicks de um grupo"
 
 #: modules/commands/hs_set.cpp:19
 msgid "Set the vhost of another user"
-msgstr ""
+msgstr "Define um vHost para outro usuário"
 
 #: modules/commands/os_set.cpp:169
 msgid "Set various global Services options"
@@ -7446,7 +7446,7 @@ msgstr ""
 
 #: modules/commands/hs_group.cpp:42
 msgid "Syncs the vhost for all nicks in a group"
-msgstr ""
+msgstr "Sincroniza o vHost para todos os nicks de um grupo"
 
 #: src/command.cpp:146
 msgid "Syntax"
