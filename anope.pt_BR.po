@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-23 19:33-0300\n"
+"PO-Revision-Date: 2020-03-24 06:06-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -392,22 +392,22 @@ msgstr "%s é o fundador do %s."
 #: modules/commands/cs_status.cpp:78
 #, c-format
 msgid "%s matches access entry %s (from entry %s), which has privilege %s."
-msgstr ""
+msgstr "%s corresponde à entrada %s (da entrada %s), que possui o privilégio %s."
 
 #: modules/commands/cs_status.cpp:71
 #, c-format
 msgid "%s matches access entry %s, which has privilege %s."
-msgstr ""
+msgstr "%s corresponde à entrada de acesso %s, que possui o privilégio %s."
 
 #: include/language.h:109
 #, c-format
 msgid "%s matches an except on %s and cannot be banned until the except has been removed."
-msgstr ""
+msgstr "%s corresponde a uma exceção no %s e não pode ser banido até que a exceção seja removida."
 
 #: modules/commands/cs_status.cpp:96
 #, c-format
 msgid "%s matches auto kick entry %s on %s (%s)."
-msgstr ""
+msgstr "%s corresponde a entrada de auto kick %s em %s (%s)."
 
 #: modules/commands/cs_xop.cpp:353
 #, c-format
@@ -2029,7 +2029,7 @@ msgstr ""
 
 #: modules/commands/hs_request.cpp:227
 msgid "Activate the requested vHost for the given nick."
-msgstr "Ativa o vHost requisitado para o nick especificado"
+msgstr "Ativa o vHost requisitado para o nick especificado."
 
 #: modules/commands/hs_on.cpp:55
 msgid ""
@@ -2526,6 +2526,9 @@ msgid ""
 "Parameters are the same as for the standard /KILL\n"
 "command."
 msgstr ""
+"Permite desconectar um usuário da rede.\n"
+"Os parâmetros padrão são os mesmos do \n"
+"comando /KILL."
 
 #: modules/commands/ns_info.cpp:252
 #, c-format
