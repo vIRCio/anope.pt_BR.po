@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-24 10:52+0100\n"
+"PO-Revision-Date: 2020-03-24 20:44-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -448,12 +448,12 @@ msgstr "%s não está na lista de ignorados."
 #, c-format
 msgid "%s not found on session list, but has a limit of %d because it matches entry: %s."
 msgstr ""
-"%s não encontrado na lista de sessões, mas tem um limite de %d porque corresponde à entrada: %s."
+"%s não encontrado na lista de sessões, mas tem um limite de %d porque corresponde à entrada: %s."
 
 #: modules/commands/os_session.cpp:418
 #, c-format
 msgid "%s not found on session-limit exception list."
-msgstr "%s não encontrado na lista de exceção de limite de sessão."
+msgstr "%s não encontrado na lista de exceção de limite de sessão."
 
 #: modules/commands/os_sxline.cpp:92
 #, c-format
@@ -498,22 +498,21 @@ msgstr "%s será permanentemente ignorado."
 #: include/language.h:66
 #, c-format
 msgid "%s%s HELP %s for more information."
-msgstr "%s%s HELP %s para mais informações."
+msgstr "%s%s HELP %s para mais informações."
 
 #: modules/commands/bs_bot.cpp:270
 msgid "ADD nick user host real"
-msgstr ""
+msgstr "ADD nick user host realname"
 
 #: modules/commands/bs_bot.cpp:271
 msgid "CHANGE oldnick newnick [user [host [real]]]"
-msgstr ""
+msgstr "CHANGE nick-antigo novo-nick [user [host [realname]]]"
 
 #: modules/commands/bs_bot.cpp:272
 msgid "DEL nick"
-msgstr ""
+msgstr "DEL nick"
 
 #: modules/commands/os_session.cpp:560
-#, fuzzy
 msgid ""
 "EXCEPTION ADD adds the given host mask to the exception list.\n"
 "Note that nick!user@host and user@host masks are invalid!\n"
@@ -537,24 +536,24 @@ msgid ""
 "Note that a connecting client will \"use\" the first exception\n"
 "their host matches."
 msgstr ""
-"EXCEPTION ADD adiciona a máscara de host dada à lista de exceção.\n"
-"Note que as máscaras nick!user@host e user@host são inválidas!\n"
-"Apenas máscaras reais de host, como box.host.dom e *.host.dom,\n"
-"são permitidos porque as sessões limitantes não levam nick ou\n"
-"nomes de usuários em conta. O limite deve ser um número maior do que\n"
-"ou igual a zero. Isso determina quantas sessões este host\n"
-"pode levar de cada vez. Um valor de zero significa que o host tem um\n"
-"limite ilimitado de sessão. Consulte a ajuda da AKILL para obter detalhes sobre\n"
-"o formato do parâmetro de expiração opcional.\n"
+"EXCEPTION ADD adiciona a máscara de host dada à lista de exceção.\n"
+"Observe que as máscaras nick!user@host e user@host são inválidas!\n"
+"Apenas máscaras com endereço de host, como por exemplo box.host.dom \n"
+"e *.host.dom,são permitidos porque os limites de sessões não levam nick\n"
+"ou nomes de usuários em consideração. O limite deve ser um número maior\n"
+"ou igual a zero. Isso determina quantas sessões este host conectar por vez.\n"
+"Um valor definido como zero significa que o host tem sessões ilimitadas para\n"
+"conectar-se. Consulte a ajuda do comando AKILL para obter mais detalhes\n"
+"sobre o formato do parâmetro opcional  expiry  (de expiração).\n"
 " \n"
-"EXCEPTION DEL remove a máscara dada da lista de exceção.\n"
+"EXCEPTION DEL remove uma máscara da lista de exceção.\n"
 " \n"
-"EXCEPTION LIST e EXCEPTION VIEW mostram todas as sessões\n"
-"atuais se a máscara opcional for dada. A lista é limitada\n"
-"para aquelas sessões que combinam com a máscara. A diferença é que\n"
-"EXCEPTION VIEW é mais detalhado, exibindo o nome da\n"
-"pessoa que adicionou a exceção, seu limite de sessão, razão,\n"
-"máscara de host e a data e hora de validade.\n"
+"EXCEPTION LIST e EXCEPTION VIEW mostram todas as sessões\n"
+"atuais da máscara fornecida. A lista é limitada para aquelas sessões\n"
+"que combinam com a máscara. A diferença é que:\n"
+"EXCEPTION VIEW é mais detalhado, exibindo o nome da\n"
+"pessoa que adicionou a exceção, o limite de sessão, motivo,\n"
+"máscara de host além da data e hora de validade.\n"
 " \n"
 "Observe que um cliente conectado \"usará\" a primeira exceção\n"
 "que corresponder a seu host ."
@@ -566,6 +565,9 @@ msgid ""
 "up on the given server. REVOKE removes this\n"
 "restriction."
 msgstr ""
+"SET desconecta todos os operadores do\n"
+"server especificado e impede que eles operem\n"
+"no servidor. REVOKE remove essa restrição."
 
 #: modules/commands/cs_access.cpp:611
 #, c-format
@@ -578,34 +580,34 @@ msgstr ""
 #: modules/commands/ms_read.cpp:35
 #, c-format
 msgid "[auto-memo] The memo you sent to %s has been viewed."
-msgstr ""
+msgstr "[auto-memo] O memo que você enviou para %s foi visualizado."
 
 #: modules/commands/ns_group.cpp:92
 msgid "[target] [password]"
-msgstr ""
+msgstr "[target] [password]"
 
 #: modules/commands/ns_set.cpp:453
 msgid "address"
-msgstr ""
+msgstr "endereço"
 
 #: modules/commands/bs_set.cpp:162
 msgid "botname {ON|OFF}"
-msgstr ""
+msgstr "nome-do-bot {ON|OFF}"
 
 #: modules/commands/cs_sync.cpp:20 modules/commands/bs_assign.cpp:91 modules/commands/cs_info.cpp:20
 #: modules/commands/cs_suspend.cpp:152 modules/commands/cs_log.cpp:106
 #: modules/commands/cs_getkey.cpp:20 modules/extra/stats/cs_fantasy_top.cpp:39
 #: modules/extra/stats/cs_fantasy_top.cpp:51
 msgid "channel"
-msgstr ""
+msgstr "canal"
 
 #: modules/commands/cs_set.cpp:138
 msgid "channel bantype"
-msgstr ""
+msgstr "canal tipo-do-ban"
 
 #: modules/commands/cs_drop.cpp:20
 msgid "channel channel"
-msgstr ""
+msgstr "canal canal"
 
 #: modules/commands/cs_log.cpp:107
 msgid "channel command method [status]"
@@ -621,11 +623,11 @@ msgstr ""
 
 #: modules/commands/bs_assign.cpp:20 modules/commands/cs_set.cpp:267
 msgid "channel nick"
-msgstr ""
+msgstr "canal nick"
 
 #: modules/commands/cs_kick.cpp:20
 msgid "channel nick [reason]"
-msgstr ""
+msgstr "canal nick [motivo]"
 
 #: modules/commands/cs_clone.cpp:115
 msgid "channel target [what]"
@@ -901,23 +903,20 @@ msgid "nickname message"
 msgstr "nickname mensagem"
 
 #: modules/commands/ns_set.cpp:399
-#, fuzzy
 msgid "nickname new-display"
-msgstr "nickname new-display"
+msgstr "nick new-display"
 
 #: modules/commands/ns_set.cpp:173
-#, fuzzy
 msgid "nickname new-password"
-msgstr "nickname nova-senha"
+msgstr "nick nova-senha"
 
 #: modules/commands/ns_set_misc.cpp:170
-#, fuzzy
 msgid "nickname [parameter]"
-msgstr "nickname [parâmetro]"
+msgstr "nick [parâmetro]"
 
 #: modules/commands/ns_recover.cpp:150
 msgid "nickname [password]"
-msgstr "nickname [senha]"
+msgstr "nick [senha]"
 
 #: modules/commands/ns_suspend.cpp:61
 msgid "nickname [+expiry] [reason]"
@@ -8359,7 +8358,7 @@ msgstr ""
 
 #: modules/commands/ns_register.cpp:353
 msgid "This command will resend you the registration confirmation email."
-msgstr "Reenvia a confirmação do registro por e-mail"
+msgstr "Reenvia a confirmação do registro por e-mail."
 
 #: include/language.h:90
 #, c-format
