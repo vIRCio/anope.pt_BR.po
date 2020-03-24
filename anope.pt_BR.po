@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-24 06:06-0300\n"
+"PO-Revision-Date: 2020-03-24 10:52+0100\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -448,11 +448,12 @@ msgstr "%s não está na lista de ignorados."
 #, c-format
 msgid "%s not found on session list, but has a limit of %d because it matches entry: %s."
 msgstr ""
+"%s não encontrado na lista de sessões, mas tem um limite de %d porque corresponde à entrada: %s."
 
 #: modules/commands/os_session.cpp:418
 #, c-format
 msgid "%s not found on session-limit exception list."
-msgstr ""
+msgstr "%s não encontrado na lista de exceção de limite de sessão."
 
 #: modules/commands/os_sxline.cpp:92
 #, c-format
@@ -465,7 +466,7 @@ msgid "%s not found on the AKILL list."
 msgstr "%s não encontrado na lista de AKILL."
 
 #: modules/commands/cs_flags.cpp:251
-#, fuzzy, c-format
+#, c-format
 msgid "%s removed from the %s access list."
 msgstr "%s removido da lista de acesso %s ."
 
@@ -497,7 +498,7 @@ msgstr "%s será permanentemente ignorado."
 #: include/language.h:66
 #, c-format
 msgid "%s%s HELP %s for more information."
-msgstr ""
+msgstr "%s%s HELP %s para mais informações."
 
 #: modules/commands/bs_bot.cpp:270
 msgid "ADD nick user host real"
@@ -512,6 +513,7 @@ msgid "DEL nick"
 msgstr ""
 
 #: modules/commands/os_session.cpp:560
+#, fuzzy
 msgid ""
 "EXCEPTION ADD adds the given host mask to the exception list.\n"
 "Note that nick!user@host and user@host masks are invalid!\n"
@@ -535,6 +537,27 @@ msgid ""
 "Note that a connecting client will \"use\" the first exception\n"
 "their host matches."
 msgstr ""
+"EXCEPTION ADD adiciona a máscara de host dada à lista de exceção.\n"
+"Note que as máscaras nick!user@host e user@host são inválidas!\n"
+"Apenas máscaras reais de host, como box.host.dom e *.host.dom,\n"
+"são permitidos porque as sessões limitantes não levam nick ou\n"
+"nomes de usuários em conta. O limite deve ser um número maior do que\n"
+"ou igual a zero. Isso determina quantas sessões este host\n"
+"pode levar de cada vez. Um valor de zero significa que o host tem um\n"
+"limite ilimitado de sessão. Consulte a ajuda da AKILL para obter detalhes sobre\n"
+"o formato do parâmetro de expiração opcional.\n"
+" \n"
+"EXCEPTION DEL remove a máscara dada da lista de exceção.\n"
+" \n"
+"EXCEPTION LIST e EXCEPTION VIEW mostram todas as sessões\n"
+"atuais se a máscara opcional for dada. A lista é limitada\n"
+"para aquelas sessões que combinam com a máscara. A diferença é que\n"
+"EXCEPTION VIEW é mais detalhado, exibindo o nome da\n"
+"pessoa que adicionou a exceção, seu limite de sessão, razão,\n"
+"máscara de host e a data e hora de validade.\n"
+" \n"
+"Observe que um cliente conectado \"usará\" a primeira exceção\n"
+"que corresponder a seu host ."
 
 #: modules/commands/os_noop.cpp:68
 msgid ""
@@ -838,7 +861,7 @@ msgstr "nick  canal "
 
 #: modules/commands/os_svs.cpp:123
 msgid "nick channel [reason]"
-msgstr ""
+msgstr "nick canal [motivo]"
 
 #: modules/commands/os_oline.cpp:20
 msgid "nick flags"
@@ -859,39 +882,42 @@ msgstr ""
 #: modules/commands/ns_suspend.cpp:161 modules/commands/ns_drop.cpp:19
 #: modules/commands/ns_getpass.cpp:20
 msgid "nickname"
-msgstr ""
+msgstr "nickname"
 
 #: modules/commands/ns_set.cpp:546
 msgid "nickname address"
-msgstr ""
+msgstr "nickname endereço"
 
 #: modules/commands/ns_resetpass.cpp:22
 msgid "nickname email"
-msgstr ""
+msgstr "nickname email"
 
 #: modules/commands/ns_set.cpp:872
 msgid "nickname language"
-msgstr ""
+msgstr "nickname idioma"
 
 #: modules/commands/greet.cpp:145
 msgid "nickname message"
-msgstr ""
+msgstr "nickname mensagem"
 
 #: modules/commands/ns_set.cpp:399
+#, fuzzy
 msgid "nickname new-display"
-msgstr ""
+msgstr "nickname new-display"
 
 #: modules/commands/ns_set.cpp:173
+#, fuzzy
 msgid "nickname new-password"
-msgstr ""
+msgstr "nickname nova-senha"
 
 #: modules/commands/ns_set_misc.cpp:170
+#, fuzzy
 msgid "nickname [parameter]"
-msgstr ""
+msgstr "nickname [parâmetro]"
 
 #: modules/commands/ns_recover.cpp:150
 msgid "nickname [password]"
-msgstr ""
+msgstr "nickname [senha]"
 
 #: modules/commands/ns_suspend.cpp:61
 msgid "nickname [+expiry] [reason]"
@@ -8333,7 +8359,7 @@ msgstr ""
 
 #: modules/commands/ns_register.cpp:353
 msgid "This command will resend you the registration confirmation email."
-msgstr ""
+msgstr "Reenvia a confirmação do registro por e-mail"
 
 #: include/language.h:90
 #, c-format
@@ -8341,16 +8367,18 @@ msgid ""
 "This nick is owned by someone else.  Please choose another.\n"
 "(If this is your nick, type %s%s IDENTIFY password.)"
 msgstr ""
+"Este nick pertence a outro usuário.  Por favor, escolha outro.\n"
+"(Caso este seja o seu nick digite %s%s IDENTIFY senha.)"
 
 #: modules/commands/os_forbid.cpp:469
 #, c-format
 msgid "This nickname has been forbidden: %s"
-msgstr ""
+msgstr "Este nick foi proibido: %s"
 
 #: modules/commands/ns_recover.cpp:99
-#, c-format
+#, fuzzy, c-format
 msgid "This nickname has been recovered by %s."
-msgstr ""
+msgstr "Este nick foi recuperado por %s."
 
 #: modules/commands/ns_recover.cpp:77
 #, c-format
@@ -8358,14 +8386,16 @@ msgid ""
 "This nickname has been recovered by %s. If you did not do\n"
 "this then %s may have your password, and you should change it."
 msgstr ""
+"Este nick foi recuperado por %s. Caso não o tenha feito,\n"
+"talvez %s tenha a sua senha, e vc deveria mudá-la."
 
 #: include/language.h:95
 msgid "This nickname has been registered; you may not use it."
-msgstr ""
+msgstr "Este nick já foi registrado; você não pode usá-lo."
 
 #: modules/commands/ns_suspend.cpp:246
 msgid "This nickname is suspended."
-msgstr ""
+msgstr "Este nick está suspenso."
 
 #: include/language.h:92
 #, c-format
@@ -8374,6 +8404,9 @@ msgid ""
 "nick, type %s%s IDENTIFY password.  Otherwise,\n"
 "please choose a different nick."
 msgstr ""
+"Este nick está registrado e protegido.  Caso seja\n"
+"o seu próprio nick, digite %s%s IDENTIFY senha.  Caso contrário,\n"
+"escolha outro nick."
 
 #: modules/commands/ms_read.cpp:95
 #, c-format
@@ -8863,8 +8896,9 @@ msgid "Voices protection"
 msgstr "Proteção para voices"
 
 #: modules/commands/bs_kick.cpp:1406
+#, fuzzy
 msgid "Watch your language!"
-msgstr ""
+msgstr "Vou lavar sua boca com sabão!"
 
 #: modules/commands/cs_list.cpp:237
 #, c-format
@@ -8939,12 +8973,12 @@ msgstr ""
 
 #: modules/commands/ns_identify.cpp:87 modules/commands/os_login.cpp:34
 msgid "You are already identified."
-msgstr ""
+msgstr "Você já está identificado."
 
 #: modules/commands/cs_invite.cpp:64
-#, c-format
+#, fuzzy, c-format
 msgid "You are already in %s!"
-msgstr ""
+msgstr "Você já está em %s!"
 
 #: modules/commands/os_set.cpp:91
 msgid "You are no longer a super admin."
@@ -8952,15 +8986,15 @@ msgstr ""
 
 #: modules/commands/os_login.cpp:81
 msgid "You are not identified."
-msgstr ""
+msgstr "Você não está identificado."
 
 #: include/language.h:100
 msgid "You are not permitted to be on this channel."
-msgstr ""
+msgstr "Você não tem permissão para estar neste canal."
 
 #: modules/commands/ms_set.cpp:158
 msgid "You are not permitted to change your memo limit."
-msgstr ""
+msgstr "Você não tem permissão para mudar seu limite de memos."
 
 #: modules/commands/ns_cert.cpp:183
 msgid "You are not using a client certificate."
@@ -8976,12 +9010,12 @@ msgstr ""
 
 #: modules/commands/ns_resetpass.cpp:108
 msgid "You are now identified for your nick. Change your password now."
-msgstr ""
+msgstr "Seu nick está identificado. A partir de agora sua senha poderá ser modificada."
 
 #: modules/commands/ns_group.cpp:64
 #, c-format
 msgid "You are now in the group of %s."
-msgstr ""
+msgstr "Você está no grupo de %s ."
 
 #: modules/pseudoclients/memoserv.cpp:147
 #, c-format
@@ -8989,6 +9023,8 @@ msgid ""
 "You are over your maximum number of memos (%d). You will be unable to receive any new memos until "
 "you delete some of your current ones."
 msgstr ""
+"Você atingiu seu número máximo de memos (%d). Você não pode receber novos memos até excluir algumas "
+"das mensagens antigas."
 
 #: modules/commands/os_noop.cpp:33
 msgid "You can not NOOP Services."
