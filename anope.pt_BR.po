@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-25 04:38-0300\n"
+"PO-Revision-Date: 2020-03-25 04:58-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -6488,38 +6488,38 @@ msgstr "Reenvia o código de confirmação do registro por e-mail"
 
 #: modules/commands/cs_set.cpp:621
 msgid "Restrict access to the channel"
-msgstr ""
+msgstr "Acesso restrito para o canal"
 
 #: modules/commands/cs_set.cpp:1291
 msgid "Restricted access"
-msgstr ""
+msgstr "Acesso restrito"
 
 #: modules/commands/cs_set.cpp:661
 #, c-format
 msgid "Restricted access option for %s is now off."
-msgstr ""
+msgstr "Opção de acesso restrito para %s agora está off."
 
 #: modules/commands/cs_set.cpp:655
 #, c-format
 msgid "Restricted access option for %s is now on."
-msgstr ""
+msgstr "Opção de acesso restrito para %s agora está on."
 
 #: modules/commands/cs_enforce.cpp:73
 #, c-format
 msgid "Restricted enforced on %s."
-msgstr ""
+msgstr "Restrito aplicado em %s."
 
 #: modules/commands/cs_set.cpp:335
 msgid "Retain modes when channel is not in use"
-msgstr ""
+msgstr "Mantém os modos quando o canal não estiver em uso"
 
 #: modules/commands/cs_topic.cpp:20
 msgid "Retain topic when channel is not in use"
-msgstr ""
+msgstr "Mantém o tópico quando o canal não estiver em uso"
 
 #: modules/commands/ns_getpass.cpp:19
 msgid "Retrieve the password for a nickname"
-msgstr ""
+msgstr "Recupera a senha do nick"
 
 #: modules/commands/hs_request.cpp:296
 msgid "Retrieves the vhost requests"
@@ -6548,6 +6548,11 @@ msgid ""
 "person who issued the command and the nickname it was used\n"
 "on will be logged and sent out as a WALLOPS/GLOBOPS."
 msgstr ""
+"Retorna a senha para o nick informado.  Observe que \n"
+"sempre que esse comando é usado, uma mensagem \n"
+"incluindo a pessoa que emitiu o comando e o nick em \n"
+"que foi usado será registrada e enviada como WALLOPS \n"
+"e GLOBOPS."
 
 #: modules/commands/ns_status.cpp:55
 msgid ""
@@ -6597,7 +6602,7 @@ msgstr "SET servidor"
 
 #: modules/commands/os_dns.cpp:667
 msgid "SET server.name option value"
-msgstr ""
+msgstr "SET nome.do.servidor opção valor"
 
 #: modules/commands/ns_cert.cpp:378
 #, c-format
@@ -7216,7 +7221,7 @@ msgstr ""
 
 #: modules/commands/ns_set.cpp:33 modules/commands/ns_set.cpp:88
 msgid "Sets various nickname options. option can be one of:"
-msgstr ""
+msgstr "Define várias opções para os nicks. option pode ser uma das seguintes:"
 
 #: modules/commands/ns_set.cpp:237
 msgid "Sets whether services should set channel status modes on you automatically."
@@ -7515,6 +7520,11 @@ msgid ""
 "the nick will be unsuspended after that period of time, else the\n"
 "default expiry from the configuration is used."
 msgstr ""
+"Suspende um nick registrado, o que impede que ele seja usado \n"
+"enquanto mantém todos os dados do nick. Se for informado um\n"
+"tempo para expiração, a suspensão findará após esse período,\n"
+"caso contrário, o tempo de expiração padrão da configurado \n"
+"será usado."
 
 #: modules/commands/ns_suspend.cpp:254 modules/commands/cs_suspend.cpp:240
 msgid "Suspension expires"
@@ -8676,6 +8686,8 @@ msgid ""
 "on a specific option. The options will be set on the given\n"
 "nickname."
 msgstr ""
+"Digite %s%s HELP %s opção para obter mais informações\n"
+"sobre uma opção específica. As opções serão definidas no nick."
 
 #: modules/commands/cs_set.cpp:63 modules/commands/bs_set.cpp:62
 #, c-format
@@ -8779,11 +8791,11 @@ msgstr ""
 
 #: modules/commands/ns_suspend.cpp:160
 msgid "Unsuspend a given nick"
-msgstr ""
+msgstr "Cancela a suspensão de um nick"
 
 #: modules/commands/ns_suspend.cpp:199
 msgid "Unsuspends a nickname which allows it to be used again."
-msgstr ""
+msgstr "Cancela a suspensão de um nick e permite que ele seja usado."
 
 #: modules/commands/cs_updown.cpp:126
 msgid ""
