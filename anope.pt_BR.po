@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-24 21:36-0300\n"
+"PO-Revision-Date: 2020-03-25 04:38-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -576,6 +576,9 @@ msgid ""
 "%s command; type %s%s HELP LEVELS for\n"
 "information."
 msgstr ""
+"User access levels (os níveis de acesso de usuários)\n"
+"podem ser vistos usando o comando %s ; para maiores\n"
+"informações digite: %s%s HELP LEVELS ."
 
 #: modules/commands/ms_read.cpp:35
 #, c-format
@@ -610,15 +613,15 @@ msgstr "canal canal"
 
 #: modules/commands/cs_log.cpp:107
 msgid "channel command method [status]"
-msgstr ""
+msgstr "canal comando método [status]"
 
 #: modules/commands/cs_kick.cpp:21
 msgid "channel mask [reason]"
-msgstr ""
+msgstr "canal máscara [motivo]"
 
 #: modules/commands/os_mode.cpp:20
 msgid "channel modes"
-msgstr ""
+msgstr "canal modos"
 
 #: modules/commands/bs_assign.cpp:20 modules/commands/cs_set.cpp:267
 msgid "channel nick"
@@ -634,15 +637,15 @@ msgstr ""
 
 #: modules/commands/bs_control.cpp:20 modules/commands/bs_control.cpp:80
 msgid "channel text"
-msgstr ""
+msgstr "canal texto"
 
 #: modules/commands/bs_set.cpp:91
 msgid "channel time"
-msgstr ""
+msgstr "canal tempo"
 
 #: modules/commands/os_kick.cpp:20
 msgid "channel user reason"
-msgstr ""
+msgstr "canal usuário motivo"
 
 #: modules/commands/cs_enforce.cpp:228
 msgid "channel what"
@@ -650,15 +653,15 @@ msgstr ""
 
 #: modules/commands/cs_xop.cpp:481
 msgid "channel ADD mask"
-msgstr ""
+msgstr "canal ADD máscara"
 
 #: modules/commands/cs_access.cpp:499
 msgid "channel ADD mask level"
-msgstr ""
+msgstr "canal ADD máscara nível"
 
 #: modules/commands/cs_entrymsg.cpp:194
 msgid "channel ADD message"
-msgstr ""
+msgstr "canal ADD menssagem"
 
 #: modules/commands/bs_badwords.cpp:371
 msgid "channel ADD word [SINGLE | START | END]"
@@ -670,13 +673,13 @@ msgstr ""
 
 #: modules/commands/cs_topic.cpp:151
 msgid "channel APPEND topic"
-msgstr ""
+msgstr "canal APPEND tópico"
 
 #: modules/commands/cs_entrymsg.cpp:197 modules/commands/bs_badwords.cpp:374
 #: modules/commands/cs_xop.cpp:484 modules/commands/cs_akick.cpp:440 modules/commands/cs_flags.cpp:376
 #: modules/commands/cs_access.cpp:503
 msgid "channel CLEAR"
-msgstr ""
+msgstr "canal CLEAR"
 
 #: modules/commands/cs_mode.cpp:736
 msgid "channel CLEAR [what]"
@@ -985,15 +988,15 @@ msgstr ""
 
 #: modules/commands/os_jupe.cpp:20
 msgid "server [reason]"
-msgstr ""
+msgstr "servidor [motivo]"
 
 #: modules/commands/os_mode.cpp:147
 msgid "user modes"
-msgstr ""
+msgstr "usuário modos"
 
 #: modules/commands/os_kill.cpp:20
 msgid "user [reason]"
-msgstr ""
+msgstr "usuário [motivo]"
 
 #: modules/commands/os_sxline.cpp:440
 msgid ""
@@ -1156,6 +1159,10 @@ msgid ""
 "any channel, view (and modify) the access, levels and akick\n"
 "lists and settings for any channel."
 msgstr ""
+" \n"
+"Os operadores dos serviços também podem, dependendo de seu acesso,\n"
+"desregistrar qualquer canal, visualizar e modificar o acesso, níveis,\n"
+"listas e configurações de akick de qualquer canal."
 
 #: modules/commands/bs_set.cpp:147
 msgid ""
@@ -2753,6 +2760,14 @@ msgid ""
 "By default, limited to AOPs or those with level 5 access\n"
 "and above on the channel. Channel founders may ban masks."
 msgstr ""
+"Bane um determinado nick ou máscara em um canal. \n"
+"Uma expiração opcional pode ser dada para fazer com\n"
+"que os serviços removam o ban após um determinado\n"
+"período de tempo.\n"
+" \n"
+"Por padrão, limitado a AOPs ou àqueles com acesso de \n"
+"nível 5 para cima no canal. Os fundadores do canal\n"
+"podem proibir máscaras."
 
 #: modules/commands/cs_enforce.cpp:166
 #, c-format
@@ -4649,6 +4664,11 @@ msgid ""
 "By default, limited to AOPs or those with level 5 access\n"
 "and above on the channel. Channel founders can also specify masks."
 msgstr ""
+"Kikca um nick especificado de um canal.\n"
+" \n"
+"Por padrão, limitado a AOPs ou àqueles com nível \n"
+"de acesso no canal de 5 para cima. Os fundadores \n"
+"do canal também podem especificar máscaras."
 
 #: modules/commands/os_kill.cpp:19
 msgid "Kill a user"
@@ -4855,6 +4875,31 @@ msgid ""
 "    LIST #51-100\n"
 "        Lists all registered channels within the given range (51-100)."
 msgstr ""
+"Lista todos os canais registrados que correspondem ao padrão especificado. \n"
+"Os canais configurados com a opção PRIVATE serão exibidos apenas para \n"
+"operadores de serviços com o acesso adequado. Os canais configurados com \n"
+"a opção NOEXPIRE terão um prefixo ! para visualização dos operadores \n"
+"dos serviços.\n"
+" \n"
+"Observe que precedido de um '#' especifica um intervalo, nomes de canais\n"
+"devem ser escritos sem '#'.\n"
+" \n"
+"Se as opções SUSPENDED ou NOEXPIRE forem fornecidas, apenas serão listados\n"
+"os canais suspensos e que não irão expirar. Se várias opções forem fornecidas, \n"
+"todos os canais correspondentes a pelo menos uma opção serão exibidos. Note\n"
+"que essas opções são limitadas aos Operadores dos Serviços.\n"
+" \n"
+"Exemplos:\n"
+" \n"
+"    LIST *anope*\n"
+"        Lista todos os canais registrados com anope em seus nomes\n"
+"        (sem distinção entre maiúsculas e minúsculas).\n"
+" \n"
+"    LIST * NOEXPIRE\n"
+"        Lista todos os canais registrados configurados para não expirar.\n"
+" \n"
+"    LIST #51-100\n"
+"        Lista todos os canais registrados dentro do intervalo fornecido (51-100)."
 
 #: modules/commands/ns_list.cpp:139
 msgid ""
@@ -4963,6 +5008,12 @@ msgid ""
 "successor, last topic set, settings and expiration\n"
 "time will also be displayed when applicable."
 msgstr ""
+"Lista informações sobre um canal registrado, incluindo \n"
+"seu fundador, hora do registro, última vez utilizado e a \n"
+"sua descrição. Se o usuário que emitir o comando tiver o\n"
+"acesso apropriado, também será mostrado o sucessor, o \n"
+"último conjunto de tópicos, as configurações e o tempo \n"
+"de expiração."
 
 #: modules/commands/os_module.cpp:19
 msgid "Load a module"
@@ -6273,6 +6324,15 @@ msgid ""
 "%s will also automatically give the founder\n"
 "channel-operator privileges when s/he enters the channel."
 msgstr ""
+"Registra um canal no banco de dados do %s. Para usar \n"
+"este comando, você deve primeiro ser um operador do \n"
+"canal que está tentando registrar. A descrição fornece um\n"
+"objetivo para o canal e é opcional.\n"
+" \n"
+"Quando você registra um canal, você é promovido a \"fundador\" \n"
+"do canal. O fundador do canal pode alterar todas as configurações \n"
+"do canal; %s também dará automaticamente ao fundador\n"
+"privilégios de operador do canal quando entrar no canal."
 
 #: modules/commands/ns_register.cpp:269
 #, c-format
@@ -6407,7 +6467,7 @@ msgstr ""
 
 #: modules/commands/bs_kick.cpp:1171 modules/commands/bs_kick.cpp:1173 modules/commands/bs_kick.cpp:1176
 msgid "Repeat kicker"
-msgstr ""
+msgstr "Repete kicker"
 
 #: modules/commands/hs_request.cpp:78
 msgid "Request a vHost for your nick"
@@ -6471,11 +6531,11 @@ msgstr "Retorna a senha do canal"
 
 #: modules/commands/cs_getkey.cpp:57
 msgid "Returns the key of the given channel."
-msgstr ""
+msgstr "Retorna a senha (key) do canal."
 
 #: modules/commands/ns_getemail.cpp:58
 msgid "Returns the matching accounts that used given email."
-msgstr ""
+msgstr "Retorna as contas que usaram determinado email."
 
 #: modules/commands/ns_status.cpp:19
 msgid "Returns the owner status of the given nickname"
@@ -6525,7 +6585,7 @@ msgstr ""
 
 #: modules/commands/bs_kick.cpp:1181 modules/commands/bs_kick.cpp:1183 modules/commands/bs_kick.cpp:1186
 msgid "Reverses kicker"
-msgstr ""
+msgstr "Reverte kicker"
 
 #: modules/commands/ns_logout.cpp:21
 msgid "Reverses the effect of the IDENTIFY command"
@@ -6533,7 +6593,7 @@ msgstr "Reverte o efeito do comando IDENTIFY"
 
 #: modules/commands/os_noop.cpp:20
 msgid "SET server"
-msgstr ""
+msgstr "SET servidor"
 
 #: modules/commands/os_dns.cpp:667
 msgid "SET server.name option value"
@@ -7645,6 +7705,11 @@ msgid ""
 "By default, limited to AOPs or those with level 5 access and above\n"
 "on the channel."
 msgstr ""
+"Diz ao %s para convidar você ou um nick especificado \n"
+"para o canal fornecido.\n"
+" \n"
+"Por padrão, limitado a AOPs ou àqueles com acesso de nível\n"
+"de 5 para cima com acesso no canal."
 
 #: modules/commands/cs_unban.cpp:103
 #, c-format
@@ -7657,6 +7722,13 @@ msgid ""
 "By default, limited to AOPs or those with level 5 access and above\n"
 "on the channel."
 msgstr ""
+"Informa ao %s para remover todas os bans que impedem\n"
+"você ou o usuário especificado de entrar no canal. Se nenhum \n"
+"canal for informado, todos os bans que afetam você nos canais \n"
+"aos quais você tem acesso serão removidos.\n"
+" \n"
+"Por padrão, limitado a AOPs ou àqueles com nível de acesso no\n"
+"canal de 5 para cima."
 
 #: modules/commands/os_jupe.cpp:56
 msgid ""
@@ -8164,7 +8236,7 @@ msgstr ""
 #: modules/m_rewrite.cpp:145
 #, c-format
 msgid "This command is an alias to the command %s."
-msgstr ""
+msgstr "Este comando é um atalho (alias) para o comando %s."
 
 #: modules/commands/ns_register.cpp:95
 msgid ""
@@ -8315,6 +8387,10 @@ msgid ""
 "this command is limited to users who have the ability to modify\n"
 "access entries on the channel."
 msgstr ""
+"Este comando informa qual acesso um usuário possui no canal. Além\n"
+"disso, informará todas as entradas de auto kick correspondentes. O\n"
+"uso deste comando é limitado aos usuários que podem modificar as\n"
+"entradas de acesso do canal."
 
 #: modules/commands/ns_group.cpp:285
 msgid ""
@@ -8698,6 +8774,8 @@ msgid ""
 "Unregisters the specified channel.  Only Services Operators\n"
 "can drop a channel of which they are not the founder of."
 msgstr ""
+"Cancela o registro do canal. Somente Operadores dos Serviços\n"
+"podem desregistrar um canal do qual não são fundadores."
 
 #: modules/commands/ns_suspend.cpp:160
 msgid "Unsuspend a given nick"
