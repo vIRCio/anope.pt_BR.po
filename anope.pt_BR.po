@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-25 07:37-0300\n"
+"PO-Revision-Date: 2020-03-25 16:43+0100\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -5139,7 +5139,7 @@ msgstr ""
 
 #: modules/commands/cs_akick.cpp:434
 msgid "Maintain the AutoKick list"
-msgstr ""
+msgstr "Mantém a lista de AutoKick."
 
 #: modules/commands/bs_bot.cpp:269
 msgid "Maintains network bot list"
@@ -5152,6 +5152,9 @@ msgid ""
 "on the %s list receive the following privileges:\n"
 " "
 msgstr ""
+"Mantém a lista %s  para um canal. Usuários que pertençam\n"
+"à lista %s de acesso recebem os seguintes privilégios:\n"
+" "
 
 #: modules/commands/cs_akick.cpp:493
 #, c-format
@@ -5170,6 +5173,19 @@ msgid ""
 "will be added to the akick list instead of the mask.\n"
 "All users within that nickgroup will then be akicked.\n"
 msgstr ""
+"Mantém a lista de AutoKick de um canal.  Caso um usuário\n"
+"na lista de AutoKick tentar entrar em um canal,\n"
+"%s irá banir este usuário do canal, e então kickar\n"
+"o mesmo.\n"
+" \n"
+"O comando AKICK ADD adiciona o nick ou a máscara de usuário\n"
+"para a lista de AutoKick.  Caso o motivo seja dado juntamente\n"
+"ao comando, este motivo será usado quando o usuário for\n"
+"kickado; caso não seja dado, o motivo padrão \"Usuário\n"
+"banido do canal\" será mostrado.\n"
+"Ao akickar um nick registrado, a conta %s \n"
+"será adicionada à lista akick so invés da máscara.\n"
+"Todos os usuários naquele grupo de nick serão então akickados.\n"
 
 #: modules/commands/cs_access.cpp:568
 #, c-format
@@ -5182,6 +5198,13 @@ msgid ""
 "a user level of 0, and any unregistered user has a user level\n"
 "of -1."
 msgstr ""
+"Mantém a lista de acesso para um canal.  A lista de acesso\n"
+"especifica quais usuários têm status de operador do canal ou\n"
+"acesso aos comandos %s no canal.  Níveis de\n"
+"acesso diferentes permitem acesso a diferentes subcategorias ou\n"
+"privilégios. Qualquer usuário registrado que não estiver na lista de acesso tem\n"
+"o nível 0 de usuário, e todo usuário não-registrado tem o nível -1\n"
+"de usuário."
 
 #: modules/commands/bs_badwords.cpp:424
 #, c-format
@@ -5749,43 +5772,44 @@ msgid "No logon news items to delete!"
 msgstr "Não existe logon news para apagar!"
 
 #: modules/commands/os_logsearch.cpp:133
-#, c-format
+#, fuzzy, c-format
 msgid "No matches for %s found."
-msgstr ""
+msgstr "Resultado para %s não encontrado."
 
 #: modules/commands/cs_xop.cpp:294
 #, c-format
 msgid "No matching entries on %s %s list."
-msgstr ""
+msgstr "Não há entradas correspondentes na lista %s %s ."
 
 #: modules/commands/cs_xop.cpp:428 modules/commands/cs_flags.cpp:335 modules/commands/cs_access.cpp:269
 #: modules/commands/cs_access.cpp:433
-#, c-format
+#, fuzzy, c-format
 msgid "No matching entries on %s access list."
-msgstr ""
+msgstr "Não há entradas correspondentes na lista %s  de acesso."
 
 #: modules/commands/cs_akick.cpp:224 modules/commands/cs_akick.cpp:368
 #, c-format
 msgid "No matching entries on %s autokick list."
-msgstr ""
+msgstr "Não há entradas correspondentes na lista %s de autokick."
 
 #: modules/commands/bs_badwords.cpp:166 modules/commands/bs_badwords.cpp:246
 #, c-format
 msgid "No matching entries on %s bad words list."
-msgstr ""
+msgstr "Não há entradas correspondentes na lista %s de palavras ofensivas."
 
 #: modules/commands/os_session.cpp:145 modules/commands/os_session.cpp:490
+#, fuzzy
 msgid "No matching entries on session-limit exception list."
-msgstr ""
+msgstr "Não há entradas correspondentes na lista de exceção de sessão-limite."
 
 #: modules/commands/os_sxline.cpp:28 modules/commands/os_sxline.cpp:177
 #, c-format
 msgid "No matching entries on the %s list."
-msgstr ""
+msgstr "Não há entradas correspondentes na lista %s ."
 
 #: modules/commands/os_akill.cpp:29 modules/commands/os_akill.cpp:320
 msgid "No matching entries on the AKILL list."
-msgstr ""
+msgstr "Não há entradas correspondentes na lista de AKILL."
 
 #: modules/commands/ms_cancel.cpp:77
 msgid "No memo was cancelable."
@@ -8497,40 +8521,42 @@ msgstr ""
 #: modules/commands/ms_read.cpp:95
 #, c-format
 msgid "To delete, type: %s%s %s %d"
-msgstr ""
+msgstr "Para deletar, digite: %s%s %s %d"
 
 #: modules/commands/ms_read.cpp:93
 #, c-format
 msgid "To delete, type: %s%s %s %s %d"
-msgstr ""
+msgstr "Para deletar, digite: %s%s %s %s %d"
 
 #: modules/commands/bs_kick.cpp:791
 msgid "To protect ops against bot kicks"
-msgstr ""
+msgstr "Protege ops de bot kicks"
 
 #: modules/commands/bs_kick.cpp:856
 msgid "To protect voices against bot kicks"
-msgstr ""
+msgstr "Protege voices de bot kicks"
 
 #: modules/commands/cs_list.cpp:46
 msgid ""
 "To search for channels starting with #, search for the channel\n"
 "name without the #-sign prepended (anope instead of #anope)."
 msgstr ""
+"Para procurar canais que começam com #, procure o nome do canal\n"
+"sem o símbolo # (anope ao invés de #anope)."
 
 #: modules/commands/os_logsearch.cpp:139
 #, c-format
 msgid "Too many results for %s."
-msgstr ""
+msgstr "Muitos resultados para %s."
 
 #: modules/extra/stats/cs_fantasy_top.cpp:149
 #, c-format
 msgid "Top %i of %s"
-msgstr ""
+msgstr "Top %i de %s"
 
 #: modules/commands/os_list.cpp:43
 msgid "Topic"
-msgstr ""
+msgstr "Tópico"
 
 #: modules/commands/cs_topic.cpp:258
 msgid "Topic lock"
@@ -8562,11 +8588,11 @@ msgstr ""
 
 #: modules/commands/cs_topic.cpp:265
 msgid "Topic set by"
-msgstr ""
+msgstr "Tópico criado por"
 
 #: modules/commands/bs_kick.cpp:1323
 msgid "Turn caps lock OFF!"
-msgstr ""
+msgstr "Desligue o Caps Lock!"
 
 #: modules/extra/stats/m_chanstats.cpp:17 modules/extra/stats/m_chanstats.cpp:71
 msgid "Turn chanstats statistics on or off"
@@ -9687,48 +9713,51 @@ msgid "[channel] {num | list | LAST | NEW | ALL}"
 msgstr ""
 
 #: modules/commands/hs_list.cpp:20
+#, fuzzy
 msgid "[key|#X-Y]"
-msgstr ""
+msgstr "[key|#X-Y]"
 
 #: modules/commands/ms_info.cpp:20
 msgid "[nick | channel]"
-msgstr ""
+msgstr "[nick | canal]"
 
 #: modules/commands/ns_group.cpp:237
 msgid "[nick]"
-msgstr ""
+msgstr "[nick]"
 
 #: modules/commands/ns_logout.cpp:22
+#, fuzzy
 msgid "[nickname [REVALIDATE]]"
-msgstr ""
+msgstr "[nickname [REVALIDATE]]"
 
 #: modules/commands/ns_status.cpp:20 modules/commands/ns_alist.cpp:25 modules/commands/ns_info.cpp:20
 msgid "[nickname]"
-msgstr ""
+msgstr "[nickname]"
 
 #: modules/commands/ns_set_misc.cpp:96
 msgid "[parameter]"
-msgstr ""
+msgstr "[parâmetro]"
 
 #: modules/commands/os_logsearch.cpp:33
 msgid "[+daysd] [+limitl] pattern"
 msgstr ""
 
 #: modules/commands/os_chankill.cpp:22
+#, fuzzy
 msgid "[+expiry] channel reason"
-msgstr ""
+msgstr "[+expiry] canal motivo"
 
 #: modules/commands/ns_list.cpp:110
 msgid "[Hostname hidden]"
-msgstr ""
+msgstr "[Nome de host invisível]"
 
 #: modules/commands/ns_list.cpp:112 modules/commands/cs_list.cpp:115
 msgid "[Suspended]"
-msgstr ""
+msgstr "[Suspenso]"
 
 #: modules/commands/ns_list.cpp:114
 msgid "[Unconfirmed]"
-msgstr ""
+msgstr "[Não-confirmado]"
 
 #: modules/commands/hs_request.cpp:213
 msgid "[auto memo] Your requested vHost has been approved."
