@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-25 07:02-0300\n"
+"PO-Revision-Date: 2020-03-25 07:37-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -2611,6 +2611,10 @@ msgid ""
 "you'll get information about a bot, such as creation\n"
 "time or number of channels it is on."
 msgstr ""
+"Permite que você veja no %s informações sobre um canal ou um bot.\n"
+"Se o parâmetro for um canal, você obterá informações sobre kickers \n"
+"ativados. Se o parâmetro for um nick, você obterá informações sobre \n"
+"um bot, como horário de criação ou número de canais que ele está."
 
 #: modules/commands/cs_xop.cpp:567
 msgid ""
@@ -2999,7 +3003,7 @@ msgstr ""
 
 #: modules/commands/ms_cancel.cpp:19
 msgid "Cancel the last memo you sent"
-msgstr ""
+msgstr "Cancela o último memo enviado"
 
 #: modules/commands/cs_drop.cpp:19
 msgid "Cancel the registration of a channel"
@@ -3325,7 +3329,7 @@ msgstr ""
 
 #: modules/commands/ms_check.cpp:19
 msgid "Checks if last memo to a nick was read"
-msgstr ""
+msgstr "Verifica se o último memo de um nick foi lido"
 
 #: modules/commands/ms_check.cpp:69
 msgid ""
@@ -3680,7 +3684,7 @@ msgstr ""
 
 #: modules/commands/ms_del.cpp:44
 msgid "Delete a memo or memos"
-msgstr ""
+msgstr "Apaga um ou vários memos"
 
 #: modules/commands/hs_del.cpp:19
 msgid "Delete the vhost of another user"
@@ -4793,35 +4797,38 @@ msgstr "Lista os canais que você possui acesso"
 #: modules/commands/cs_mode.cpp:341
 #, c-format
 msgid "List for mode %c is full."
-msgstr ""
+msgstr "Lista para o modo %c está cheio."
 
 #: modules/commands/os_modinfo.cpp:80
 msgid "List loaded modules"
-msgstr ""
+msgstr "Lista os módulos carregados"
 
 #: modules/commands/ns_list.cpp:123 modules/commands/cs_list.cpp:72
 #, c-format
 msgid "List of entries matching %s:"
-msgstr ""
+msgstr "Lista de entradas correspondentes a %s:"
 
 #: modules/commands/ns_group.cpp:350
 #, c-format
 msgid "List of nicknames in the group of %s:"
-msgstr ""
+msgstr "Lista os nicks no grupo de %s:"
 
 #: modules/commands/ns_group.cpp:350
 msgid "List of nicknames in your group:"
-msgstr ""
+msgstr "Lista os nicks em seu grupo:"
 
 #: modules/commands/ms_list.cpp:19
 msgid "List your memos"
-msgstr ""
+msgstr "Lista seus memos"
 
 #: modules/commands/bs_botlist.cpp:64
 msgid ""
 "Lists all available bots on this network.\n"
 "Bots prefixed by a * are reserved for IRC Operators."
 msgstr ""
+"Lista todos os bots disponíveis nesta rede.\n"
+"Os bots prefixados com * são reservados para \n"
+"os operadores do IRC."
 
 #: modules/commands/os_list.cpp:19
 msgid "Lists all channel records"
@@ -5205,11 +5212,10 @@ msgstr ""
 "apenas o usuário disser a palavra inteira. Se \"START\"\n"
 "for especificado, um kick será realizado se o usuário \n"
 "começar com a frase com a palavra.\n"
-" Se \"END\"\n"
-"for especificado, um kick será feito se o usuário disser\n"
-"uma frase que termine com a palavra. Se nada for \n"
-"especificado, um kick será realizado toda vez que \n"
-"a palavra for dita por um usuário.\n"
+" Se \"END\" for especificado, um kick será feito se o \n"
+"usuário disser uma frase que termine com a palavra. \n"
+"Se nada for especificado, um kick será realizado toda \n"
+"vez que a palavra for dita por um usuário.\n"
 "\n"
 
 #: modules/commands/bs_badwords.cpp:370
@@ -6718,15 +6724,15 @@ msgstr ""
 
 #: modules/commands/ms_send.cpp:24
 msgid "Send a memo to a nick or channel"
-msgstr ""
+msgstr "Envia um memo pra um nick ou canal"
 
 #: modules/commands/ms_staff.cpp:24
 msgid "Send a memo to all opers/admins"
-msgstr ""
+msgstr "Envia memo para todos os operadores/administradores"
 
 #: modules/commands/ms_sendall.cpp:24
 msgid "Send a memo to all registered users"
-msgstr ""
+msgstr "Envia um memo para todos os usuários registrados"
 
 #: modules/commands/gl_global.cpp:21
 msgid "Send a message to all users"
@@ -6997,7 +7003,7 @@ msgstr ""
 
 #: modules/commands/ms_set.cpp:206
 msgid "Set options related to memos"
-msgstr ""
+msgstr "Define opções relacionadas aos memos"
 
 #: modules/commands/ns_set.cpp:19
 msgid "Set options, including kill protection"
@@ -8245,6 +8251,9 @@ msgid ""
 "CURRENT nick to be the vhost for all nicks in the same\n"
 "group."
 msgstr ""
+"Este comando permite que os usuários configurem o vhost \n"
+"de seu nick atual (CURRENT) para ser o vhost de todos os nicks\n"
+"no mesmo grupo."
 
 #: modules/commands/ns_register.cpp:299
 msgid ""
@@ -8683,6 +8692,8 @@ msgid ""
 "Type %s%s HELP %s option for more information\n"
 "on a specific option."
 msgstr ""
+"Digite %s%s HELP %s opção para obter mais informações \n"
+"sobre uma opção específica."
 
 #: modules/commands/bs_kick.cpp:151
 #, c-format
@@ -8693,6 +8704,10 @@ msgid ""
 "Note: access to this command is controlled by the\n"
 "level SET."
 msgstr ""
+"Digite %s%s HELP %s opção para obter mais informações \n"
+"sobre uma opção específica.\n"
+" \n"
+"Observação: o acesso a este comando é controlado pelo nível SET."
 
 #: modules/commands/ns_set.cpp:107
 #, c-format
@@ -8752,6 +8767,10 @@ msgid ""
 "be able to reassign a bot later without having to reconfigure\n"
 "it entirely."
 msgstr ""
+"Remove um bot do canal. Quando você usa esse comando, \n"
+"o bot não entrará mais no canal. No entanto, a configuração \n"
+"do bot para o canal é mantida, para que você sempre possa \n"
+"atribuir novamente o bot depois, sem precisar reconfigurá-lo."
 
 #: modules/commands/bs_kick.cpp:1191 modules/commands/bs_kick.cpp:1193 modules/commands/bs_kick.cpp:1196
 msgid "Underlines kicker"
