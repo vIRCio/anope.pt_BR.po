@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-25 16:43+0100\n"
+"PO-Revision-Date: 2020-03-26 01:33-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -5139,7 +5139,7 @@ msgstr ""
 
 #: modules/commands/cs_akick.cpp:434
 msgid "Maintain the AutoKick list"
-msgstr "Mantém a lista de AutoKick."
+msgstr "Mantém a lista de AutoKick"
 
 #: modules/commands/bs_bot.cpp:269
 msgid "Maintains network bot list"
@@ -8884,7 +8884,7 @@ msgstr ""
 
 #: modules/commands/os_update.cpp:25
 msgid "Updating databases."
-msgstr ""
+msgstr "Atualizando banco de dados."
 
 #: modules/commands/os_stats.cpp:154
 #, c-format
@@ -8919,17 +8919,17 @@ msgstr "Usado para modificar o status de usuários do canal"
 
 #: modules/commands/cs_akick.cpp:575
 msgid "User has been banned from the channel"
-msgstr ""
+msgstr "O usuário foi banido do canal "
 
 #: modules/commands/os_dns.cpp:587
 #, c-format
 msgid "User limit for %s removed."
-msgstr ""
+msgstr "Limite para o usuário %s removido."
 
 #: modules/commands/os_dns.cpp:585
 #, c-format
 msgid "User limit for %s set to %d."
-msgstr ""
+msgstr "Limite para o usuário %s configurado para %d."
 
 #: modules/commands/os_list.cpp:43
 msgid "Users"
@@ -8961,30 +8961,30 @@ msgstr "VHost para %s ajustado para %s."
 #: modules/commands/hs_set.cpp:90
 #, c-format
 msgid "VHost for %s set to %s@%s."
-msgstr ""
+msgstr "VHost para %s configurado para %s@%s."
 
 #: modules/commands/hs_set.cpp:199
 #, c-format
 msgid "VHost for group %s set to %s."
-msgstr ""
+msgstr "VHost para o grupo %s configurado para %s."
 
 #: modules/commands/hs_set.cpp:197
 #, c-format
 msgid "VHost for group %s set to %s@%s."
-msgstr ""
+msgstr "VHost para o grupo %s configurado para %s@%s."
 
 #: modules/commands/os_session.cpp:247
 msgid "VIEW host"
-msgstr ""
+msgstr "VIEW host"
 
 #: modules/commands/os_akill.cpp:389 modules/commands/os_sxline.cpp:428
 #: modules/commands/os_sxline.cpp:662
 msgid "VIEW [mask | list | id]"
-msgstr ""
+msgstr "VIEW [mask | list | id]"
 
 #: modules/commands/os_session.cpp:526
 msgid "VIEW [mask | list]"
-msgstr ""
+msgstr "VIEW [mask | list]"
 
 #: modules/commands/os_config.cpp:66 modules/commands/os_config.cpp:88
 msgid "Value"
@@ -8993,7 +8993,7 @@ msgstr "Valor"
 #: modules/commands/os_config.cpp:48
 #, c-format
 msgid "Value of %s:%s changed to %s"
-msgstr ""
+msgstr "Valor do %s:%s alterado para %s"
 
 #: modules/commands/hs_list.cpp:58 modules/commands/hs_request.cpp:305
 msgid "Vhost"
@@ -9002,28 +9002,27 @@ msgstr "Vhost"
 #: modules/commands/hs_del.cpp:38
 #, c-format
 msgid "Vhost for %s removed."
-msgstr ""
+msgstr "Removido o vhost para %s."
 
 #: modules/commands/os_oper.cpp:69
 msgid "View and change Services Operators"
-msgstr ""
+msgstr "Visualiza e altera os Operadores dos Serviços "
 
 #: modules/commands/os_config.cpp:19
 msgid "View and change configuration file settings"
-msgstr ""
+msgstr "Visualiza e alterar as opções do arquivo de configuração "
 
 #: modules/commands/os_session.cpp:245
 msgid "View the list of host sessions"
-msgstr ""
+msgstr "Visualiza a lista de sessões do host"
 
 #: modules/commands/bs_kick.cpp:1221
 msgid "Voices protection"
 msgstr "Proteção para voices"
 
 #: modules/commands/bs_kick.cpp:1406
-#, fuzzy
 msgid "Watch your language!"
-msgstr "Vou lavar sua boca com sabão!"
+msgstr "Cuidado com o palavrão!"
 
 #: modules/commands/cs_list.cpp:237
 #, c-format
@@ -9031,6 +9030,8 @@ msgid ""
 "When private is set, the channel will not appear in\n"
 "%s's %s command."
 msgstr ""
+"Quando private estiver definido, o canal não aparecerá em\n"
+"%s's %s comando."
 
 #: modules/commands/ms_info.cpp:204
 msgid ""
@@ -9089,12 +9090,12 @@ msgstr ""
 
 #: modules/commands/bs_badwords.cpp:194
 msgid "Word"
-msgstr ""
+msgstr "Palavra"
 
 #: modules/commands/ns_group.cpp:158
 #, c-format
 msgid "You are already a member of the group of %s."
-msgstr ""
+msgstr "Você já é um membro do grupo de %s."
 
 #: modules/commands/ns_identify.cpp:87 modules/commands/os_login.cpp:34
 msgid "You are already identified."
@@ -9107,7 +9108,7 @@ msgstr "Você já está em %s!"
 
 #: modules/commands/os_set.cpp:91
 msgid "You are no longer a super admin."
-msgstr ""
+msgstr "Você não é mais um superadministrador."
 
 #: modules/commands/os_login.cpp:81
 msgid "You are not identified."
@@ -9123,15 +9124,15 @@ msgstr "Você não tem permissão para mudar seu limite de memos."
 
 #: modules/commands/ns_cert.cpp:183
 msgid "You are not using a client certificate."
-msgstr ""
+msgstr "Você não está usando um certificado de cliente."
 
 #: modules/commands/os_set.cpp:85
 msgid "You are now a super admin."
-msgstr ""
+msgstr "Você agora é um superadmintrador."
 
 #: modules/commands/os_oline.cpp:36
 msgid "You are now an IRC Operator."
-msgstr ""
+msgstr "Você agora é um Operador do IRC."
 
 #: modules/commands/ns_resetpass.cpp:108
 msgid "You are now identified for your nick. Change your password now."
@@ -9659,61 +9660,60 @@ msgstr "Zona %s removida."
 
 #: modules/commands/os_defcon.cpp:177
 msgid "[1|2|3|4|5]"
-msgstr ""
+msgstr "[1|2|3|4|5]"
 
 #: modules/commands/os_news.cpp:400
 #, c-format
 msgid "[Logon News - %s] %s"
-msgstr ""
+msgstr "[Logon News - %s] %s"
 
 #: modules/commands/os_news.cpp:402
 #, c-format
 msgid "[Oper News - %s] %s"
-msgstr ""
+msgstr "[Oper News - %s] %s"
 
 #: modules/commands/os_news.cpp:404
 #, c-format
 msgid "[Random News - %s] %s"
-msgstr ""
+msgstr "[Random News - %s] %s"
 
 #: modules/commands/ns_identify.cpp:66
 msgid "[account] password"
-msgstr ""
+msgstr "[conta] senha"
 
 #: modules/commands/cs_updown.cpp:49 modules/commands/cs_updown.cpp:147
 msgid "[channel [nick]]"
-msgstr ""
+msgstr "[canal [nick]]"
 
 #: modules/commands/ms_ignore.cpp:20
 msgid "[channel] ADD entry"
-msgstr ""
+msgstr "[canal] ADD entry"
 
 #: modules/commands/ms_ignore.cpp:21
 msgid "[channel] DEL entry"
-msgstr ""
+msgstr "[canal] DEL entry"
 
 #: modules/commands/ms_ignore.cpp:22
 msgid "[channel] LIST"
-msgstr ""
+msgstr "[canal] LIST"
 
 #: modules/commands/ms_list.cpp:20
 msgid "[channel] [list | NEW]"
-msgstr ""
+msgstr "[canal] [list | NEW]"
 
 #: modules/extra/stats/cs_fantasy_stats.cpp:40
 msgid "[channel] [nick]"
-msgstr ""
+msgstr "[canal] [nick]"
 
 #: modules/commands/ms_del.cpp:45
 msgid "[channel] {num | list | LAST | ALL}"
-msgstr ""
+msgstr "[canal] {num | list | LAST | ALL}"
 
 #: modules/commands/ms_read.cpp:113
 msgid "[channel] {num | list | LAST | NEW | ALL}"
-msgstr ""
+msgstr "[canal] {num | list | LAST | NEW | ALL}"
 
 #: modules/commands/hs_list.cpp:20
-#, fuzzy
 msgid "[key|#X-Y]"
 msgstr "[key|#X-Y]"
 
@@ -9726,13 +9726,12 @@ msgid "[nick]"
 msgstr "[nick]"
 
 #: modules/commands/ns_logout.cpp:22
-#, fuzzy
 msgid "[nickname [REVALIDATE]]"
-msgstr "[nickname [REVALIDATE]]"
+msgstr "[nick [REVALIDATE]]"
 
 #: modules/commands/ns_status.cpp:20 modules/commands/ns_alist.cpp:25 modules/commands/ns_info.cpp:20
 msgid "[nickname]"
-msgstr "[nickname]"
+msgstr "[nick]"
 
 #: modules/commands/ns_set_misc.cpp:96
 msgid "[parameter]"
@@ -9740,16 +9739,15 @@ msgstr "[parâmetro]"
 
 #: modules/commands/os_logsearch.cpp:33
 msgid "[+daysd] [+limitl] pattern"
-msgstr ""
+msgstr "[+diasd] [+limitel] padrão"
 
 #: modules/commands/os_chankill.cpp:22
-#, fuzzy
 msgid "[+expiry] channel reason"
 msgstr "[+expiry] canal motivo"
 
 #: modules/commands/ns_list.cpp:110
 msgid "[Hostname hidden]"
-msgstr "[Nome de host invisível]"
+msgstr "[host esconder]"
 
 #: modules/commands/ns_list.cpp:112 modules/commands/cs_list.cpp:115
 msgid "[Suspended]"
@@ -9779,11 +9777,11 @@ msgstr "[auto memo] vHost %s foi solicitado por %s."
 
 #: modules/commands/os_list.cpp:133
 msgid "[{pattern | channel} [INVISIBLE]]"
-msgstr ""
+msgstr "[{padrão | canal} [INVISIBLE]]"
 
 #: modules/commands/os_list.cpp:20
 msgid "[{pattern | nick} [SECRET]]"
-msgstr ""
+msgstr "[{padrão | nick} [SECRET]]"
 
 #: src/misc.cpp:337
 msgid "day"
