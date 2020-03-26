@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-26 01:33-0300\n"
+"PO-Revision-Date: 2020-03-26 07:23-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -1199,6 +1199,21 @@ msgid ""
 "The %s CLEAR command clears all entries of the\n"
 "%s list."
 msgstr ""
+" \n"
+"O comando %s ADD adiciona o nick fornecido à lista %s.\n"
+" \n"
+"O comando %s DEL remove o nick fornecido da lista %s. \n"
+"Se uma lista de números de entrada for fornecida, essas entradas \n"
+"serão excluídas. (Veja o exemplo para LIST abaixo.)\n"
+" \n"
+"O comando %s LIST exibe a lista %s. Se uma máscara \n"
+"curinga for fornecida, apenas as entradas correspondentes à \n"
+"máscara serão exibidas. Se uma lista de números de entrada for \n"
+"fornecida, apenas essas entradas serão mostradas; por exemplo:\n"
+"   %s #channel LIST 2-5,7-9\n"
+"      Lista entradas de %s numeradas de 2 a 5 e de 7 a 9.\n"
+"      \n"
+"O comando %s CLEAR remove tudo da lista de %s."
 
 #: modules/commands/cs_akick.cpp:508
 #, c-format
@@ -1653,6 +1668,8 @@ msgid ""
 "%s is another way to modify the channel access list, similar to\n"
 "the XOP and ACCESS methods."
 msgstr ""
+"% s é outra maneira de modificar a lista de acesso ao canal, semelhante \n"
+"aos métodos XOP e ACCESS."
 
 #: modules/commands/ns_info.cpp:74
 #, c-format
@@ -2229,55 +2246,55 @@ msgstr ""
 
 #: src/access.cpp:40
 msgid "Allowed to (de)halfop him/herself"
-msgstr ""
+msgstr "Permite-se (de)halfop"
 
 #: src/access.cpp:39
 msgid "Allowed to (de)halfop users"
-msgstr ""
+msgstr "Permite (de)halfop os usuários"
 
 #: src/access.cpp:48
 msgid "Allowed to (de)op him/herself"
-msgstr ""
+msgstr "Permite-se (de)op"
 
 #: src/access.cpp:47
 msgid "Allowed to (de)op users"
-msgstr ""
+msgstr "Permite (de)op os usuários"
 
 #: src/access.cpp:50
 msgid "Allowed to (de)owner him/herself"
-msgstr ""
+msgstr "Permite-se (de)owner"
 
 #: src/access.cpp:49
 msgid "Allowed to (de)owner users"
-msgstr ""
+msgstr "Permite (de)owner os usuários"
 
 #: src/access.cpp:52
 msgid "Allowed to (de)protect him/herself"
-msgstr ""
+msgstr "Permite-se (de)protect"
 
 #: src/access.cpp:51
 msgid "Allowed to (de)protect users"
-msgstr ""
+msgstr "Permite (de)protect os usuários"
 
 #: src/access.cpp:59
 msgid "Allowed to (de)voice him/herself"
-msgstr ""
+msgstr "Permite-se (de)voice"
 
 #: src/access.cpp:58
 msgid "Allowed to (de)voice users"
-msgstr ""
+msgstr "Permite (de)voice os usuários"
 
 #: src/access.cpp:27
 msgid "Allowed to assign/unassign a bot"
-msgstr ""
+msgstr "Permite (des)associar um bot"
 
 #: src/access.cpp:34
 msgid "Allowed to ban users"
-msgstr ""
+msgstr "Permite banir os usuários"
 
 #: src/access.cpp:56
 msgid "Allowed to change channel topics"
-msgstr ""
+msgstr "Permite alterar o tópico do canal"
 
 #: src/access.cpp:41
 msgid "Allowed to get full INFO output"
@@ -2621,6 +2638,8 @@ msgid ""
 "Alternative methods of modifying channel access lists are\n"
 "available. "
 msgstr ""
+"Estão disponíveis métodos alternativos para modificar a \n"
+"listas de acesso dos canais. "
 
 #: modules/commands/hs_request.cpp:191
 msgid "Approve the requested vHost of a user"
@@ -2647,15 +2666,15 @@ msgstr ""
 
 #: data/chanserv.example.conf:1197
 msgid "Associate a URL with the channel"
-msgstr ""
+msgstr "Associa uma URL ao canal"
 
 #: data/nickserv.example.conf:594
 msgid "Associate a URL with this account"
-msgstr ""
+msgstr "Associa uma URL a conta"
 
 #: data/nickserv.example.conf:593
 msgid "Associate a URL with your account"
-msgstr "Associe uma URL à sua conta"
+msgstr "Associa uma URL à sua conta"
 
 #: modules/commands/greet.cpp:83
 msgid "Associate a greet message with your nickname"
@@ -2663,19 +2682,19 @@ msgstr "Associa uma mensagem de saudação ao entrar nos canais para seu nick"
 
 #: data/chanserv.example.conf:1198
 msgid "Associate an E-mail address with the channel"
-msgstr ""
+msgstr "Associa um endereço de e-mail ao canal"
 
 #: modules/commands/ns_set.cpp:452
 msgid "Associate an E-mail address with your nickname"
-msgstr ""
+msgstr "Associa um endereço de e-mail ao seu nick"
 
 #: modules/commands/os_info.cpp:101
 msgid "Associate oper info with a nick or channel"
-msgstr ""
+msgstr "Associar informações de \"oper\" a um nick ou canal"
 
 #: modules/commands/ns_set.cpp:558
 msgid "Associates the given E-mail address with the nickname."
-msgstr ""
+msgstr "Associa o endereço de email fornecido ao nick."
 
 #: modules/commands/ns_set.cpp:533
 msgid ""
@@ -2683,49 +2702,52 @@ msgid ""
 "This address will be displayed whenever someone requests\n"
 "information on the nickname with the INFO command."
 msgstr ""
+"Associa o endereço de email fornecido ao seu nick. \n"
+"Este endereço será exibido sempre que alguém solicitar \n"
+"informações sobre o apelido com o comando INFO ."
 
 #: modules/commands/ns_set.cpp:1315
 msgid "Auto-op"
-msgstr ""
+msgstr "Auto-op"
 
 #: modules/commands/cs_akick.cpp:374
 #, c-format
 msgid "Autokick list for %s:"
-msgstr ""
+msgstr "Lista de autokick para %s:"
 
 #: src/access.cpp:29
 msgid "Automatic channel operator status upon join"
-msgstr ""
+msgstr "Status automático de operador do canal ao entrar"
 
 #: src/access.cpp:28
 msgid "Automatic halfop upon join"
-msgstr ""
+msgstr "Status automático de halfop ao entrar"
 
 #: src/access.cpp:30
 msgid "Automatic owner upon join"
-msgstr ""
+msgstr "Status automático de owner ao entrar"
 
 #: src/access.cpp:31
 msgid "Automatic protect upon join"
-msgstr ""
+msgstr "Status automático de protect ao entrar"
 
 #: src/access.cpp:32
 msgid "Automatic voice on join"
-msgstr ""
+msgstr "Status automático de voice ao entrar"
 
 #: modules/commands/os_oper.cpp:196
 #, c-format
 msgid "Available commands for %s:"
-msgstr ""
+msgstr "Comandos disponíveis para %s:"
 
 #: modules/commands/os_oper.cpp:175
 msgid "Available opertypes:"
-msgstr ""
+msgstr "Opertypes disponíveis:"
 
 #: modules/commands/os_oper.cpp:218
 #, c-format
 msgid "Available privileges for %s:"
-msgstr ""
+msgstr "Privilégios disponíveis para %s:"
 
 #: modules/commands/cs_enforce.cpp:162
 msgid "BANS enforced by "
@@ -2755,7 +2777,7 @@ msgstr ""
 
 #: modules/commands/cs_info.cpp:60
 msgid "Ban type"
-msgstr ""
+msgstr "Tipo de ban"
 
 #: modules/commands/cs_set.cpp:174
 #, c-format
@@ -2796,52 +2818,52 @@ msgstr ""
 #: modules/commands/bs_bot.cpp:26 modules/commands/bs_bot.cpp:175
 #, c-format
 msgid "Bot %s already exists."
-msgstr ""
+msgstr "Bot %s já existe."
 
 #: include/language.h:119
 #, c-format
 msgid "Bot %s does not exist."
-msgstr ""
+msgstr "Bot %s não existe."
 
 #: modules/commands/bs_assign.cpp:71 modules/commands/bs_assign.cpp:246
 #, c-format
 msgid "Bot %s has been assigned to %s."
-msgstr ""
+msgstr "Bot %s foi associado ao %s."
 
 #: modules/commands/bs_bot.cpp:228
 #, c-format
 msgid "Bot %s has been changed to %s!%s@%s (%s)."
-msgstr ""
+msgstr "Bot %s foi modificado para %s!%s@%s (%s)."
 
 #: modules/commands/bs_bot.cpp:262
 #, c-format
 msgid "Bot %s has been deleted."
-msgstr ""
+msgstr "Bot %s foi removido."
 
 #: modules/commands/bs_assign.cpp:63 modules/commands/bs_assign.cpp:241
 #, c-format
 msgid "Bot %s is already assigned to channel %s."
-msgstr ""
+msgstr "Bot %s já está associado ao canal %s."
 
 #: modules/commands/bs_kick.cpp:832
 #, c-format
 msgid "Bot will kick ops on channel %s."
-msgstr ""
+msgstr "Bot irá kickar ops no canal %s."
 
 #: modules/commands/bs_kick.cpp:897
 #, c-format
 msgid "Bot will kick voices on channel %s."
-msgstr ""
+msgstr "Bot irá kickar voices no canal %s."
 
 #: modules/commands/bs_kick.cpp:824
 #, c-format
 msgid "Bot won't kick ops on channel %s."
-msgstr ""
+msgstr "Bot não kickará ops no canal %s."
 
 #: modules/commands/bs_kick.cpp:889
 #, c-format
 msgid "Bot won't kick voices on channel %s."
-msgstr ""
+msgstr "Bot não kickará voices no canal %s."
 
 #: modules/commands/bs_bot.cpp:118
 #, c-format
@@ -7803,15 +7825,15 @@ msgstr ""
 
 #: modules/commands/os_shutdown.cpp:19
 msgid "Terminate Services WITHOUT saving"
-msgstr ""
+msgstr "Desliga os serviços sem salvar"
 
 #: modules/commands/os_shutdown.cpp:73
 msgid "Terminate services with save"
-msgstr ""
+msgstr "Desliga os serviços salvando"
 
 #: modules/commands/os_news.cpp:156
 msgid "Text"
-msgstr ""
+msgstr "Texto"
 
 #: modules/commands/cs_access.cpp:576
 msgid ""
@@ -7823,6 +7845,13 @@ msgid ""
 "When a user joins the channel the access they receive is from the\n"
 "highest level entry in the access list."
 msgstr ""
+"O comando ACCESS ADD adiciona uma máscara fornecida \n"
+"à lista de acesso com o nível de usuário especificado; se a máscara \n"
+"já estiver presente na lista, seu nível de acesso será alterado para \n"
+"o nível especificado no comando. O level (nível) especificado pode \n"
+"ser um nível numérico ou o nome de um privilégio (como por exemplo, \n"
+"AUTOOP). Quando um usuário entra no canal, o acesso recebido é o \n"
+"mais alto que estiver na lista de acesso."
 
 #: modules/commands/cs_access.cpp:587
 msgid ""
@@ -7832,6 +7861,11 @@ msgid ""
 "You may remove yourself from an access list, even if you\n"
 "do not have access to modify that list otherwise."
 msgstr ""
+"O comando ACCESS DEL remove o nick da lista de acesso. Se uma\n"
+"lista de números de entrada for fornecida, essas entradas serão \n"
+"excluídas. (Veja o exemplo da lista abaixo.) Você pode se remover \n"
+"de uma lista de acesso, mesmo que não tenha acesso para modificar \n"
+"essa lista."
 
 #: modules/commands/cs_access.cpp:593
 msgid ""
@@ -7852,7 +7886,7 @@ msgstr ""
 
 #: modules/commands/cs_flags.cpp:447
 msgid "The CLEAR command clears the channel access list. This requires channel founder access."
-msgstr ""
+msgstr "O comando CLEAR limpa toda lista de acesso do canal. Isso requer acesso como fundador do canal."
 
 #: modules/commands/cs_seen.cpp:173
 #, c-format
@@ -7938,6 +7972,23 @@ msgid ""
 "For a list of the features and functions whose levels can be\n"
 "set, see HELP LEVELS DESC."
 msgstr ""
+"O comando LEVELS permite controle sobre o significado dos \n"
+"níveis de acesso numérico usados para os canais. Com este comando, \n"
+"você pode definir o nível de acesso necessário para a maioria das funções \n"
+"do %s. (O SET FOUNDER e este comando são sempre restritos apenas \n"
+"ao fundador do canal.)\n"
+" \n"
+"LEVELS SET permite que o nível de acesso para uma função ou grupo \n"
+"de funções seja alterado. LEVELS DISABLE (ou DIS para abreviar) desativa \n"
+"um recurso automático ou desativa o acesso a uma função por qualquer pessoa, \n"
+"INCLUINDO o fundador (embora o fundador sempre possa reativá-lo). Utilize o \n"
+"LEVELS SET founder para criar apenas um fundador de nível.\n"
+" \n"
+"LEVELS LIST mostra os níveis atuais para cada função ou grupo de funções. \n"
+"LEVELS RESET redefine os níveis para os níveis padrão de um canal recém-criado.\n"
+" \n"
+"Para obter uma lista dos recursos e funções cujos níveis podem ser definidos, consulte \n"
+"HELP LEVELS DESC."
 
 #: modules/commands/cs_flags.cpp:442
 msgid ""
@@ -7946,6 +7997,11 @@ msgid ""
 "access list, and only those entries are returned. If a set of flags is given, only those\n"
 "on the access list with the specified flags are returned."
 msgstr ""
+"O comando LIST permite listar o conteúdo existente na lista de acesso ao canal.\n"
+"Se uma máscara for fornecida, a máscara será um caractere curinga e correspondente \n"
+"a todas as entradas existentes na lista de acesso e somente essas entradas serão retornadas. \n"
+"Se um conjunto de flags for fornecido, somente aqueles na lista de acesso correspondente \n"
+"as flags especificadas serão retornados."
 
 #: modules/commands/cs_flags.cpp:435
 msgid ""
@@ -7956,6 +8012,13 @@ msgid ""
 "only able to modify the access list if you have the proper permission on the channel,\n"
 "and even then you can only give other people access to the equivalent of what your access is."
 msgstr ""
+"O comando MODIFY permite modificar a lista de acesso. Se a máscara \n"
+"ainda não estiver na lista de acesso, ela será adicionada e as alterações serão \n"
+"aplicadas. Se a máscara não tiver mais \"flags\", então será removida da lista de \n"
+"acesso. Além disso, você pode usar +* ou -* para adicionar ou remover todas \n"
+"as flags, respectivamente. Você só poderá modificar a lista de acesso se tiver a \n"
+"permissão adequada no canal e, mesmo assim, poderá conceder a outras pessoas \n"
+"apenas o equivalente ao seu acesso."
 
 #: modules/commands/cs_seen.cpp:172
 msgid "The STATS command prints out statistics about stored nicks and memory usage."
@@ -8058,6 +8121,8 @@ msgid ""
 "The given mask may also be a channel, which will use the\n"
 "access list from the other channel up to the given level."
 msgstr ""
+"A máscara fornecida também pode ser um canal, que utilizará \n"
+"a lista de acesso do outro canal até o level (nível) especificado."
 
 #: modules/commands/os_session.cpp:240
 #, c-format
@@ -8919,7 +8984,7 @@ msgstr "Usado para modificar o status de usuários do canal"
 
 #: modules/commands/cs_akick.cpp:575
 msgid "User has been banned from the channel"
-msgstr "O usuário foi banido do canal "
+msgstr "O usuário foi banido do canal"
 
 #: modules/commands/os_dns.cpp:587
 #, c-format
@@ -9006,11 +9071,11 @@ msgstr "Removido o vhost para %s."
 
 #: modules/commands/os_oper.cpp:69
 msgid "View and change Services Operators"
-msgstr "Visualiza e altera os Operadores dos Serviços "
+msgstr "Visualiza e altera os Operadores dos Serviços"
 
 #: modules/commands/os_config.cpp:19
 msgid "View and change configuration file settings"
-msgstr "Visualiza e alterar as opções do arquivo de configuração "
+msgstr "Visualiza e alterar as opções do arquivo de configuração"
 
 #: modules/commands/os_session.cpp:245
 msgid "View the list of host sessions"
