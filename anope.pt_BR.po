@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-29 15:04+0200\n"
+"PO-Revision-Date: 2020-03-30 12:38+0200\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -5031,6 +5031,12 @@ msgid ""
 "   LIST 2-5,7-9\n"
 "      Lists memos numbered 2 through 5 and 7 through 9."
 msgstr ""
+"Lista os memos que você recebeu.  O comando NEW, lista apenas\n"
+"novos memos (não lidos). Memos não lidos são marcados com \"*\"\n"
+"à esquerda do número do memo. Você também pode\n"
+"especificar uma lista de números, como no exemplo abaixo:\n"
+"   LIST 2-5,7-9\n"
+"      Lista memos de 2 a 5 e de 7 a 9."
 
 #: modules/commands/bs_botlist.cpp:19
 msgid "Lists available bots"
@@ -5834,11 +5840,11 @@ msgstr "Não há entradas correspondentes na lista de AKILL."
 
 #: modules/commands/ms_cancel.cpp:77
 msgid "No memo was cancelable."
-msgstr ""
+msgstr "Não há memos canceláveis."
 
 #: modules/commands/ms_read.cpp:65
 msgid "No memos to display."
-msgstr ""
+msgstr "Não há memos para exibir."
 
 #: modules/commands/os_modinfo.cpp:187
 msgid "No modules currently loaded matching that criteria."
@@ -6272,7 +6278,7 @@ msgstr ""
 
 #: modules/commands/ms_read.cpp:112
 msgid "Read a memo or memos"
-msgstr ""
+msgstr "Lê o(s) memo(s)"
 
 #: modules/commands/bs_info.cpp:56
 msgid "Real name"
@@ -6788,7 +6794,7 @@ msgstr ""
 
 #: modules/commands/ms_rsend.cpp:24
 msgid "Sends a memo and requests a read receipt"
-msgstr ""
+msgstr "Envia um memo com um pedido de confirmação de leitura"
 
 #: modules/commands/ns_resetpass.cpp:50
 msgid ""
@@ -6799,11 +6805,11 @@ msgstr ""
 
 #: modules/commands/ms_sendall.cpp:52
 msgid "Sends all registered users a memo containing memo-text."
-msgstr ""
+msgstr "Envia um memo a todos os usuários registrados com o texto memo-text."
 
 #: modules/commands/ms_staff.cpp:48
 msgid "Sends all services staff a memo containing memo-text."
-msgstr ""
+msgstr "Envia um memo para equipe de serviços com o texto memo-text."
 
 #: modules/commands/ms_send.cpp:66
 msgid ""
@@ -6812,6 +6818,10 @@ msgid ""
 "receive a notice that he/she has a new memo. The target\n"
 "nickname/channel must be registered."
 msgstr ""
+"Envia um memo para o nick ou canal com o texto\n"
+"memo-text. Ao enviar a um nick, o destinatário receberá\n"
+"uma notificação de que recebeu um novo memo. O nick/canal\n"
+"a ser enviado deve ser registrado."
 
 #: modules/commands/ms_rsend.cpp:80
 msgid ""
@@ -9230,8 +9240,7 @@ msgid "You can not NOOP Services."
 msgstr "Você não pode NOOP Services."
 
 #: modules/commands/cs_access.cpp:672
-msgid ""
-"You can not disable the founder privilege because it would be impossible to reenable it at a later time."
+msgid "You can not disable the founder privilege because it would be impossible to reenable it at a later time."
 msgstr "Você não pode desabilitar o privilégio de founder pois seria impossível habilitar depois."
 
 #: modules/commands/os_jupe.cpp:34
