@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-30 12:38+0200\n"
+"PO-Revision-Date: 2020-03-30 15:50-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -631,7 +631,6 @@ msgid "channel nick [reason]"
 msgstr "canal nick [motivo]"
 
 #: modules/commands/cs_clone.cpp:115
-#, fuzzy
 msgid "channel target [what]"
 msgstr "canal alvo [qual]"
 
@@ -648,7 +647,6 @@ msgid "channel user reason"
 msgstr "canal usuário motivo"
 
 #: modules/commands/cs_enforce.cpp:228
-#, fuzzy
 msgid "channel what"
 msgstr "canal what"
 
@@ -669,7 +667,6 @@ msgid "channel ADD word [SINGLE | START | END]"
 msgstr "canal ADD palavra [SINGLE | START | END]"
 
 #: modules/commands/cs_akick.cpp:435
-#, fuzzy
 msgid "channel ADD {nick | mask} [reason]"
 msgstr "canal ADD {nick | máscara} [motivo]"
 
@@ -683,7 +680,6 @@ msgid "channel CLEAR"
 msgstr "canal CLEAR"
 
 #: modules/commands/cs_mode.cpp:736
-#, fuzzy
 msgid "channel CLEAR [what]"
 msgstr "canal CLEAR [what]"
 
@@ -696,12 +692,10 @@ msgid "channel DEL num"
 msgstr "canal DEL num"
 
 #: modules/commands/cs_xop.cpp:482 modules/commands/cs_access.cpp:500
-#, fuzzy
 msgid "channel DEL {mask | entry-num | list}"
-msgstr "canal DEL {máscara | num-entrada | lista}"
+msgstr "canal DEL {máscara | nun-entrada | lista}"
 
 #: modules/commands/cs_akick.cpp:436
-#, fuzzy
 msgid "channel DEL {nick | mask | entry-num | list}"
 msgstr "canal DEL {nick | máscara | entry-num | lista}"
 
@@ -797,7 +791,6 @@ msgid "channel {ON|OFF}"
 msgstr "canal {ON|OFF}"
 
 #: modules/commands/bs_kick.cpp:491
-#, fuzzy
 msgid "channel {ON|OFF} [ttb [ln [secs]]]"
 msgstr "canal {ON|OFF} [ttb [ln [secs]]]"
 
@@ -841,7 +834,7 @@ msgstr " língua "
 
 #: modules/commands/ms_staff.cpp:25 modules/commands/ms_sendall.cpp:25
 msgid "memo-text"
-msgstr "memo-text"
+msgstr "memo-texto"
 
 #: modules/commands/gl_global.cpp:22 modules/commands/greet.cpp:84
 msgid "message"
@@ -853,7 +846,6 @@ msgid "modname"
 msgstr "nome-mod"
 
 #: modules/commands/ns_set.cpp:330
-#, fuzzy
 msgid "new-display"
 msgstr "novo-display"
 
@@ -912,9 +904,8 @@ msgid "nickname message"
 msgstr "nick mensagem"
 
 #: modules/commands/ns_set.cpp:399
-#, fuzzy
 msgid "nickname new-display"
-msgstr "nick novo-display"
+msgstr "nick novo-display"
 
 #: modules/commands/ns_set.cpp:173
 msgid "nickname new-password"
@@ -944,11 +935,11 @@ msgstr "nick {ON | OFF}"
 
 #: modules/commands/ns_set.cpp:760
 msgid "nickname {ON | QUICK | IMMED | OFF}"
-msgstr ""
+msgstr "nick {ON | QUICK | IMMED | OFF}"
 
 #: modules/commands/bs_set.cpp:20
 msgid "option (channel | bot) settings"
-msgstr ""
+msgstr "opção (canal | bot) settings"
 
 #: modules/commands/cs_set.cpp:21
 msgid "option channel parameters"
@@ -976,7 +967,7 @@ msgstr "código de acesso"
 
 #: modules/commands/os_login.cpp:19
 msgid "password"
-msgstr " senha "
+msgstr "senha"
 
 #: modules/commands/ns_register.cpp:124
 msgid "password [email]"
@@ -2575,6 +2566,10 @@ msgid ""
 "to memo you or a channel, they will not be told that you have\n"
 "them ignored."
 msgstr ""
+"Permite que você ignore os usuários por nick ou host de \n"
+"enviar memos para você ou um canal. Se alguém da lista \n"
+"de ignorados tentar enviar um memo para você ou um canal, \n"
+"eles não saberão que você os ignorou."
 
 #: modules/commands/os_kill.cpp:48
 msgid ""
@@ -6752,7 +6747,7 @@ msgstr ""
 
 #: modules/commands/ns_set.cpp:1311 modules/commands/cs_set.cpp:1293
 msgid "Security"
-msgstr ""
+msgstr "Segurança"
 
 #: modules/commands/cs_xop.cpp:570
 #, c-format
@@ -6786,7 +6781,7 @@ msgstr "Envia um memo para todos os usuários registrados"
 
 #: modules/commands/gl_global.cpp:21
 msgid "Send a message to all users"
-msgstr ""
+msgstr "Envia uma menssagem para todos os usuários"
 
 #: modules/commands/ms_list.cpp:64
 msgid "Sender"
@@ -6802,14 +6797,17 @@ msgid ""
 "reset their password.  Email must be the email address associated\n"
 "to the nickname."
 msgstr ""
+"Envia o código de acesso para o nick com instruções sobre como \n"
+"redefinir sua senha. O email deve ser o endereço de email associado \n"
+"ao nick."
 
 #: modules/commands/ms_sendall.cpp:52
 msgid "Sends all registered users a memo containing memo-text."
-msgstr "Envia um memo a todos os usuários registrados com o texto memo-text."
+msgstr "Envia um memo a todos os usuários registrados com memo-text."
 
 #: modules/commands/ms_staff.cpp:48
 msgid "Sends all services staff a memo containing memo-text."
-msgstr "Envia um memo para equipe de serviços com o texto memo-text."
+msgstr "Envia um memo para equipe de serviços com memo-text."
 
 #: modules/commands/ms_send.cpp:66
 msgid ""
@@ -6818,10 +6816,10 @@ msgid ""
 "receive a notice that he/she has a new memo. The target\n"
 "nickname/channel must be registered."
 msgstr ""
-"Envia um memo para o nick ou canal com o texto\n"
+"Envia um memo para um nick ou channel contendo\n"
 "memo-text. Ao enviar a um nick, o destinatário receberá\n"
-"uma notificação de que recebeu um novo memo. O nick/canal\n"
-"a ser enviado deve ser registrado."
+"uma notificação de que recebeu um novo memo. O nick ou\n"
+"canal a ser enviado deve ser registrado."
 
 #: modules/commands/ms_rsend.cpp:80
 msgid ""
@@ -6846,6 +6844,15 @@ msgid ""
 "   READ 2-5,7-9\n"
 "      Displays memos numbered 2 through 5 and 7 through 9."
 msgstr ""
+"Envia um memo com um texto especificado. Se LAST for \n"
+"fornecido, envia para você o memo recebido mais recentemente. \n"
+"Se NEW for fornecido, envia para você todas os seus novos memos. \n"
+"Se ALL for fornecido, envia para você todos os seus memos. Caso \n"
+"contrário, envia o número do memo número num. Você também pode \n"
+"fornecer uma lista de números, como neste exemplo:\n"
+" \n"
+"   READ 2-5,7-9\n"
+"      Exibe os memos numerados de 2 a 5 e 7 a 9."
 
 #: modules/commands/os_dns.cpp:218
 msgid "Server"
@@ -9129,6 +9136,15 @@ msgid ""
 "for the given nickname. This is limited to Services\n"
 "Operators."
 msgstr ""
+"Sem um parâmetro, exibe informações sobre o número de \n"
+"memos que você tem, quantos não foram lidos e quantos\n"
+"memos no total você pode receber.\n"
+" \n"
+"Com um parâmetro de canal, exibe as mesmas informações \n"
+"para o canal fornecido.\n"
+" \n"
+"Com um nick como parâmetro, exibe as mesmas informações \n"
+"para o nick fornecido. Isso é limitado aos operadores dos serviços."
 
 #: modules/commands/ns_logout.cpp:66
 msgid ""
