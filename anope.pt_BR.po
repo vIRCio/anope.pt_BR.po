@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-31 09:10-0300\n"
+"PO-Revision-Date: 2020-03-31 10:06-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -1408,7 +1408,7 @@ msgstr ""
 
 #: modules/commands/os_jupe.cpp:19
 msgid "\"Jupiter\" a server"
-msgstr ""
+msgstr "\"Jupa\" um servidor"
 
 #: modules/commands/os_oper.cpp:161
 #, c-format
@@ -2048,7 +2048,7 @@ msgstr ""
 
 #: modules/commands/os_chankill.cpp:21
 msgid "AKILL all users on a specific channel"
-msgstr ""
+msgstr "AKILL todos os usuários do canal especificado"
 
 #: modules/commands/os_akill.cpp:222 modules/commands/os_akill.cpp:339 modules/commands/os_akill.cpp:353
 msgid "AKILL list is empty."
@@ -2750,7 +2750,7 @@ msgstr "Associa um endereço de e-mail ao seu nick"
 
 #: modules/commands/os_info.cpp:101
 msgid "Associate oper info with a nick or channel"
-msgstr "Associar informações de \"oper\" a um nick ou canal"
+msgstr "Associa informações de \"oper\" a um nick ou canal"
 
 #: modules/commands/ns_set.cpp:558
 msgid "Associates the given E-mail address with the nickname."
@@ -3156,7 +3156,7 @@ msgstr ""
 
 #: modules/commands/os_mode.cpp:19
 msgid "Change channel modes"
-msgstr ""
+msgstr "Altera os modos do canal"
 
 #: modules/commands/ns_set.cpp:905
 msgid "Change the communication method of Services"
@@ -3164,7 +3164,7 @@ msgstr ""
 
 #: modules/commands/os_mode.cpp:146
 msgid "Change user modes"
-msgstr ""
+msgstr "Muda o modo de usuários"
 
 #: modules/commands/os_mode.cpp:161
 #, c-format
@@ -3756,15 +3756,15 @@ msgstr ""
 
 #: modules/commands/os_news.cpp:351
 msgid "Define messages to be randomly shown to users at logon"
-msgstr ""
+msgstr "Define as mensagens que serão mostradas aleatoriamente aos usuários no logon"
 
 #: modules/commands/os_news.cpp:297
 msgid "Define messages to be shown to users at logon"
-msgstr ""
+msgstr "Define as mensagens que serão exibidas aos usuários no logon"
 
 #: modules/commands/os_news.cpp:324
 msgid "Define messages to be shown to users who oper"
-msgstr ""
+msgstr "Define as mensagens que serão exibidas aos usuários que são operadores"
 
 #: modules/commands/ms_del.cpp:44
 msgid "Delete a memo or memos"
@@ -4493,44 +4493,44 @@ msgstr ""
 
 #: modules/commands/os_forbid.cpp:156
 msgid "Forbid usage of nicknames, channels, and emails"
-msgstr ""
+msgstr "Proibe a utilização de nicks, canais e emails"
 
 #: modules/commands/os_update.cpp:19
 msgid "Force the Services databases to be updated immediately"
-msgstr ""
+msgstr "Forçar o banco de dados dos Serviços a serem atualizados imediatamente"
 
 #: modules/commands/os_svs.cpp:19
 msgid "Forcefully change a user's nickname"
-msgstr ""
+msgstr "Força um usuário mudar o nick"
 
 #: modules/commands/os_svs.cpp:68
 msgid "Forcefully changes a user's nickname from nick to newnick."
-msgstr ""
+msgstr "Força mudar o apelido de nick para novo-nick."
 
 #: modules/commands/os_svs.cpp:78
 msgid "Forcefully join a user to a channel"
-msgstr ""
+msgstr "Força um usuário entrar no canal"
 
 #: modules/commands/os_svs.cpp:112
 msgid "Forcefully join a user to a channel."
-msgstr ""
+msgstr "Forcefully join a user to a channel."
 
 #: modules/commands/os_svs.cpp:122
 msgid "Forcefully part a user from a channel"
-msgstr ""
+msgstr "Força um usuário sair do canal"
 
 #: modules/commands/os_svs.cpp:160
 msgid "Forcefully part a user from a channel."
-msgstr ""
+msgstr "Força um usuário sair do canal."
 
 #: modules/commands/cs_info.cpp:47 modules/commands/ns_alist.cpp:64
 msgid "Founder"
-msgstr "Founder"
+msgstr "Fundador"
 
 #: modules/commands/cs_set.cpp:315
 #, c-format
 msgid "Founder of %s changed to %s."
-msgstr ""
+msgstr "Fundador do %s modificado para %s."
 
 #: modules/commands/ns_getpass.cpp:41
 msgid "GETPASS command unavailable because encryption is in use."
@@ -4672,7 +4672,7 @@ msgstr ""
 
 #: modules/commands/os_modinfo.cpp:19
 msgid "Info about a loaded module"
-msgstr ""
+msgstr "Informações sobre carregar um módulo"
 
 #: modules/commands/bs_info.cpp:54
 #, c-format
@@ -4761,7 +4761,7 @@ msgstr ""
 
 #: modules/commands/os_kick.cpp:19
 msgid "Kick a user from a channel"
-msgstr ""
+msgstr "Kicka um usuário do canal"
 
 #: modules/commands/cs_ban.cpp:217 modules/commands/cs_kick.cpp:116
 #, c-format
@@ -4925,7 +4925,7 @@ msgstr ""
 
 #: modules/commands/os_list.cpp:19
 msgid "Lists all channel records"
-msgstr ""
+msgstr "Lista todos os canais onlines"
 
 #: modules/commands/os_list.cpp:107
 msgid ""
@@ -5079,7 +5079,7 @@ msgstr ""
 
 #: modules/commands/os_list.cpp:132
 msgid "Lists all user records"
-msgstr ""
+msgstr "Lista todos os usuários onlines"
 
 #: modules/commands/os_list.cpp:243
 msgid ""
@@ -5138,7 +5138,7 @@ msgstr ""
 
 #: modules/commands/os_module.cpp:19
 msgid "Load a module"
-msgstr ""
+msgstr "Carrega um módulo"
 
 #: modules/commands/cs_register.cpp:39
 msgid "Local channels cannot be registered."
@@ -5167,7 +5167,7 @@ msgstr ""
 #: modules/commands/os_login.cpp:60
 #, c-format
 msgid "Login to %s"
-msgstr ""
+msgstr "Login no %s"
 
 #: modules/commands/os_news.cpp:36
 #, c-format
@@ -5186,7 +5186,7 @@ msgstr ""
 #: modules/commands/os_login.cpp:102
 #, c-format
 msgid "Logout from %s"
-msgstr ""
+msgstr "Logout do %s"
 
 #: modules/commands/os_login.cpp:52
 #, c-format
@@ -6545,7 +6545,7 @@ msgstr "Recarrega um módulo"
 
 #: modules/commands/os_reload.cpp:19
 msgid "Reload services' configuration file"
-msgstr ""
+msgstr "Relê os arquivos de configuração dos serviços"
 
 #: modules/commands/ns_group.cpp:236
 msgid "Remove a nick from a group"
@@ -6761,11 +6761,11 @@ msgstr ""
 
 #: modules/commands/os_shutdown.cpp:47
 msgid "Save databases and restart Services"
-msgstr ""
+msgstr "Salva o banco de dados e reinicia os serviços"
 
 #: modules/commands/os_logsearch.cpp:32
 msgid "Searches logs for a matching pattern"
-msgstr ""
+msgstr "Pesquisa nos logs um padrão correspondente"
 
 #: modules/commands/cs_set.cpp:1295
 msgid "Secure founder"
@@ -7104,11 +7104,11 @@ msgstr ""
 
 #: modules/commands/os_reload.cpp:34
 msgid "Services' configuration has been reloaded."
-msgstr ""
+msgstr "As configurações dos Serviços foram recarregadas."
 
 #: modules/commands/os_session.cpp:192
 msgid "Session"
-msgstr ""
+msgstr "Sessão"
 
 #: modules/commands/os_session.cpp:382
 #, c-format
@@ -7130,11 +7130,11 @@ msgstr ""
 
 #: modules/commands/cs_set.cpp:20
 msgid "Set channel options and information"
-msgstr ""
+msgstr "Definir opções e informações do canal"
 
 #: modules/commands/cs_set.cpp:137
 msgid "Set how Services make bans on the channel"
-msgstr ""
+msgstr "Define como os serviços fará os bans no canal"
 
 #: modules/commands/ms_set.cpp:206
 msgid "Set options related to memos"
@@ -7146,11 +7146,11 @@ msgstr "Opções de configurações, incluindo proteção de kill"
 
 #: modules/commands/cs_set.cpp:472
 msgid "Set the channel as permanent"
-msgstr ""
+msgstr "Define o canal como permanente"
 
 #: modules/commands/cs_set.cpp:204
 msgid "Set the channel description"
-msgstr ""
+msgstr "Define a descrição do canal"
 
 #: modules/commands/ns_set.cpp:329
 msgid "Set the display of your group in Services"
@@ -7158,7 +7158,7 @@ msgstr "Configura a exibição do seu grupo nos Serviços"
 
 #: modules/commands/cs_set.cpp:266
 msgid "Set the founder of a channel"
-msgstr ""
+msgstr "Define o fundador do canal"
 
 #: modules/commands/ns_set.cpp:793
 msgid "Set the language Services will use when messaging you"
@@ -7166,11 +7166,11 @@ msgstr "Define o idioma que os Serviços usará"
 
 #: modules/commands/ns_set.cpp:172
 msgid "Set the nickname password"
-msgstr ""
+msgstr "Define a senha do nick"
 
 #: modules/commands/cs_set.cpp:949
 msgid "Set the successor for a channel"
-msgstr ""
+msgstr "Define o sucessor do canal"
 
 #: modules/commands/hs_set.cpp:125
 msgid "Set the vhost for all nicks in a group"
@@ -7182,7 +7182,7 @@ msgstr "Define um vHost para outro usuário"
 
 #: modules/commands/os_set.cpp:169
 msgid "Set various global Services options"
-msgstr ""
+msgstr "Define várias opções globais para os Serviços"
 
 #: modules/commands/ns_set.cpp:119
 msgid "Set your nickname password"
@@ -7456,7 +7456,7 @@ msgstr ""
 
 #: modules/commands/os_stats.cpp:203
 msgid "Show status of Services and network"
-msgstr ""
+msgstr "Mostra o status dos Serviços da rede"
 
 #: modules/commands/os_logsearch.cpp:152
 #, c-format
@@ -7614,7 +7614,7 @@ msgstr ""
 
 #: modules/commands/cs_seen.cpp:117
 msgid "Statistics and maintenance for seen data"
-msgstr ""
+msgstr "Estatísticas e manutenção de dados do \"seen\""
 
 #: modules/commands/os_stats.cpp:131
 msgid "Statistics reset."
@@ -7916,6 +7916,14 @@ msgid ""
 "text \"Juped by <nick>\", showing the nickname of the\n"
 "person who jupitered the server."
 msgstr ""
+"Diz aos Serviços para \"jupiter\" um servidor - isto é, para criar \n"
+"um \"servidor\" falso conectado aos Serviços, o que impede a \n"
+"conexão do servidor real com esse nome. O jupe poderá ser \n"
+"removido usando o comando padrão SQUIT. Se um motivo \n"
+"for fornecido, ele será colocado no campo de informações do \n"
+"servidor; caso contrário, o campo de informações do servidor \n"
+"conterá o texto \"Juped por <nick>\", mostrando o nick da pessoa \n"
+"que \"jupou\" o servidor."
 
 #: modules/commands/cs_seen.cpp:261
 msgid "Tells you about the last time a user was seen"
@@ -8953,7 +8961,7 @@ msgstr ""
 
 #: modules/commands/os_module.cpp:128
 msgid "Un-Load a module"
-msgstr ""
+msgstr "Descarrega um módulo"
 
 #: modules/commands/os_akill.cpp:136 modules/commands/os_sxline.cpp:337 modules/commands/os_sxline.cpp:552
 #, c-format
@@ -8963,7 +8971,7 @@ msgstr ""
 #: modules/commands/os_module.cpp:36 modules/commands/os_module.cpp:108
 #, c-format
 msgid "Unable to load module %s."
-msgstr ""
+msgstr "Não foi possível carregar o módulo %s."
 
 #: modules/commands/os_module.cpp:73 modules/commands/os_module.cpp:90 modules/commands/os_module.cpp:145
 #: modules/commands/os_module.cpp:159
