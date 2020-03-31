@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-30 15:50-0300\n"
+"PO-Revision-Date: 2020-03-31 09:10-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -1077,6 +1077,15 @@ msgid ""
 "commands MUST have enough access for both\n"
 "the FANTASIA and the command they are executing."
 msgstr ""
+" \n"
+"Ativa ou desativa o modo fantasy (fantasia) em um canal. \n"
+"Quando ativado, os usuários poderão usar atalhos de comandos \n"
+"de fantasia em um canal quando prefixados com um dos seguintes \n"
+"caracteres de fantasia: %s\n"
+" \n"
+"Observe que os usuários que desejam usar atalhos de comandos de \n"
+"fantasia DEVEM ter acesso necessário para o comando FANTASIA que \n"
+"estão executando."
 
 #: modules/commands/greet.cpp:69
 msgid ""
@@ -1086,6 +1095,12 @@ msgid ""
 "messages of users joining the channel, provided\n"
 "they have enough access to the channel."
 msgstr ""
+" \n"
+"Ativa ou desativa o modo greet (de saudação de boas \n"
+"vindas) em um canal. Quando ativado, o bot exibe as boas\n"
+"vindas como uma mensagens de saudação dos usuários ao\n"
+"entrarem no canal, desde que tenham acesso suficiente no \n"
+"canal."
 
 #: modules/commands/bs_kick.cpp:843
 msgid ""
@@ -1094,6 +1109,10 @@ msgid ""
 "When it is enabled, ops won't be kicked by the bot\n"
 "even if they don't match the NOKICK level."
 msgstr ""
+" \n"
+"Ativa ou desativa ops protection (o modo de proteção de operadores) \n"
+"em um canal. Quando ativado, os operadores não serão expulsos pelo bot, \n"
+"mesmo que não correspondam ao nível NOKICK."
 
 #: modules/commands/bs_kick.cpp:908
 msgid ""
@@ -1102,6 +1121,10 @@ msgid ""
 "When it is enabled, voices won't be kicked by the bot\n"
 "even if they don't match the NOKICK level."
 msgstr ""
+" \n"
+"Ativa ou desativa voices protection (o modo de proteção para voices) \n"
+"em um canal. Quando ativado, os \"voices\" não serão expulsos pelo bot, \n"
+"mesmo que não correspondam ao nível NOKICK."
 
 #: modules/pseudoclients/botserv.cpp:141
 #, c-format
@@ -1178,6 +1201,12 @@ msgid ""
 "be removed after the given time. Set to 0 to disable bans from\n"
 "automatically expiring."
 msgstr ""
+" \n"
+"Define o tempo em que os bans do bot expiram. Se ativado, afeta \n"
+"qualquer ban feito pelo bot, como por exemplo: \"flood kicker\", \n"
+"\"badwords kicker\" etc, que serão automaticamente removidos após \n"
+"o tempo determinado. Defina como 0 para impedir que os bans expirem \n"
+"automaticamente."
 
 #: modules/commands/cs_xop.cpp:542
 #, c-format
@@ -1317,6 +1346,10 @@ msgid ""
 "is already assigned to the channel, it is unassigned\n"
 "automatically when you enable it."
 msgstr ""
+" \n"
+"Esta opção torna um canal não associado para bots. \n"
+"Se um bot já estiver atribuído ao canal, ele não será \n"
+"automaticamente desassociado quando você o ativar."
 
 #: modules/commands/bs_set.cpp:199
 msgid ""
@@ -1324,6 +1357,9 @@ msgid ""
 "This option prevents a bot from being assigned to a\n"
 "channel by users that aren't IRC Operators."
 msgstr ""
+" \n"
+"Essa opção impede que um bot seja associado a um canal \n"
+"por usuários que não são operadores do IRC."
 
 #: modules/pseudoclients/memoserv.cpp:227
 #, c-format
@@ -1332,6 +1368,9 @@ msgid ""
 "Type %s%s HELP command for help on any of the\n"
 "above commands."
 msgstr ""
+" \n"
+"Digite %s%s HELP command para obter ajuda sobre \n"
+"qualquer um dos comandos acima."
 
 #: modules/commands/os_oper.cpp:167
 #, c-format
@@ -2398,6 +2437,22 @@ msgid ""
 "currently registered. If an unregistered user is currently\n"
 "using the nick, they will be killed."
 msgstr ""
+"Permite que os operadores dos serviços criem, modifiquem \n"
+"e excluam bots que os usuários poderão usar em seus próprios \n"
+"canais.\n"
+" \n"
+"BOT ADD adiciona um bot com o apelido, nome de usuário, \n"
+"nome do host e nome real. Como nenhuma verificação de integridade \n"
+"é feita para essas configurações, tenha muito cuidado.\n"
+" \n"
+"BOT CHANGE permite alterar o apelido, nome de usuário, nome do host \n"
+"ou nome real de um bot sem excluí-lo (e todos os dados associados a ele).\n"
+" \n"
+"BOT DEL remove o bot fornecido da lista de bots.\n"
+" \n"
+"Observação: Você não pode criar um bot com um nick que esteja registrado \n"
+"no momento. Se um usuário não registrado estiver usando o nick atualmente, \n"
+"ele será desconectado."
 
 #: modules/commands/os_oline.cpp:56
 msgid ""
@@ -3370,27 +3425,29 @@ msgstr ""
 
 #: modules/commands/bs_kick.cpp:1151 modules/commands/bs_kick.cpp:1153 modules/commands/bs_kick.cpp:1156
 msgid "Colors kicker"
-msgstr ""
+msgstr "Kick de cores"
 
 #: modules/commands/cs_log.cpp:127
 msgid "Command"
-msgstr ""
+msgstr "Comando"
 
 #: modules/commands/bs_kick.cpp:251
 msgid "Configures AMSG kicker"
-msgstr ""
+msgstr "Configura kick de AMSG"
 
 #: modules/commands/bs_kick.cpp:287
 msgid "Configures badwords kicker"
-msgstr ""
+msgstr "Configura kick de palavrões"
 
 #: modules/commands/bs_kick.cpp:326
 msgid "Configures bolds kicker"
-msgstr ""
+msgstr "Configura kick de negritos"
 
 #: modules/commands/bs_kick.cpp:132
 msgid "Configures bot kickers.  option can be one of:"
 msgstr ""
+"Configura como o bot irá expulsar os usuários (bot kickers). \n"
+"A opção (option) pode ser uma das seguintes:"
 
 #: modules/commands/bs_set.cpp:19
 msgid "Configures bot options"
@@ -3408,23 +3465,23 @@ msgstr ""
 
 #: modules/commands/bs_kick.cpp:360
 msgid "Configures caps kicker"
-msgstr ""
+msgstr "Configura kick de caixa alta"
 
 #: modules/commands/cs_log.cpp:105
 msgid "Configures channel logging settings"
-msgstr ""
+msgstr "Configura as definições de log do canal"
 
 #: modules/commands/bs_kick.cpp:456
 msgid "Configures color kicker"
-msgstr ""
+msgstr "Configura kicks de cores"
 
 #: modules/commands/bs_kick.cpp:490
 msgid "Configures flood kicker"
-msgstr ""
+msgstr "Configura kicks de flood"
 
 #: modules/commands/bs_kick.cpp:588
 msgid "Configures italics kicker"
-msgstr ""
+msgstr "Configura kicks de itálico"
 
 #: modules/commands/bs_kick.cpp:119
 msgid "Configures kickers"
@@ -3432,11 +3489,11 @@ msgstr "Configura kicks"
 
 #: modules/commands/bs_kick.cpp:622
 msgid "Configures repeat kicker"
-msgstr "Configura repetição de kicks"
+msgstr "Configura kicks de repetição"
 
 #: modules/commands/bs_kick.cpp:723
 msgid "Configures reverses kicker"
-msgstr "Configura inversão de kicks"
+msgstr "Configura kicks de inversão"
 
 #: modules/commands/bs_set.cpp:90
 msgid "Configures the time bot bans expire in"
@@ -3444,7 +3501,7 @@ msgstr "Configura o tempo em que os bans irão expirar no bot"
 
 #: modules/commands/bs_kick.cpp:757
 msgid "Configures underlines kicker"
-msgstr "Configura underlines kicks"
+msgstr "Configura kicks de underlines"
 
 #: modules/commands/ns_register.cpp:21
 msgid "Confirm a passcode"
@@ -3465,6 +3522,10 @@ msgid ""
 "or LEVELS then only the respective settings are cloned.\n"
 "You must be the founder of channel and target."
 msgstr ""
+"Copia todas as configurações (acessos, akicks, etc) do canal para target.\n"
+"Se especificado ACCESS, AKICK, BADWORDSou LEVELS somente as \n"
+"respectivas configurações são clonadas. \n"
+"Você deve ser o fundador de ambos os canais."
 
 #: modules/commands/cs_clone.cpp:114
 msgid "Copy all settings from one channel to another"
@@ -3803,6 +3864,20 @@ msgid ""
 "   DEL 2-5,7-9\n"
 "      Deletes memos numbered 2 through 5 and 7 through 9."
 msgstr ""
+"Exclui os memos especificados. Você pode fornecer vários \n"
+"números de memos ou intervalos de números em vez de um \n"
+"único número, como no segundo exemplo abaixo.\n"
+" \n"
+"Se LAST for fornecido, o última memo será excluída.\n"
+"Se ALL for fornecido, exclui todos os seus memos.\n"
+" \n"
+"Exemplos: \n"
+"\n"
+"   DEL 1\n"
+"      Exclui seu primeiro memo.\n"
+" \n"
+"   DEL 2-5,7-9\n"
+"      Exclui os memos numerados de 2 a 5 e de 7 a 9."
 
 #: modules/commands/hs_del.cpp:48
 msgid ""
@@ -4026,11 +4101,11 @@ msgstr ""
 
 #: modules/fantasy.cpp:19
 msgid "Enable fantaisist commands"
-msgstr ""
+msgstr "Ativa os comandos de atalhos \"fantasia\""
 
 #: modules/commands/greet.cpp:19
 msgid "Enable greet messages"
-msgstr ""
+msgstr "Ativa mensagens de boas vindas"
 
 #: modules/commands/ns_set.cpp:568
 msgid "Enable or disable keep modes"
@@ -6136,11 +6211,11 @@ msgstr ""
 
 #: modules/commands/bs_set.cpp:161
 msgid "Prevent a bot from being assigned by non IRC operators"
-msgstr ""
+msgstr "Impede que um bot seja associado por não operadores do IRC"
 
 #: modules/commands/bs_assign.cpp:153
 msgid "Prevent a bot from being assigned to a channel"
-msgstr ""
+msgstr "Impe que um bot seja associado ao canal"
 
 #: modules/commands/cs_suspend.cpp:58
 msgid "Prevent a channel from being used preserving channel data and settings"
@@ -7299,6 +7374,16 @@ msgid ""
 "Type %s%s HELP %s option for more information\n"
 "on a specific option."
 msgstr ""
+"Define várias opções sobre memos.  option (a opção) pode \n"
+"ser uma das seguintes:\n"
+" \n"
+"    NOTIFY      Altera quando você será notificado sobre novos\n"
+"                   memos (apenas para nicks)\n"
+"    LIMIT       Define o número máximo de memos que você \n"
+"                   pode receber\n"
+" \n"
+"Digite %s%s HELP %s option para obter mais informações \n"
+"sobre uma opção específica."
 
 #: modules/commands/ns_set.cpp:33 modules/commands/ns_set.cpp:88
 msgid "Sets various nickname options. option can be one of:"
@@ -7941,6 +8026,20 @@ msgid ""
 "The CLEAR command clears all entries from the\n"
 "bad words list."
 msgstr ""
+"O comando DEL remove a palavra especificada da lista de \n"
+"palavrões. Se uma lista de números for fornecida, essas entradas \n"
+"serão excluídas. (Veja o exemplo para LIST abaixo.)\n"
+" \n"
+"O comando LIST exibe a lista de palavrões. Se uma máscara curinga \n"
+"for fornecida, apenas as entradas correspondentes à máscara serão exibidas. \n"
+"Se uma lista de números for fornecida, apenas essas entradas serão mostradas; \n"
+"por exemplo:\n"
+"   #canal LIST 2-5,7-9\n"
+"      Lista entradas de palavrões numeradas de 2 a 5 \n"
+"      e de 7 a 9.\n"
+" \n"
+"O comando CLEAR limpa todas as entradas da lista \n"
+"de palavrões."
 
 #: modules/commands/cs_entrymsg.cpp:241
 msgid ""
@@ -8800,7 +8899,7 @@ msgstr ""
 
 #: modules/commands/bs_badwords.cpp:194 modules/commands/os_forbid.cpp:358
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: modules/commands/ns_set.cpp:62
 #, c-format
@@ -8841,6 +8940,8 @@ msgid ""
 "Type %s%s HELP %s option for more information on a\n"
 "particular option."
 msgstr ""
+"Digite %s%s HELP %s option para obter mais informações \n"
+"sobre uma opção específica."
 
 #: modules/pseudoclients/nickserv.cpp:361
 #, c-format
