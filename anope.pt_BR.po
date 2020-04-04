@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-03-31 10:06-0300\n"
+"PO-Revision-Date: 2020-04-04 13:26+0200\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -943,23 +943,23 @@ msgstr "opção (canal | bot) settings"
 
 #: modules/commands/cs_set.cpp:21
 msgid "option channel parameters"
-msgstr ""
+msgstr "opção canal parâmetros"
 
 #: modules/commands/bs_kick.cpp:120
 msgid "option channel {ON|OFF} [settings]"
-msgstr ""
+msgstr "opção canal {ON|OFF} [configurações]"
 
 #: modules/commands/ns_set.cpp:75
 msgid "option nickname parameters"
-msgstr ""
+msgstr "opção nickname parâmetros"
 
 #: modules/commands/ns_set.cpp:20 modules/commands/ms_set.cpp:207
 msgid "option parameters"
-msgstr ""
+msgstr "opção parâmetros"
 
 #: modules/commands/os_set.cpp:170
 msgid "option setting"
-msgstr ""
+msgstr "opção configuração"
 
 #: modules/commands/ns_register.cpp:22
 msgid "passcode"
@@ -3099,6 +3099,8 @@ msgid ""
 "Cancels the last memo you sent to the given nick or channel,\n"
 "provided it has not been read at the time you use the command."
 msgstr ""
+"Cancela o último memo enviado ao nick ou canal fornecido,\n"
+"desde que não tenha sido lido no momento em que o comando foi usado."
 
 #: modules/commands/cs_clone.cpp:149
 #, c-format
@@ -3417,6 +3419,8 @@ msgid ""
 "Checks whether the _last_ memo you sent to nick has been read\n"
 "or not. Note that this only works with nicks, not with channels."
 msgstr ""
+"Checa se o _ultimo_ memo enviado ao nick foi lido\n"
+"ou não. Perceba que isto funciona apenas com nicks e não com canais."
 
 #: modules/commands/os_info.cpp:227
 #, c-format
@@ -6906,6 +6910,13 @@ msgid ""
 "memo will be sent to the sender informing him/her that the memo\n"
 "has been read."
 msgstr ""
+"Envia um memo ao nick ou canal fornecido contendo\n"
+"memo-text. Ao enviar para um nick, o destinatário\n"
+"receberá um notice de que um novo memo foi recebido.\n"
+"O nick/canal fornecido deve ser registrado.\n"
+"Uma vez que o memo é lido pelo destinatário, um memo de notificação\n"
+"será enviado automaticamente ao remetente informando-o(a) de que o memo\n"
+"foi lido."
 
 #: modules/commands/ms_read.cpp:199
 msgid ""
@@ -7762,6 +7773,12 @@ msgid ""
 "able to send any memos to you.  However, you cannot set\n"
 "this any higher than %d."
 msgstr ""
+"Sintaxe: LIMIT [canal] limite\n"
+" \n"
+"Define o número máximo de memos que você (ou o canal fornecido)\n"
+"podem receber. Se o valor definido for 0, ninguém poderá lhe enviar\n"
+"memos.  No entanto, este valor não\n"
+"poderá ser maior que %d."
 
 #: modules/commands/ms_set.cpp:267
 #, c-format
@@ -7827,6 +7844,23 @@ msgid ""
 " \n"
 "ON is essentially LOGON and NEW combined."
 msgstr ""
+"Sintaxe: NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}\n"
+" \n"
+"Modifica o status das notificações de memos:\n"
+" \n"
+"    ON      Você receberá notificações de memos ao logar,\n"
+"               ao desativar o comando /AWAY, e quando forem\n"
+"               enviados.\n"
+"    LOGON   Você receberá notificações de memos somente ao logar\n"
+"               ou quando desativar o comando /AWAY.\n"
+"    NEW     Você receberá notificações de memos somente no momento\n"
+"               em que estão sendo enviados.\n"
+"    MAIL    Você receberá as notificações de memo também por email\n"
+"               além das outras configurações de notificações salvas.\n"
+"    NOMAIL  Você não receberá notificações de memos por email.\n"
+"    OFF     Você não receberá nenhuma notificação de memos.\n"
+" \n"
+"ON é essencialmente LOGON e NEW combinados."
 
 #: modules/commands/os_set.cpp:212
 msgid ""
