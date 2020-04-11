@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-10 22:18-0300\n"
+"PO-Revision-Date: 2020-04-10 23:07-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -793,21 +793,21 @@ msgstr "canal {ON|OFF} [ttb [ln [secs]]]"
 
 #: modules/commands/bs_kick.cpp:361
 msgid "channel {ON|OFF} [ttb [min [percent]]]"
-msgstr ""
+msgstr "canal {ON|OFF} [ttb [min [porcentagem]]]"
 
 #: modules/commands/bs_kick.cpp:623
 msgid "channel {ON|OFF} [ttb [num]]"
-msgstr ""
+msgstr "canal {ON|OFF} [ttb [num]]"
 
 #: modules/commands/bs_kick.cpp:252 modules/commands/bs_kick.cpp:288 modules/commands/bs_kick.cpp:327
 #: modules/commands/bs_kick.cpp:457 modules/commands/bs_kick.cpp:589 modules/commands/bs_kick.cpp:724
 #: modules/commands/bs_kick.cpp:758
 msgid "channel {ON|OFF} [ttb]"
-msgstr ""
+msgstr "canal {ON|OFF} [ttb]"
 
 #: modules/commands/cs_access.cpp:743
 msgid "channel {DIS | DISABLE} type"
-msgstr ""
+msgstr "canal {DIS | DISABLE} tipo"
 
 #: modules/commands/cs_set.cpp:873
 msgid "channel {ON | LEVEL | OFF}"
@@ -976,11 +976,11 @@ msgstr "senha email"
 
 #: modules/commands/cs_list.cpp:21
 msgid "pattern [SUSPENDED] [NOEXPIRE]"
-msgstr ""
+msgstr "padrão [SUSPENDED] [NOEXPIRE]"
 
 #: modules/commands/ns_list.cpp:20
 msgid "pattern [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]"
-msgstr ""
+msgstr "padrão [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]"
 
 #: modules/commands/os_jupe.cpp:20
 msgid "server [reason]"
@@ -1012,6 +1012,22 @@ msgid ""
 "Note: because the realname mask may contain spaces, the\n"
 "separator between it and the reason is a colon."
 msgstr ""
+" \n"
+"SNLINE ADD adiciona a máscara de nome real à lista SNLINE \n"
+"pelo motivo especificado (que deve ser fornecido).\n"
+"expiry é especificado como um número inteiro seguido por um \n"
+"d de (dias), h (horas) ou m (minutos). Combinações (como \n"
+"1h30m) não são permitidas. Se um especificador de unidade não \n"
+"estiver incluído, o padrão será dias (então +30 significa 30 dias). \n"
+"Para adicionar um SNLINE que não expira, use +0. Se a máscara \n"
+"de nome real (realname) a ser adicionada começar com um +, \n"
+"um tempo de expiração deverá ser fornecido, mesmo que seja o \n"
+"tempo padrão. O tempo de expiração padrão atual do SNLINE pode \n"
+"ser encontrado com o comando: \n"
+"STATS AKILL.\n"
+" \n"
+"Observação: como a máscara de nome real (realname) pode conter \n"
+"espaços, o separador entre ela e o motivo é dois pontos (\":\")."
 
 #: modules/commands/os_sxline.cpp:678
 msgid ""
@@ -1028,6 +1044,18 @@ msgid ""
 "current SQLINE default expiry time can be found with the\n"
 "STATS AKILL command."
 msgstr ""
+" \n"
+"SQLINE ADD adiciona a máscara (nick) fornecida à lista SQLINE \n"
+"pelo motivo especificado (que deve ser fornecido). \n"
+"expiry é especificado como um número inteiro seguido por um d\n"
+"de (dias), h (horas) ou m (minutos). Combinações (como \n"
+"1h30m) não são permitidas. Se um especificador de unidade não \n"
+"estiver incluído, o padrão será dias (então +30 significa 30 dias). \n"
+"Para adicionar um SQLINE que não expira, use +0. Se a máscara \n"
+"a ser adicionada começar com um +, deve ser dado um prazo de \n"
+"validade, mesmo que seja o prazo padrão. O tempo de expiração \n"
+"padrão atual do SQLINE pode ser encontrado com o comando:\n"
+"STATS AKILL."
 
 #: modules/pseudoclients/nickserv.cpp:492
 #, c-format
@@ -1129,6 +1157,9 @@ msgid ""
 " \n"
 "Fantasy commands may be prefixed with one of the following characters: %s\n"
 msgstr ""
+" \n"
+"Os comandos de fantasia (fantasy) podem ser prefixados com um \n"
+"dos seguintes caracteres: %s\n"
 
 #: modules/commands/cs_register.cpp:105
 msgid ""
@@ -1372,7 +1403,7 @@ msgstr ""
 #: modules/commands/os_oper.cpp:167
 #, c-format
 msgid "   %s is online using this oper block."
-msgstr ""
+msgstr "   %s está online usando este bloco oper."
 
 #: modules/commands/os_modinfo.cpp:55
 #, c-format
@@ -1711,27 +1742,27 @@ msgstr ""
 #: modules/commands/ns_info.cpp:74
 #, c-format
 msgid "%s is currently online."
-msgstr ""
+msgstr "%s está online no momento."
 
 #: modules/commands/os_set.cpp:23 modules/commands/os_set.cpp:25 modules/commands/os_set.cpp:27
 #, c-format
 msgid "%s is disabled"
-msgstr ""
+msgstr "%s está desativado"
 
 #: modules/commands/os_set.cpp:23 modules/commands/os_set.cpp:25 modules/commands/os_set.cpp:27
 #, c-format
 msgid "%s is enabled"
-msgstr ""
+msgstr "%s está ativado"
 
 #: modules/commands/os_dns.cpp:507
 #, c-format
 msgid "%s is not a valid IP address."
-msgstr ""
+msgstr "%s não é um endereço de IP válido."
 
 #: modules/commands/cs_log.cpp:167 modules/commands/cs_log.cpp:192
 #, c-format
 msgid "%s is not a valid command."
-msgstr ""
+msgstr "%s não é um comando válido."
 
 #: modules/commands/cs_log.cpp:198
 #, c-format
@@ -1776,7 +1807,7 @@ msgstr ""
 #: modules/commands/os_sxline.cpp:69 modules/commands/os_sxline.cpp:113
 #, c-format
 msgid "%s list is empty."
-msgstr ""
+msgstr "%s lista está vazia."
 
 #: modules/commands/cs_mode.cpp:376
 #, c-format
