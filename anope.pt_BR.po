@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-04 13:26+0200\n"
+"PO-Revision-Date: 2020-04-10 22:18-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -720,7 +720,6 @@ msgid "channel LIST [mask | list]"
 msgstr "canal LIST [máscara | lista]"
 
 #: modules/commands/cs_flags.cpp:375
-#, fuzzy
 msgid "channel LIST [mask | +flags]"
 msgstr "canal LIST [máscara | +flags]"
 
@@ -741,7 +740,6 @@ msgid "channel SET type level"
 msgstr "canal SET tipo nível"
 
 #: modules/commands/cs_akick.cpp:438
-#, fuzzy
 msgid "channel VIEW [mask | entry-num | list]"
 msgstr "canal VIEW [máscara | entry-num | lista]"
 
@@ -770,7 +768,6 @@ msgid "channel [+expiry] [reason]"
 msgstr "canal [+expiry] [motivo]"
 
 #: modules/commands/cs_ban.cpp:40
-#, fuzzy
 msgid "channel [+expiry] {nick | mask} [reason]"
 msgstr "canal [+expiração] {nick | máscara} [motivo]"
 
@@ -861,7 +858,7 @@ msgstr " apelido "
 
 #: modules/commands/os_svs.cpp:79
 msgid "nick channel"
-msgstr "nick  canal "
+msgstr "nick canal"
 
 #: modules/commands/os_svs.cpp:123
 msgid "nick channel [reason]"
@@ -2366,7 +2363,6 @@ msgid "Allowed to use GETKEY command"
 msgstr "Permitido usar comando GETKEY"
 
 #: src/access.cpp:53
-#, fuzzy
 msgid "Allowed to use SAY and ACT commands"
 msgstr "Permitido usar os comandos SAY e ACT"
 
@@ -2416,6 +2412,8 @@ msgid ""
 "Allows Services Operators to change modes for any user.\n"
 "Parameters are the same as for the standard /MODE command."
 msgstr ""
+"Permite que os operadores dos serviços alterem os modos de qualquer usuário.\n"
+"Os parâmetros são os mesmos do comando padrão /MODE."
 
 #: modules/commands/bs_bot.cpp:352
 msgid ""
@@ -2507,6 +2505,10 @@ msgid ""
 "connect, Services will not allow it to pursue his IRC\n"
 "session."
 msgstr ""
+"Permite que os operadores dos serviços manipulem a lista SNLINE. \n"
+"Se um usuário com um nome real (realname) correspondente a uma \n"
+"máscara SNLINE tentar se conectar, os Serviços não permitirão que ele \n"
+"prossiga em sua sessão e conecte-se ao IRC."
 
 #: modules/commands/os_sxline.cpp:670
 msgid ""
@@ -2519,6 +2521,13 @@ msgid ""
 "regular expression, the expression will be matched against\n"
 "channels too."
 msgstr ""
+"Permite que os operadores dos serviços manipulem a lista SQLINE. \n"
+"Se um usuário com um nick correspondente a uma máscara SQLINE \n"
+"tentar se conectar, os Serviços não permitirão que ele prossiga sua \n"
+"sessão e se conecte ao IRC.\n"
+"Se o primeiro caractere da máscara for #, os serviços impedirão o uso \n"
+"de canais correspondentes. Se a máscara for uma expressão regular, a \n"
+"expressão também será comparada com os canais."
 
 #: modules/commands/os_session.cpp:551
 msgid ""
@@ -3146,15 +3155,17 @@ msgid ""
 "Causes Services to update all database files as soon as you\n"
 "send the command."
 msgstr ""
+"Faz com que os Serviços atualizem todos os arquivos do \n"
+"banco de dados assim que você executa o comando."
 
 #: modules/commands/ns_cert.cpp:246
 #, c-format
 msgid "Certificate list for %s:"
-msgstr ""
+msgstr "Lista de certificados para %s:"
 
 #: modules/commands/cs_set.cpp:528 modules/commands/cs_set.cpp:570
 msgid "ChanServ is required to enable persist on this network."
-msgstr ""
+msgstr "O ChanServ é necessário para ativar a persistência nesta rede."
 
 #: modules/commands/os_mode.cpp:19
 msgid "Change channel modes"
@@ -4444,7 +4455,6 @@ msgid "Fantasy mode is now on on channel %s."
 msgstr ""
 
 #: modules/commands/cs_status.cpp:19
-#, fuzzy
 msgid "Find a user's status on a channel"
 msgstr "Procura o status de um usuário no canal"
 
@@ -4460,17 +4470,17 @@ msgstr ""
 
 #: modules/commands/cs_flags.cpp:301
 msgid "Flags"
-msgstr ""
+msgstr "Flags"
 
 #: modules/commands/cs_flags.cpp:286
 #, c-format
 msgid "Flags for %s on %s set to +%s"
-msgstr ""
+msgstr "Flags para %s no %s ajustado para +%s"
 
 #: modules/commands/cs_flags.cpp:341
 #, c-format
 msgid "Flags list for %s"
-msgstr ""
+msgstr "Lista Flags para %s"
 
 #: modules/commands/bs_kick.cpp:1161 modules/commands/bs_kick.cpp:1163 modules/commands/bs_kick.cpp:1166
 msgid "Flood kicker"
@@ -4517,7 +4527,7 @@ msgstr "Força um usuário entrar no canal"
 
 #: modules/commands/os_svs.cpp:112
 msgid "Forcefully join a user to a channel."
-msgstr "Forcefully join a user to a channel."
+msgstr "Força um usuário entrar no canal."
 
 #: modules/commands/os_svs.cpp:122
 msgid "Forcefully part a user from a channel"
@@ -4538,7 +4548,7 @@ msgstr "Fundador do %s modificado para %s."
 
 #: modules/commands/ns_getpass.cpp:41
 msgid "GETPASS command unavailable because encryption is in use."
-msgstr ""
+msgstr "Comando GETPASS indisponível porque a criptografia está em uso."
 
 #: modules/commands/ns_recover.cpp:84
 msgid "Ghost with your nick has been killed."
@@ -5095,6 +5105,14 @@ msgid ""
 "only users that are on the given channel. If INVISIBLE is specified, only users\n"
 "with the +i flag will be listed."
 msgstr ""
+"Lista todos os usuários online na rede de IRC, independentemente \n"
+"de seu nick estar registrado ou não.\n"
+" \n"
+"Se pattern (o padrão) for fornecido, lista apenas os usuários que \n"
+"o correspondem (deve estar no formato nick!user@host[#realname]). \n"
+"Se o canal for fornecido, lista apenas os usuários que estão no canal \n"
+"fornecido. Se INVISIBLE (invisível) for especificado, apenas os usuários \n"
+"com a flag / modo +i serão listados."
 
 #: modules/commands/ms_list.cpp:142
 msgid ""
@@ -9329,6 +9347,22 @@ msgid ""
 " \n"
 "The ALL option displays all of the above statistics."
 msgstr ""
+"Sem nenhuma opção, mostra o número atual de usuários on-line, \n"
+"o maior número de usuários on-line desde que os serviços foi iniciado, \n"
+"e o período de tempo em que os Serviços estão em execução. \n"
+" \n"
+"Com a opção AKILL mostra o tamanho da lista de AKILL\n"
+"e o tempo de expiração padrão.\n"
+" \n"
+"Com a opção RESET redefine a contagem máxima de usuários \n"
+"para o número de usuários atualmente presentes na rede.\n"
+" \n"
+"Com a opção UPLINK mostra informações sobre o servidor \n"
+"atual que os serviços usa como um uplink para a rede.\n"
+" \n"
+"Com a opção HASH mostra informações sobre os mapas de hash.\n"
+" \n"
+"Com a opção ALL exibe todas as estatísticas acima."
 
 #: modules/commands/bs_badwords.cpp:194
 msgid "Word"
