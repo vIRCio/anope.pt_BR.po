@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-14 12:24+0200\n"
+"PO-Revision-Date: 2020-04-14 11:52-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -1568,12 +1568,12 @@ msgstr ""
 #: modules/commands/cs_seen.cpp:358
 #, c-format
 msgid "%s (%s) was kicked from %s (\"%s\") %s ago%s"
-msgstr ""
+msgstr "%s (%s) foi chutado de %s (\"%s\") %s atrás%s"
 
 #: modules/commands/cs_seen.cpp:355
 #, c-format
 msgid "%s (%s) was kicked from a secret channel %s ago%s"
-msgstr ""
+msgstr "%s (%s) foi kickado de um canal secreto %s ago%s"
 
 #: modules/commands/cs_seen.cpp:326
 #, c-format
@@ -1952,15 +1952,15 @@ msgstr ""
 
 #: modules/commands/cs_access.cpp:710
 msgid "(disabled)"
-msgstr ""
+msgstr "(desabilitado)"
 
 #: modules/commands/cs_access.cpp:712
 msgid "(founder only)"
-msgstr ""
+msgstr "(apenas fundador)"
 
 #: src/misc.cpp:367
 msgid "(now)"
-msgstr ""
+msgstr "(agora)"
 
 #: modules/commands/os_defcon.cpp:168
 msgid "* AKILL any new clients connecting"
@@ -1985,15 +1985,15 @@ msgstr ""
 
 #: modules/commands/os_defcon.cpp:152
 msgid "* No new channel registrations"
-msgstr ""
+msgstr "* Nenhum novo registro de canal"
 
 #: modules/commands/os_defcon.cpp:170
 msgid "* No new memos sent"
-msgstr ""
+msgstr "* Nenhum novo memo enviado"
 
 #: modules/commands/os_defcon.cpp:154
 msgid "* No new nick registrations"
-msgstr ""
+msgstr "* Nenhum novo registro de nicks"
 
 #: modules/commands/os_defcon.cpp:166
 msgid "* Silently ignore non-opers"
@@ -2012,7 +2012,7 @@ msgstr ""
 #: modules/commands/cs_seen.cpp:317
 #, c-format
 msgid ". %s is still online."
-msgstr ""
+msgstr ". %s continua online."
 
 #: include/language.h:87
 msgid "<unknown>"
@@ -2021,7 +2021,7 @@ msgstr ""
 #: modules/commands/ns_set.cpp:504
 #, c-format
 msgid "A confirmation e-mail has been sent to %s. Follow the instructions in it to change your e-mail address."
-msgstr ""
+msgstr "A confirmation e-mail has been sent to %s. Follow the instructions in it to change your e-mail address."
 
 #: modules/commands/ms_sendall.cpp:45
 msgid "A massmemo has been sent to all registered users."
