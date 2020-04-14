@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-14 14:28-0300\n"
+"PO-Revision-Date: 2020-04-14 17:09-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -1836,42 +1836,42 @@ msgstr "%s não é um comando válido."
 #: modules/commands/cs_log.cpp:198
 #, c-format
 msgid "%s is not a valid logging method."
-msgstr ""
+msgstr "%s não é um meio de log válido."
 
 #: modules/commands/ms_info.cpp:124
 #, c-format
 msgid "%s is not notified of new memos."
-msgstr ""
+msgstr "%s não é notificado de novos memos."
 
 #: modules/commands/ms_info.cpp:118
 #, c-format
 msgid "%s is notified of new memos at logon and when they arrive."
-msgstr ""
+msgstr "%s é notificado de novos memos ao conectar e quando eles chegam."
 
 #: modules/commands/ms_info.cpp:122
 #, c-format
 msgid "%s is notified of new memos at logon."
-msgstr ""
+msgstr "%s é notificado de novos memos ao conectar."
 
 #: modules/commands/ms_info.cpp:120
 #, c-format
 msgid "%s is notified when new memos arrive."
-msgstr ""
+msgstr "%s é notificado de novos memos quando chegam."
 
 #: modules/commands/cs_seen.cpp:232
 #, c-format
 msgid "%s is on the channel right now (as %s)!"
-msgstr ""
+msgstr "%s está no canal neste exato momento (como %s)!"
 
 #: modules/commands/cs_seen.cpp:221
 #, c-format
 msgid "%s is on the channel right now!"
-msgstr ""
+msgstr "%s está no canal neste exato momento!"
 
 #: modules/commands/cs_xop.cpp:434
 #, c-format
 msgid "%s list for %s"
-msgstr ""
+msgstr "%s lista para %s"
 
 #: modules/commands/os_sxline.cpp:69 modules/commands/os_sxline.cpp:113
 #, c-format
@@ -1881,22 +1881,22 @@ msgstr "%s lista está vazia."
 #: modules/commands/cs_mode.cpp:376
 #, c-format
 msgid "%s locked on %s."
-msgstr ""
+msgstr "%s trancado em %s."
 
 #: modules/extra/stats/cs_fantasy_stats.cpp:120
 #, c-format
 msgid "%s not found."
-msgstr ""
+msgstr "%s não encontrado."
 
 #: modules/commands/os_config.cpp:79
 #, c-format
 msgid "%s settings:"
-msgstr ""
+msgstr "%s configurações:"
 
 #: modules/commands/cs_seen.cpp:255
 #, c-format
 msgid "%s was last seen here %s ago."
-msgstr ""
+msgstr "%s foi visto pela última vez aqui %s atrás."
 
 #: modules/commands/ns_ajoin.cpp:213
 #, c-format
@@ -1946,12 +1946,12 @@ msgstr ""
 #: modules/commands/ns_ajoin.cpp:111
 #, c-format
 msgid "%s's auto join list:"
-msgstr ""
+msgstr "%s's lista de entrar automaticamente:"
 
 #: modules/commands/ns_cert.cpp:242
 #, c-format
 msgid "%s's certificate list is empty."
-msgstr ""
+msgstr "%s's lista de certificado está vazia."
 
 #: modules/commands/ms_info.cpp:99 modules/commands/ms_info.cpp:106
 #, c-format
@@ -1975,12 +1975,12 @@ msgstr ""
 
 #: modules/commands/os_dns.cpp:244
 msgid "(Split)"
-msgstr ""
+msgstr "(Separado)"
 
 #: modules/commands/os_info.cpp:268
 #, c-format
 msgid "(by %s on %s) %s"
-msgstr ""
+msgstr "(por %s em %s) %s"
 
 #: modules/commands/cs_access.cpp:710
 msgid "(disabled)"
