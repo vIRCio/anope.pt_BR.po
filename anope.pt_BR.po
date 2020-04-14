@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-13 22:20+0200\n"
+"PO-Revision-Date: 2020-04-13 23:41-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -1432,7 +1432,7 @@ msgstr ""
 #: modules/commands/os_modinfo.cpp:43
 #, c-format
 msgid "   Providing service: %s"
-msgstr ""
+msgstr "   Prestando serviço: %s"
 
 #: modules/commands/os_oper.cpp:163
 msgid "   This oper is configured in the configuration file."
@@ -1446,7 +1446,7 @@ msgstr ""
 #: modules/commands/cs_seen.cpp:303
 #, c-format
 msgid " but %s mysteriously dematerialized."
-msgstr ""
+msgstr " mas %s misteriosamente desmaterializou."
 
 #: src/messages.cpp:339
 #, c-format
@@ -1616,28 +1616,28 @@ msgstr ""
 #: src/xline.cpp:389
 #, c-format
 msgid "%s already exists."
-msgstr ""
+msgstr "%s já existe."
 
 #: modules/commands/cs_akick.cpp:202 modules/commands/cs_akick.cpp:387 modules/commands/cs_akick.cpp:400
 #, c-format
 msgid "%s autokick list is empty."
-msgstr ""
+msgstr "A lista de auto kick do %s está vazia."
 
 #: modules/commands/bs_badwords.cpp:198 modules/commands/bs_badwords.cpp:316
 #, c-format
 msgid "%s bad words list is empty."
-msgstr ""
+msgstr "A lista de palavrões (bad words) do %s está vazia."
 
 #: modules/commands/cs_set.cpp:993
 #, c-format
 msgid "%s cannot be the successor on channel %s as they are the founder."
-msgstr ""
+msgstr "%s não pode ser o sucessor do canal %s pois já é o fundador."
 
 #: modules/pseudoclients/global.cpp:90 modules/pseudoclients/operserv.cpp:287
 #: modules/pseudoclients/hostserv.cpp:78
 #, c-format
 msgid "%s commands:"
-msgstr ""
+msgstr "%s comandos:"
 
 #: include/language.h:69
 #, c-format
@@ -1647,37 +1647,37 @@ msgstr ""
 #: modules/commands/ms_info.cpp:94
 #, c-format
 msgid "%s currently has %d memos, of which %d are unread."
-msgstr ""
+msgstr "%s atualmente tem %d memos, dois quais %d não foram lidos."
 
 #: modules/commands/ms_info.cpp:92
 #, c-format
 msgid "%s currently has %d memos, of which 1 is unread."
-msgstr ""
+msgstr "%s atualmente tem %d memos, dois quais 1 não foi lido."
 
 #: modules/commands/ms_info.cpp:90
 #, c-format
 msgid "%s currently has %d memos."
-msgstr ""
+msgstr "%s atualmente tem %d memos."
 
 #: modules/commands/ms_info.cpp:88
 #, c-format
 msgid "%s currently has %d memos; all of them are unread."
-msgstr ""
+msgstr "%s atualmente tem %d memos; nenhum foi lido."
 
 #: modules/commands/ms_info.cpp:77
 #, c-format
 msgid "%s currently has 1 memo, and it has not yet been read."
-msgstr ""
+msgstr "%s atualmente tem 1 memo, que ainda não foi lido."
 
 #: modules/commands/ms_info.cpp:79
 #, c-format
 msgid "%s currently has 1 memo."
-msgstr ""
+msgstr "%s atualmente tem 1 memo."
 
 #: modules/commands/ms_info.cpp:73
 #, c-format
 msgid "%s currently has no memos."
-msgstr ""
+msgstr "%s atualmente não tem memos."
 
 #: modules/commands/os_forbid.cpp:344
 #, c-format
@@ -2181,6 +2181,9 @@ msgid ""
 "This will show to opers in the respective info command for\n"
 "the nick or channel."
 msgstr ""
+"Adiciona ou exclui informações de operação para um determinado \n"
+"nick ou canal. Isso será exibido para os operadores no respectivo \n"
+"comando info para o nick ou canal."
 
 #: modules/commands/os_dns.cpp:515
 #, c-format
@@ -2455,10 +2458,11 @@ msgid ""
 "Alternatively, CLEAR may be given to clear all modes on the channel.\n"
 "If CLEAR ALL is given then all modes, including user status, is removed."
 msgstr ""
-"Permite Operadores de Serviços modificar modos de qualquer canal.\n"
+"Permite Operadores dos Serviços modificar modos de qualquer canal.\n"
 "Os parâmetros são os mesmos que são usados no comando padrão /MODE .\n"
-"Alternativamente, CLEAR pode ser usado para limpar todos os modos do canal.\n"
-"Se CLEAR ALL for utilizado, então todos os modos (incluindo status de usuário) são removidos."
+"Alternativamente, CLEAR pode ser usado para limpar todos os modos do \n"
+"canal. Se CLEAR ALL for utilizado, então todos os modos (incluindo status \n"
+"de usuário) são removidos."
 
 #: modules/commands/os_mode.cpp:173
 msgid ""
@@ -2526,13 +2530,14 @@ msgid ""
 " \n"
 "Ignores will not be enforced on IRC Operators."
 msgstr ""
-"Permite Operadores de Serviços fazer com que Serviços ignorem um nick ou máscara\n"
-"por um certo tempo ou até o próximo restart. O formato\n"
-"de tempo padrão é em segundos. Você pode especificá-lo usando unidades.\n"
-"Unidades válidas são: s para segundos, m para minutos,\n"
-"h para horas e d para dias.\n"
+"Permite Operadores dos Serviços fazer com que Serviços ignorem \n"
+"um nick ou máscara por um certo tempo ou até o próximo restart. \n"
+"O formato de tempo padrão é em segundos. Você pode especificá-lo \n"
+"usando unidades. Unidades válidas são: s para segundos, m para \n"
+"minutos, h para horas e d para dias. \n"
 "Combinações com estas unidades não são permitidas.\n"
-"Para fazer com que os Serviços ignorem o usuário permanentemente, digite 0 como tempo.\n"
+"Para fazer com que os Serviços ignorem o usuário permanentemente, \n"
+"digite 0 como tempo.\n"
 "Ao adicionar uma máscara, ela deve estar no formato nick!usuário@host,\n"
 "todo o resto será considerado um nick. Asteriscos são permitidos.\n"
 " \n"
@@ -2561,7 +2566,7 @@ msgid ""
 "current AKILL default expiry time can be found with the\n"
 "STATS AKILL command."
 msgstr ""
-"Permite que os operadores de serviços manipulem a lista AKILL. Se \n"
+"Permite que os operadores dos serviços manipulem a lista AKILL. Se \n"
 "um usuário correspondente a uma máscara AKILL tentar se conectar, \n"
 "os Serviços emitirão um KILL para esse usuário e, nos tipos de \n"
 "servidor suportados, instruirão todos os servidores a adicionar um \n"
@@ -2672,12 +2677,13 @@ msgid ""
 " \n"
 "*** SpamMan has been kicked off channel #my_channel by %s (Alcan (Flood))"
 msgstr ""
-"Permite a equipe de kickar um usuário de qualquer canal.\n"
-"Os parâmetros são os mesmos do que o comando padrão /KICK\n"
-"A mensagem de kick terá o nickname do\n"
-"IRCop enviando o comando KICK anexado; por exemplo:\n"
+"Permite a equipe kickar um usuário de qualquer canal.\n"
+"Os parâmetros são os mesmos do que o comando padrão \n"
+"/KICK\n"
+"A mensagem de kick terá o nick do IRCop enviando o comando \n"
+"KICK anexado; por exemplo:\n"
 " \n"
-"*** SpamMan foi kickado do canal #my_channel por %s (Alcan (Flood))"
+"*** GarotoPropaganda foi kickado do canal #Chan por %s (Alcan (Flood))"
 
 #: modules/commands/cs_set.cpp:33
 msgid ""
@@ -4193,11 +4199,11 @@ msgid ""
 "sent in order to avoid flooding the user.  If there are\n"
 "more news messages, only the most recent will be sent."
 msgstr ""
-"Edita ou mostra a lista de mensagens de logon news.  Quando um\n"
+"Edita ou mostra a lista de mensagens de logon news. Quando um\n"
 "usuário conectar a uma rede, estas mensagens serão enviadas\n"
-"a eles.  No entanto, não mais do que %d mensagens serão\n"
-"enviadas para evitar flood.  Caso existam\n"
-"mais mensagens novas, apenas a mais recente será mostrada."
+"a eles. No entanto, não mais do que %d mensagens serão\n"
+"enviadas para evitar flood. Caso existammais mensagens novas, \n"
+"apenas a mais recente será mostrada."
 
 #: modules/commands/os_news.cpp:336
 #, c-format
@@ -5119,7 +5125,7 @@ msgid ""
 msgstr ""
 "Lista todos os canais registrados que correspondem ao padrão especificado. \n"
 "Os canais configurados com a opção PRIVATE serão exibidos apenas para \n"
-"operadores de serviços com o acesso adequado. Os canais configurados com \n"
+"operadores dos serviços com o acesso adequado. Os canais configurados com \n"
 "a opção NOEXPIRE terão um prefixo ! para visualização dos operadores \n"
 "dos serviços.\n"
 " \n"
@@ -5330,7 +5336,7 @@ msgid ""
 "This command may be unnecessary if your oper block is\n"
 "configured without a password."
 msgstr ""
-"Faz login no %s para ganhar privilégios de Operador de Serviços.\n"
+"Faz login no %s para ganhar privilégios de Operador dos Serviços.\n"
 "Este comando pode ser desnecessário se seu oper block está\n"
 "configurado sem uma senha."
 
@@ -7025,7 +7031,7 @@ msgstr "Envia um memo a todos os usuários registrados com memo-text."
 
 #: modules/commands/ms_staff.cpp:48
 msgid "Sends all services staff a memo containing memo-text."
-msgstr "Envia um memo para equipe de serviços com memo-text."
+msgstr "Envia um memo para equipe dos serviços com memo-text."
 
 #: modules/commands/ms_send.cpp:66
 msgid ""
