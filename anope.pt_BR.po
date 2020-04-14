@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-14 13:06-0300\n"
+"PO-Revision-Date: 2020-04-14 14:28-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -1477,7 +1477,7 @@ msgstr "   %s está online usando este bloco oper."
 #: modules/commands/os_modinfo.cpp:55
 #, c-format
 msgid "   Command %s on %s is linked to %s"
-msgstr ""
+msgstr "   Comando %s em %s está ligado ao %s"
 
 #: modules/commands/os_modinfo.cpp:43
 #, c-format
@@ -1486,12 +1486,12 @@ msgstr "   Prestando serviço: %s"
 
 #: modules/commands/os_oper.cpp:163
 msgid "   This oper is configured in the configuration file."
-msgstr ""
+msgstr "   Este oper está configurado no arquivo de configuração."
 
 #: modules/commands/os_modinfo.cpp:34
 #, c-format
 msgid " Loaded at: %p"
-msgstr ""
+msgstr " Carregado em: %p"
 
 #: modules/commands/cs_seen.cpp:303
 #, c-format
@@ -1501,7 +1501,7 @@ msgstr " mas %s misteriosamente desmaterializou."
 #: src/messages.cpp:339
 #, c-format
 msgid "\"/msg %s\" is no longer supported.  Use \"/msg %s@%s\" or \"/%s\" instead."
-msgstr ""
+msgstr "\"/msg %s\" não é mais suportado.  Ao invés use \"/msg %s@%s\" ou \"/%s\"."
 
 #: modules/commands/os_jupe.cpp:19
 msgid "\"Jupiter\" a server"
@@ -1510,92 +1510,92 @@ msgstr "\"Jupa\" um servidor"
 #: modules/commands/os_oper.cpp:161
 #, c-format
 msgid "%-8s %s"
-msgstr ""
+msgstr "%-8s %s"
 
 #: modules/extra/stats/cs_fantasy_top.cpp:152
 #, c-format
 msgid "%2lu %-16s letters: %s, words: %s, lines: %s, smileys: %s, actions: %s"
-msgstr ""
+msgstr "%2lu %-16s letras: %s, palavras: %s, linhas: %s, carinhas %s, ações: %s"
 
 #: src/misc.cpp:359
 msgid "%b %d %H:%M:%S %Y %Z"
-msgstr ""
+msgstr "%b %d %H:%M:%S %Y %Z"
 
 #: modules/commands/cs_log.cpp:205
 #, c-format
 msgid "%c is an unknown status mode."
-msgstr ""
+msgstr "%c é um modo de status desconhecido."
 
 #: modules/commands/cs_mode.cpp:431
 #, c-format
 msgid "%c%c is not locked on %s."
-msgstr ""
+msgstr "%c%c não está travado em %s."
 
 #: modules/commands/cs_mode.cpp:427
 #, c-format
 msgid "%c%c%s has been unlocked from %s."
-msgstr ""
+msgstr "%c%c%s foi destravado de %s."
 
 #: modules/commands/cs_clone.cpp:56
 #, c-format
 msgid "%d access entries from %s have been cloned to %s."
-msgstr ""
+msgstr "%d entradas de acesso de %s foram clonadas para %s."
 
 #: modules/commands/bs_botlist.cpp:56
 #, c-format
 msgid "%d bots available."
-msgstr ""
+msgstr "%d bots disponíveis."
 
 #: modules/commands/os_modinfo.cpp:189
 #, c-format
 msgid "%d modules loaded."
-msgstr ""
+msgstr "%d mdulos carregados."
 
 #: modules/commands/ns_group.cpp:357
 #, c-format
 msgid "%d nickname(s) in the group."
-msgstr ""
+msgstr "%d nick(s) no grupo."
 
 #: modules/commands/cs_seen.cpp:137
 #, c-format
 msgid "%lu nicks are stored in the database, using %.2Lf kB of memory."
-msgstr ""
+msgstr "%lu nicks estão guardados na base de dados, usando %.2Lf kB da memória."
 
 #: modules/commands/cs_xop.cpp:241 modules/commands/cs_xop.cpp:372 modules/commands/cs_xop.cpp:450
 #, c-format
 msgid "%s %s list is empty."
-msgstr ""
+msgstr "%s %s lista está vazia."
 
 #: modules/commands/bs_kick.cpp:1151 modules/commands/bs_kick.cpp:1181 modules/commands/bs_kick.cpp:1191
 #: modules/commands/bs_kick.cpp:1201 modules/commands/bs_kick.cpp:1211
 #, c-format
 msgid "%s (%d kick(s) to ban)"
-msgstr ""
+msgstr "%s (%d kick(s) para banir)"
 
 #: modules/commands/bs_kick.cpp:1161
 #, c-format
 msgid "%s (%d kick(s) to ban; %d lines in %ds)"
-msgstr ""
+msgstr "%s (%d kick(s) para banir; %d linhas em %ds)"
 
 #: modules/commands/bs_kick.cpp:1171
 #, c-format
 msgid "%s (%d kick(s) to ban; %d times)"
-msgstr ""
+msgstr "%s (%d kick(s) para banir; %d vezes)"
 
 #: modules/commands/bs_kick.cpp:1141
 #, c-format
 msgid "%s (%d kick(s) to ban; minimum %d/%d%%)"
-msgstr ""
+msgstr "%s (%d kick(s) para banir; mínimo %d/%d%%)"
 
 #: modules/commands/bs_kick.cpp:1163
 #, c-format
 msgid "%s (%d lines in %ds)"
-msgstr ""
+msgstr "%s (%d linhas em %ds)"
 
 #: modules/commands/bs_kick.cpp:1173
 #, c-format
 msgid "%s (%d times)"
-msgstr ""
+msgstr "%s (%d vezes)"
 
 #: modules/commands/cs_seen.cpp:358
 #, c-format
@@ -1610,58 +1610,58 @@ msgstr "%s (%s) foi kickado de um canal secreto %s ago%s"
 #: modules/commands/cs_seen.cpp:326
 #, c-format
 msgid "%s (%s) was last seen changing nick from %s to %s %s ago%s"
-msgstr ""
+msgstr "%s (%s) foi visto pela última vez mudando o nick de %s para %s %s atrás%s"
 
 #: modules/commands/cs_seen.cpp:321
 #, c-format
 msgid "%s (%s) was last seen changing nick to %s %s ago%s"
-msgstr ""
+msgstr "%s (%s) foi visto pela última vez mudando o nick para%s %s atrás%s"
 
 #: modules/commands/cs_seen.cpp:310
 #, c-format
 msgid "%s (%s) was last seen connecting %s ago (%s)%s"
-msgstr ""
+msgstr "%s (%s) foi visto pela última vez conectando %s atrás (%s)%s"
 
 #: modules/commands/cs_seen.cpp:335
 #, c-format
 msgid "%s (%s) was last seen joining %s %s ago%s"
-msgstr ""
+msgstr "%s (%s) foi visto pela última vez entrando %s %s atrás%s"
 
 #: modules/commands/cs_seen.cpp:332
 #, c-format
 msgid "%s (%s) was last seen joining a secret channel %s ago%s"
-msgstr ""
+msgstr "%s (%s) foi visto pela última vez entrando em um canal secreto %s atrás%s"
 
 #: modules/commands/cs_seen.cpp:344
 #, c-format
 msgid "%s (%s) was last seen parting %s %s ago%s"
-msgstr ""
+msgstr "%s (%s) foi visto pela última vez saindo %s %s atrás%s"
 
 #: modules/commands/cs_seen.cpp:341
 #, c-format
 msgid "%s (%s) was last seen parting a secret channel %s ago%s"
-msgstr ""
+msgstr "%s (%s) foi visto pela última vez saindo de um canal secreto %s atrás%s"
 
 #: modules/commands/cs_seen.cpp:349
 #, c-format
 msgid "%s (%s) was last seen quitting (%s) %s ago (%s)."
-msgstr ""
+msgstr "%s (%s) foi visto pela última vez desconectando (%s) %s atrás (%s)."
 
 #: modules/commands/bs_kick.cpp:1143
 #, c-format
 msgid "%s (minimum %d/%d%%)"
-msgstr ""
+msgstr "%s (mínimo %d/%d%%)"
 
 #: modules/commands/cs_flags.cpp:295 modules/commands/cs_access.cpp:245 modules/commands/cs_access.cpp:349
 #: modules/commands/cs_access.cpp:454 modules/commands/cs_access.cpp:467
 #, c-format
 msgid "%s access list is empty."
-msgstr ""
+msgstr "Lista de acesso do %s está vazia."
 
 #: modules/commands/ns_ajoin.cpp:184
 #, c-format
 msgid "%s added to %s's auto join list."
-msgstr ""
+msgstr "%s adicionado a lista de auto join de %s."
 
 #: src/xline.cpp:389
 #, c-format
@@ -1692,7 +1692,7 @@ msgstr "%s comandos:"
 #: include/language.h:69
 #, c-format
 msgid "%s coverage is too wide; Please use a more specific mask."
-msgstr ""
+msgstr "%s tem uma cobertura muito grande; Por favor use uma máscara mais especifica."
 
 #: modules/commands/ms_info.cpp:94
 #, c-format
@@ -1732,72 +1732,72 @@ msgstr "%s atualmente não tem memos."
 #: modules/commands/os_forbid.cpp:344
 #, c-format
 msgid "%s deleted from the %s forbid list."
-msgstr ""
+msgstr "%s deletado da lista de proibidos do %s ."
 
 #: include/language.h:105
 #, c-format
 msgid "%s for %s set to %s."
-msgstr ""
+msgstr "%s do %s configurado para %s."
 
 #: include/language.h:106
 #, c-format
 msgid "%s for %s unset."
-msgstr ""
+msgstr "%s do %s desconfigurado."
 
 #: modules/commands/ns_ajoin.cpp:176
 #, c-format
 msgid "%s had an invalid key specified, and was thus ignored."
-msgstr ""
+msgstr "%s tinha uma chave inválida especificada, e portanto, foi ignorada."
 
 #: modules/commands/ms_info.cpp:111
 #, c-format
 msgid "%s has no memo limit."
-msgstr ""
+msgstr "%s não tem limite de memos."
 
 #: include/language.h:115
 #, c-format
 msgid "%s has no memos."
-msgstr ""
+msgstr "%s não tem memos."
 
 #: include/language.h:118
 #, c-format
 msgid "%s has no new memos."
-msgstr ""
+msgstr "%s não tem novos memos."
 
 #: modules/commands/ns_info.cpp:53
 #, c-format
 msgid "%s is %s"
-msgstr ""
+msgstr "%s é %s"
 
 #: modules/commands/ns_info.cpp:59
 #, c-format
 msgid "%s is a Services Operator of type %s."
-msgstr ""
+msgstr "%s é um Operador dos Serviços do tipo %s."
 
 #: modules/commands/cs_seen.cpp:281
 #, c-format
 msgid "%s is a client on services."
-msgstr ""
+msgstr "%s é um cliente nos serviços."
 
 #: modules/commands/cs_seen.cpp:200
 #, c-format
 msgid "%s is a network service."
-msgstr ""
+msgstr "%s é um serviço da rede."
 
 #: src/xline.cpp:407
 #, c-format
 msgid "%s is already covered by %s."
-msgstr ""
+msgstr "%s já está coberto por %s."
 
 #: modules/commands/ns_ajoin.cpp:170
 #, c-format
 msgid "%s is already on %s's auto join list."
-msgstr ""
+msgstr "%s já está na lista de auto-entrada do %s."
 
 #: modules/commands/ns_info.cpp:56
 #, c-format
 msgid "%s is an unconfirmed nickname."
-msgstr ""
+msgstr "%s é um nick não confirmado."
 
 #: modules/commands/cs_flags.cpp:432
 #, c-format
