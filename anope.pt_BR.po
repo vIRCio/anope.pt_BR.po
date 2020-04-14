@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-13 23:41-0300\n"
+"PO-Revision-Date: 2020-04-14 00:23-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -8960,7 +8960,7 @@ msgstr ""
 #: modules/commands/cs_topic.cpp:54
 #, c-format
 msgid "Topic retention option for %s is now on."
-msgstr ""
+msgstr "Retenção de tópico para o %s está agora ativado."
 
 #: modules/commands/cs_topic.cpp:265
 msgid "Topic set by"
@@ -9030,7 +9030,7 @@ msgstr ""
 
 #: modules/extra/stats/m_chanstats.cpp:142
 msgid "Turns chanstats channel statistics ON or OFF for this user."
-msgstr ""
+msgstr "Ativa/Desativa as estatísticas do Chanstats."
 
 #: modules/extra/stats/m_chanstats.cpp:61 modules/extra/stats/m_chanstats.cpp:119
 msgid "Turns chanstats statistics ON or OFF."
@@ -9137,6 +9137,9 @@ msgid ""
 "Your privacy is respected; this e-mail won't be given to\n"
 "any third-party person."
 msgstr ""
+"Digite %s%s SET EMAIL e-mail para redefinir o seu e-mail.\n"
+"Sua privacidade é respeitada; este e-mail não será repassado à\n"
+"terceiros de forma alguma."
 
 #: modules/commands/os_module.cpp:128
 msgid "Un-Load a module"
@@ -9145,7 +9148,7 @@ msgstr "Descarrega um módulo"
 #: modules/commands/os_akill.cpp:136 modules/commands/os_sxline.cpp:337 modules/commands/os_sxline.cpp:552
 #, c-format
 msgid "Unable to find regex engine %s."
-msgstr ""
+msgstr "Incapaz de encontrar a regex engine %s."
 
 #: modules/commands/os_module.cpp:36 modules/commands/os_module.cpp:108
 #, c-format
@@ -9177,36 +9180,36 @@ msgstr ""
 
 #: modules/commands/bs_kick.cpp:1191 modules/commands/bs_kick.cpp:1193 modules/commands/bs_kick.cpp:1196
 msgid "Underlines kicker"
-msgstr ""
+msgstr "Kick sublinhado"
 
 #: modules/commands/os_dns.cpp:595
 msgid "Unknown SET option."
-msgstr ""
+msgstr "Desconhecida opção de SET."
 
 #: modules/commands/os_stats.cpp:229
 #, c-format
 msgid "Unknown STATS option: %s"
-msgstr ""
+msgstr "Desconhecida opção de STATS: %s"
 
 #: src/command.cpp:222 src/command.cpp:233
 #, c-format
 msgid "Unknown command %s."
-msgstr ""
+msgstr "Comando desconhecido %s."
 
 #: src/command.cpp:220 src/command.cpp:231
 #, c-format
 msgid "Unknown command %s. \"%s%s HELP\" for help."
-msgstr ""
+msgstr "Comando desconhecido %s. \"%s%s HELP\" para obter ajuda."
 
 #: modules/commands/cs_mode.cpp:317 modules/commands/cs_mode.cpp:409
 #, c-format
 msgid "Unknown mode character %c ignored."
-msgstr ""
+msgstr "Caractere de modo desconhecido %c ignorado."
 
 #: modules/commands/os_logsearch.cpp:78
 #, c-format
 msgid "Unknown parameter: %s"
-msgstr ""
+msgstr "Parâmetro desconhecido: %s"
 
 #: modules/commands/os_dns.cpp:241
 msgid "Unpooled"
@@ -9242,10 +9245,14 @@ msgid ""
 "omitted then your status is updated. If channel is omitted then\n"
 "your channel status is updated on every channel you are in."
 msgstr ""
+"Atualiza os modos de status dos nicks selecionados em um canal. \n"
+"Se o nick é omitido então seu proprio status é atualizado. Se \n"
+"o canal for omitido então o status do seu canal é atualizado em \n"
+"todos os canais em que você está."
 
 #: modules/commands/cs_updown.cpp:48
 msgid "Updates a selected nicks status on a channel"
-msgstr ""
+msgstr "Atualiza o status de nicks selecionados em um canal"
 
 #: modules/commands/ns_update.cpp:19
 msgid "Updates your current status, i.e. it checks for new memos"
@@ -9268,12 +9275,12 @@ msgstr "Atualizando banco de dados."
 #: modules/commands/os_stats.cpp:154
 #, c-format
 msgid "Uplink capab: %s"
-msgstr ""
+msgstr "Uplink capab: %s"
 
 #: modules/commands/os_stats.cpp:153
 #, c-format
 msgid "Uplink server: %s"
-msgstr ""
+msgstr "Uplink Servidor: %s"
 
 #: modules/commands/help.cpp:127
 #, c-format
