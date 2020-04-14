@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-14 00:41-0300\n"
+"PO-Revision-Date: 2020-04-14 12:07+0200\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -2654,6 +2654,20 @@ msgid ""
 "limiting and how to set session limits specific to certain\n"
 "hosts and groups thereof."
 msgstr ""
+"Permite que os Operadores de Serviço vejam a lista de sessão.\n"
+" \n"
+"SESSION LIST lista hosts com pelo menos um limite de sessões.\n"
+"O limite deve ser um número maior que 1. Isto serve para\n"
+"prevenir listagem acidental de um grande número de hosts\n"
+"com uma única sessão.\n"
+" \n"
+"SESSION VIEW mostra informação detalhada sobre um host\n"
+"específico - incluindo a contagem da sessão atual e limite de sessão.\n"
+"O valor host não pode conter asterisco.\n"
+" \n"
+"Veja a entrada de ajuda EXCEPTION para mais informações sobre limite de\n"
+"sessão e sobre como ajustar limites de sessão para certos\n"
+"hosts e grupos de hosts."
 
 #: modules/commands/cs_topic.cpp:193
 msgid ""
@@ -2699,6 +2713,9 @@ msgid ""
 "Note that operators removed by this command but are still set in\n"
 "the configuration file are not permanently affected by this."
 msgstr ""
+"Permite mudar e mostrar os Operadores de Serviço.\n"
+"Perceba que operadores removidos por este comando ainda estão presentes no\n"
+"arquivo de configuração e não são permanentemente afetados por isso."
 
 #: modules/commands/os_config.cpp:127
 msgid ""
@@ -4214,6 +4231,11 @@ msgid ""
 "be sent in order to avoid flooding the user.  If there are\n"
 "more news messages, only the most recent will be sent."
 msgstr ""
+"Edita ou mostra a lista de mensagens de oper.  Quando um\n"
+"usuário ganha oper (com o comando /OPER), essas mensagens serão\n"
+"enviadas a ele.  No entanto, não mais do que %d mensagens serão\n"
+"enviadas para evitar floodar o usuário.  Se não houver\n"
+"mais mensagens novas, apenas a mais recente será enviada."
 
 #: modules/commands/os_news.cpp:363
 msgid ""
@@ -5027,7 +5049,7 @@ msgstr "Lista para o modo %c está cheio."
 
 #: modules/commands/os_modinfo.cpp:80
 msgid "List loaded modules"
-msgstr "Lista os módulos carregados"
+msgstr "Lista de módulos carregados"
 
 #: modules/commands/ns_list.cpp:123 modules/commands/cs_list.cpp:72
 #, c-format
@@ -5255,7 +5277,7 @@ msgstr "Lista os bots disponíveis"
 
 #: modules/commands/os_modinfo.cpp:196
 msgid "Lists currently loaded modules."
-msgstr ""
+msgstr "Lista os módulos carregados no momento."
 
 #: modules/commands/cs_info.cpp:19
 msgid "Lists information about the specified registered channel"
