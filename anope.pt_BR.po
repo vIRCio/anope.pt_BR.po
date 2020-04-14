@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-14 00:23-0300\n"
+"PO-Revision-Date: 2020-04-14 00:41-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -8570,7 +8570,7 @@ msgstr ""
 #: modules/pseudoclients/memoserv.cpp:193
 #, c-format
 msgid "There is %d memo on channel %s."
-msgstr ""
+msgstr "Existe %d memo no canal %s."
 
 #: include/language.h:110
 #, c-format
@@ -8578,37 +8578,39 @@ msgid ""
 "There is a new memo on channel %s.\n"
 "Type %s%s READ %s %d to read it."
 msgstr ""
+"Há um novo memo no canal %s.\n"
+"Digite %s%s READ %s %d para ler."
 
 #: modules/commands/bs_assign.cpp:132
 #, c-format
 msgid "There is no bot assigned to %s anymore."
-msgstr ""
+msgstr "Não há mais nenhum bot associado ao %s."
 
 #: modules/commands/os_news.cpp:33
 msgid "There is no logon news."
-msgstr ""
+msgstr "Não há notícias de logon."
 
 #: modules/commands/os_news.cpp:43
 msgid "There is no oper news."
-msgstr ""
+msgstr "Não há notícias para opers (ircops)."
 
 #: modules/commands/os_news.cpp:53
 msgid "There is no random news."
-msgstr ""
+msgstr "Não há random notícias (aleatórias)."
 
 #: modules/commands/os_config.cpp:41
 #, c-format
 msgid "There is no such configuration block %s."
-msgstr ""
+msgstr "Não existe esse bloco de configuração %s."
 
 #: modules/commands/cs_mode.cpp:706
 #, c-format
 msgid "There is no such mode %s."
-msgstr ""
+msgstr "Não existe esse modo %s."
 
 #: modules/commands/ms_set.cpp:52
 msgid "There's no email address set for your nick."
-msgstr ""
+msgstr "Não há endereço de e-mail setado para o seu nick."
 
 #: modules/commands/os_forbid.cpp:304 modules/commands/os_forbid.cpp:496
 #, c-format
@@ -8693,7 +8695,7 @@ msgstr ""
 
 #: modules/commands/os_modinfo.cpp:70
 msgid "This command lists information about the specified loaded module."
-msgstr ""
+msgstr "Este comando lista informações sobre um módulo especifico carregado."
 
 #: modules/commands/hs_list.cpp:136
 msgid ""
@@ -8718,6 +8720,8 @@ msgid ""
 "This command loads the module named modname from the modules\n"
 "directory."
 msgstr ""
+"Este comando carrega o módulo chamado modnome dos módulos\n"
+"do diretório."
 
 #: modules/commands/ns_group.cpp:201
 msgid ""
@@ -8788,11 +8792,11 @@ msgstr ""
 
 #: modules/commands/ns_set.cpp:345 modules/commands/ns_set.cpp:669
 msgid "This command may not be used on this network because nickname ownership is disabled."
-msgstr ""
+msgstr "Esse comando não pode ser usado nessa rede porque a propriedade de nick está desativada."
 
 #: modules/commands/os_module.cpp:118
 msgid "This command reloads the module named modname."
-msgstr ""
+msgstr "Este comando recarrega o módulo chamado modnome."
 
 #: modules/commands/hs_request.cpp:344
 msgid "This command retrieves the vhost requests."
@@ -8841,7 +8845,7 @@ msgstr ""
 
 #: modules/commands/os_module.cpp:168
 msgid "This command unloads the module named modname."
-msgstr ""
+msgstr "Este comando descarrega o módulo chamado modnome."
 
 #: modules/commands/ns_register.cpp:353
 msgid "This command will resend you the registration confirmation email."
@@ -8936,17 +8940,17 @@ msgstr "Tópico"
 
 #: modules/commands/cs_topic.cpp:258
 msgid "Topic lock"
-msgstr ""
+msgstr "Trava de tópico"
 
 #: modules/commands/cs_topic.cpp:114
 #, c-format
 msgid "Topic lock option for %s is now off."
-msgstr ""
+msgstr "Trava de tópico para o %s está agora desativado."
 
 #: modules/commands/cs_topic.cpp:97
 #, c-format
 msgid "Topic lock option for %s is now on."
-msgstr ""
+msgstr "Trava de tópico para o %s está agora ativado."
 
 #: modules/commands/cs_topic.cpp:256
 msgid "Topic retention"
@@ -8955,7 +8959,7 @@ msgstr "Retenção de tópico"
 #: modules/commands/cs_topic.cpp:60
 #, c-format
 msgid "Topic retention option for %s is now off."
-msgstr ""
+msgstr "Retenção de tópico para o %s está agora desativado."
 
 #: modules/commands/cs_topic.cpp:54
 #, c-format
