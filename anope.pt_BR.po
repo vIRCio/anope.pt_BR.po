@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-14 19:33-0300\n"
+"PO-Revision-Date: 2020-04-14 21:08-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -2306,86 +2306,87 @@ msgstr ""
 #: modules/commands/os_noop.cpp:58
 #, c-format
 msgid "All O:lines of %s have been reset."
-msgstr ""
+msgstr "Todas as O:lines de %sforam redefinidas."
 
 #: modules/commands/cs_clone.cpp:71
 #, c-format
 msgid "All akick entries from %s have been cloned to %s."
-msgstr ""
+msgstr "Todas as entradas de akick do %s foram clonadas para %s."
 
 #: modules/commands/help.cpp:57
 #, c-format
 msgid "All available commands for %s:"
-msgstr ""
+msgstr "Todos os comandos disponíveis para %s:"
 
 #: modules/commands/cs_clone.cpp:96
 #, c-format
 msgid "All badword entries from %s have been cloned to %s."
-msgstr ""
+msgstr "Todas as entradas de palavrões (badword) do %s foram clonadas para %s."
 
 #: modules/commands/cs_clone.cpp:108
 #, c-format
 msgid "All level entries from %s have been cloned into %s."
-msgstr ""
+msgstr "Todas as entradas de nível do %s foram clonados em %s."
 
 #: modules/commands/os_news.cpp:38
 msgid "All logon news items deleted."
-msgstr ""
+msgstr "Todos os itens de notícias de logon foram excluídos."
 
 #: modules/commands/ms_del.cpp:115
 #, c-format
 msgid "All memos for channel %s have been deleted."
-msgstr ""
+msgstr "Todas os memos do canal %s foram excluídos."
 
 #: modules/commands/os_mode.cpp:61
 #, c-format
 msgid "All modes cleared on %s."
-msgstr ""
+msgstr "Todos os modos foram removidos do %s."
 
 #: modules/commands/ns_register.cpp:258 modules/commands/ns_register.cpp:389
 msgid ""
 "All new accounts must be validated by an administrator. Please wait for your registration to be confirmed."
 msgstr ""
+"Todas as novas contas devem ser validadas por um administrador. \n"
+"Por favor, espere que seu registro seja confirmado."
 
 #: modules/commands/ms_del.cpp:119
 msgid "All of your memos have been deleted."
-msgstr ""
+msgstr "Todos os seus memos foram excluídos."
 
 #: modules/commands/os_news.cpp:48
 msgid "All oper news items deleted."
-msgstr ""
+msgstr "Todos os itens de notícias para operadores foram excluídas."
 
 #: modules/commands/os_noop.cpp:41
 #, c-format
 msgid "All operators from %s have been removed."
-msgstr ""
+msgstr "Todos os operadores do %s foram removidos."
 
 #: modules/commands/os_news.cpp:58
 msgid "All random news items deleted."
-msgstr ""
+msgstr "Todas as notícias randômicas foram excluídas."
 
 #: modules/commands/cs_clone.cpp:211
 #, c-format
 msgid "All settings from %s have been cloned to %s."
-msgstr ""
+msgstr "Todas as configurações do %s foram clonadas para %s."
 
 #: modules/commands/cs_sync.cpp:41
 #, c-format
 msgid "All user modes on %s have been synced."
-msgstr ""
+msgstr "Todos os modos de usuário em %s foram sincronizados."
 
 #: modules/commands/hs_group.cpp:60
 #, c-format
 msgid "All vhosts in the group %s have been set to %s."
-msgstr ""
+msgstr "Todos os vhosts do grupo %s foram definidos para %s."
 
 #: modules/commands/hs_group.cpp:58
 #, c-format
 msgid "All vhosts in the group %s have been set to %s@%s."
-msgstr ""
+msgstr "Todos os vhosts do grupo %s foram definidos para %s@%s."
 
 #: src/access.cpp:40
-#, fuzzy
 msgid "Allowed to (de)halfop him/herself"
 msgstr "Permitido (de)halfop de si mesmo"
 
@@ -2475,27 +2476,27 @@ msgstr "Permitido usar os comandos SAY e ACT"
 
 #: src/access.cpp:35
 msgid "Allowed to use fantasy commands"
-msgstr ""
+msgstr "Permite o uso do comando fantasia"
 
 #: src/access.cpp:26
 msgid "Allowed to use the AKICK command"
-msgstr ""
+msgstr "Permite o uso do comando AKICK"
 
 #: src/access.cpp:42
 msgid "Allowed to use the INVITE command"
-msgstr ""
+msgstr "Permitido usar o comando INVITE"
 
 #: src/access.cpp:43
 msgid "Allowed to use the KICK command"
-msgstr ""
+msgstr "Permitido usar o comando KICK"
 
 #: src/access.cpp:45
 msgid "Allowed to use the MODE command"
-msgstr ""
+msgstr "Permitido usar o comando MODE"
 
 #: src/access.cpp:25
 msgid "Allowed to view the access list"
-msgstr ""
+msgstr "Permitido visualizar a lista de acesso"
 
 #: modules/commands/gl_global.cpp:42
 #, c-format
@@ -2570,6 +2571,11 @@ msgid ""
 "Flags have to be prefixed with a \"+\" or a \"-\". To\n"
 "remove all flags simply type a \"-\" instead of any flags."
 msgstr ""
+"Permite que os operadores dos serviços dar Operflags \n"
+"(flags de operadores) para qualquer usuário. Flags têm \n"
+"de ser prefixados com um \"+\" ou um \"-\". Para remover \n"
+"todos as flags simplesmente digite um \"-\" em vez de \n"
+"todas as flags."
 
 #: modules/commands/os_ignore.cpp:370
 msgid ""
@@ -2759,6 +2765,10 @@ msgid ""
 " \n"
 "Available options:"
 msgstr ""
+"Permite que o fundador do canal defina várias opções \n"
+"do canal e outras informações.\n"
+" \n"
+"Opções disponíveis:"
 
 #: modules/commands/os_oper.cpp:250
 msgid ""
@@ -2796,6 +2806,9 @@ msgid ""
 "the given user. With MSG set, Services will use messages,\n"
 "else they'll use notices."
 msgstr ""
+"Permite escolher a maneira como os Serviços estão se comunicando\n"
+"com o usuário determinado. Com o MSG definido, os Serviços usarão \n"
+"mensagens, senão eles usarão avisos (notices)."
 
 #: modules/commands/ns_set.cpp:966
 #, c-format
@@ -2804,6 +2817,9 @@ msgid ""
 "you. With %s set, Services will use messages, else they'll\n"
 "use notices."
 msgstr ""
+"Permite escolher a maneira como os Serviços estão se comunicando\n"
+"com você. Com %s definido, os Serviços usarão mensagens, caso \n"
+"contrário, usaram avisos (notice)."
 
 #: modules/commands/ms_ignore.cpp:113
 msgid ""
