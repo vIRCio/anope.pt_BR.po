@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-15 17:16+0200\n"
+"PO-Revision-Date: 2020-04-15 17:22+0200\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -4331,7 +4331,7 @@ msgstr ""
 "Edita ou mostra a lista de mensagens de logon news. Quando um\n"
 "usuário conectar a uma rede, estas mensagens serão enviadas\n"
 "a eles. No entanto, não mais do que %d mensagens serão\n"
-"enviadas para evitar flood. Caso existammais mensagens novas, \n"
+"enviadas para evitar flood. Caso existam mais mensagens novas, \n"
 "apenas a mais recente será mostrada."
 
 #: modules/commands/os_news.cpp:336
@@ -4343,7 +4343,7 @@ msgid ""
 "be sent in order to avoid flooding the user.  If there are\n"
 "more news messages, only the most recent will be sent."
 msgstr ""
-"Edita ou mostra a lista de mensagens de oper.  Quando um usuário ganha \n"
+"Edita ou mostra a lista de notícias de oper.  Quando um usuário ganha \n"
 "oper (com o comando /OPER), essas mensagens serão enviadas a ele. No \n"
 "entanto, não mais do que %d mensagens serão enviadas para evitar \n"
 "floodar o usuário. Se não houver mais mensagens novas, apenas a mais \n"
@@ -4356,8 +4356,8 @@ msgid ""
 "random news will be randomly chosen and sent to them."
 msgstr ""
 "Edita ou mostra a lista de novas notícias aleatórias.  Quando um\n"
-"usuário conectar ao servidor, uma (e somente uma) destas\n"
-"notícias será escolhida de forma aleatória e enviadas a ele."
+"usuário se conectar ao servidor, uma (e somente uma) destas\n"
+"notícias será escolhida de forma aleatória e enviada a ele."
 
 #: modules/commands/ns_info.cpp:98
 msgid "Email address"
@@ -4783,7 +4783,7 @@ msgstr "Força um usuário a entrar em um canal"
 
 #: modules/commands/os_svs.cpp:112
 msgid "Forcefully join a user to a channel."
-msgstr "Força um usuário entrar no canal."
+msgstr "Força um usuário a entrar em um canal."
 
 #: modules/commands/os_svs.cpp:122
 msgid "Forcefully part a user from a channel"
@@ -4791,7 +4791,7 @@ msgstr "Força um usuário a sair do canal"
 
 #: modules/commands/os_svs.cpp:160
 msgid "Forcefully part a user from a channel."
-msgstr "Força um usuário sair do canal."
+msgstr "Força um usuário a sair do canal."
 
 #: modules/commands/cs_info.cpp:47 modules/commands/ns_alist.cpp:64
 msgid "Founder"
