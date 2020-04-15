@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-15 00:11-0300\n"
+"PO-Revision-Date: 2020-04-15 17:16+0200\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -4355,6 +4355,9 @@ msgid ""
 "user connects to the network, one (and only one) of the\n"
 "random news will be randomly chosen and sent to them."
 msgstr ""
+"Edita ou mostra a lista de novas notícias aleatórias.  Quando um\n"
+"usuário conectar ao servidor, uma (e somente uma) destas\n"
+"notícias será escolhida de forma aleatória e enviadas a ele."
 
 #: modules/commands/ns_info.cpp:98
 msgid "Email address"
@@ -4768,7 +4771,7 @@ msgstr "Forçar o banco de dados dos Serviços a serem atualizados imediatamente"
 
 #: modules/commands/os_svs.cpp:19
 msgid "Forcefully change a user's nickname"
-msgstr "Força um usuário mudar o nick"
+msgstr "Força um usuário a mudar de nick"
 
 #: modules/commands/os_svs.cpp:68
 msgid "Forcefully changes a user's nickname from nick to newnick."
@@ -4776,7 +4779,7 @@ msgstr "Força mudar o apelido de nick para novo-nick."
 
 #: modules/commands/os_svs.cpp:78
 msgid "Forcefully join a user to a channel"
-msgstr "Força um usuário entrar no canal"
+msgstr "Força um usuário a entrar em um canal"
 
 #: modules/commands/os_svs.cpp:112
 msgid "Forcefully join a user to a channel."
@@ -4784,7 +4787,7 @@ msgstr "Força um usuário entrar no canal."
 
 #: modules/commands/os_svs.cpp:122
 msgid "Forcefully part a user from a channel"
-msgstr "Força um usuário sair do canal"
+msgstr "Força um usuário a sair do canal"
 
 #: modules/commands/os_svs.cpp:160
 msgid "Forcefully part a user from a channel."
@@ -6599,7 +6602,7 @@ msgstr ""
 
 #: modules/commands/os_news.cpp:51
 msgid "RANDOMNEWS {ADD|DEL|LIST} [text|num]"
-msgstr ""
+msgstr "RANDOMNEWS {ADD|DEL|LIST} [texto|num]"
 
 #: modules/commands/cs_enforce.cpp:99
 msgid "REGONLY enforced by "
