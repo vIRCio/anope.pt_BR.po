@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-15 17:22+0200\n"
+"PO-Revision-Date: 2020-04-16 13:29-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -3820,87 +3820,87 @@ msgstr "Lista atual de módulo:"
 #: modules/commands/os_stats.cpp:69
 #, c-format
 msgid "Current number of AKILLs: %d"
-msgstr ""
+msgstr "Número atual de AKILLs: %d"
 
 #: modules/commands/os_stats.cpp:89
 #, c-format
 msgid "Current number of SNLINEs: %d"
-msgstr ""
+msgstr "Número atual de SNLINEs: %d"
 
 #: modules/commands/os_stats.cpp:109
 #, c-format
 msgid "Current number of SQLINEs: %d"
-msgstr ""
+msgstr "Número atual def SQLINEs: %d"
 
 #: modules/commands/os_stats.cpp:138
 #, c-format
 msgid "Current users: %d (%d ops)"
-msgstr ""
+msgstr "Usuários atuais: %d (%d ops)"
 
 #: modules/commands/os_oper.cpp:71
 msgid "DEL oper"
-msgstr ""
+msgstr "DEL operador"
 
 #: modules/commands/os_info.cpp:103
 msgid "DEL target info"
-msgstr ""
+msgstr "DEL alvo info"
 
 #: modules/commands/ns_ajoin.cpp:232
 msgid "DEL [nickname] channel"
-msgstr ""
+msgstr "DEL [nick] canal"
 
 #: modules/commands/ns_cert.cpp:259
 msgid "DEL [nickname] fingerprint"
-msgstr ""
+msgstr "DEL [nick] fingerprint"
 
 #: modules/commands/ns_access.cpp:103
 msgid "DEL [nickname] mask"
-msgstr ""
+msgstr "DEL [nick] máscara"
 
 #: modules/commands/os_akill.cpp:387 modules/commands/os_sxline.cpp:426 modules/commands/os_sxline.cpp:660
 msgid "DEL {mask | entry-num | list | id}"
-msgstr ""
+msgstr "DEL {mascara | entrada-número | lista | id}"
 
 #: modules/commands/os_session.cpp:524
 msgid "DEL {mask | entry-num | list}"
-msgstr ""
+msgstr "DEL {máscara | entrada-número | lista}"
 
 #: modules/commands/os_ignore.cpp:343
 msgid "DEL {nick|mask}"
-msgstr ""
+msgstr "DEL {nick|máscara}"
 
 #: modules/commands/os_news.cpp:279
 msgid "DEL {num | ALL}"
-msgstr ""
+msgstr "DEL {número | ALL}"
 
 #: modules/commands/os_forbid.cpp:158
 msgid "DEL {NICK|CHAN|EMAIL|REGISTER} entry"
-msgstr ""
+msgstr "DEL {NICK|CHAN|EMAIL|REGISTER} entrada"
 
 #: modules/commands/os_dns.cpp:666
 msgid "DELIP server.name ip"
-msgstr ""
+msgstr "DELIP nome.servidor ip"
 
 #: modules/commands/os_dns.cpp:664
 msgid "DELSERVER server.name [zone.name]"
-msgstr ""
+msgstr "DELSERVER nome.servidor [zona.nome]"
 
 #: modules/commands/os_dns.cpp:662
 msgid "DELZONE zone.name"
-msgstr ""
+msgstr "DELZONE nome.zona"
 
 #: modules/commands/os_dns.cpp:669
 msgid "DEPOOL server.name"
-msgstr ""
+msgstr "DEPOOL nome.servidor"
 
 #: modules/commands/cs_seen.cpp:162
 #, c-format
 msgid "Database cleared, removed %lu nicks that were added after %s."
-msgstr ""
+msgstr "Banco de dados limpo, removido %lu nicks que foram adicionados após %s."
 
 #: modules/commands/ms_list.cpp:64
 msgid "Date/Time"
-msgstr ""
+msgstr "Data/Tempo"
 
 #: modules/commands/hs_off.cpp:49
 msgid ""
@@ -3920,21 +3920,21 @@ msgstr "Desativa seu vHost associado"
 #: modules/commands/os_stats.cpp:72
 #, c-format
 msgid "Default AKILL expiry time: %d days"
-msgstr ""
+msgstr "Tempo de expiração do AKILL padrão: %d dias"
 
 #: modules/commands/os_stats.cpp:76
 #, c-format
 msgid "Default AKILL expiry time: %d hours"
-msgstr ""
+msgstr "Tempo de expiração do AKILL padrão: %d horas"
 
 #: modules/commands/os_stats.cpp:80
 #, c-format
 msgid "Default AKILL expiry time: %d minutes"
-msgstr ""
+msgstr "Tempo de expiração do AKILL padrão: %d minutos"
 
 #: modules/commands/os_stats.cpp:74
 msgid "Default AKILL expiry time: 1 day"
-msgstr ""
+msgstr "Tempo de expiração do AKILL padrão: 1 dia"
 
 #: modules/commands/os_stats.cpp:78
 msgid "Default AKILL expiry time: 1 hour"
