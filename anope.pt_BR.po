@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-16 13:29-0300\n"
+"PO-Revision-Date: 2020-04-16 13:47-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -3920,95 +3920,95 @@ msgstr "Desativa seu vHost associado"
 #: modules/commands/os_stats.cpp:72
 #, c-format
 msgid "Default AKILL expiry time: %d days"
-msgstr "Tempo de expiração do AKILL padrão: %d dias"
+msgstr "Tempo padrão de expiração do AKILL: %d dias"
 
 #: modules/commands/os_stats.cpp:76
 #, c-format
 msgid "Default AKILL expiry time: %d hours"
-msgstr "Tempo de expiração do AKILL padrão: %d horas"
+msgstr "Tempo padrão de expiração do AKILL: %d horas"
 
 #: modules/commands/os_stats.cpp:80
 #, c-format
 msgid "Default AKILL expiry time: %d minutes"
-msgstr "Tempo de expiração do AKILL padrão: %d minutos"
+msgstr "Tempo padrão de expiração do AKILL: %d minutos"
 
 #: modules/commands/os_stats.cpp:74
 msgid "Default AKILL expiry time: 1 day"
-msgstr "Tempo de expiração do AKILL padrão: 1 dia"
+msgstr "Tempo padrão de expiração do AKILL: 1 dia"
 
 #: modules/commands/os_stats.cpp:78
 msgid "Default AKILL expiry time: 1 hour"
-msgstr ""
+msgstr "Tempo padrão de expiração do AKILL: 1 hora"
 
 #: modules/commands/os_stats.cpp:82
 msgid "Default AKILL expiry time: 1 minute"
-msgstr ""
+msgstr "Tempo padrão de expiração do AKILL: 1 minuto"
 
 #: modules/commands/os_stats.cpp:84
 msgid "Default AKILL expiry time: No expiration"
-msgstr ""
+msgstr "Tempo padrão de expiração do AKILL: Não expira"
 
 #: modules/commands/os_stats.cpp:92
 #, c-format
 msgid "Default SNLINE expiry time: %d days"
-msgstr ""
+msgstr "Tempo padrão de expiração para SLINE: %d dias"
 
 #: modules/commands/os_stats.cpp:96
 #, c-format
 msgid "Default SNLINE expiry time: %d hours"
-msgstr ""
+msgstr "Tempo padrão de expiração para SLINE: %d horas"
 
 #: modules/commands/os_stats.cpp:100
 #, c-format
 msgid "Default SNLINE expiry time: %d minutes"
-msgstr ""
+msgstr "Tempo padrão de expiração para SLINE: %d minutos"
 
 #: modules/commands/os_stats.cpp:94
 msgid "Default SNLINE expiry time: 1 day"
-msgstr ""
+msgstr "Tempo padrão de expiração para SLINE: 1 dia"
 
 #: modules/commands/os_stats.cpp:98
 msgid "Default SNLINE expiry time: 1 hour"
-msgstr ""
+msgstr "Tempo padrão de expiração para SLINE: 1 hora"
 
 #: modules/commands/os_stats.cpp:102
 msgid "Default SNLINE expiry time: 1 minute"
-msgstr ""
+msgstr "Tempo padrão de expiração para SLINE: 1 minuto"
 
 #: modules/commands/os_stats.cpp:104
 msgid "Default SNLINE expiry time: No expiration"
-msgstr ""
+msgstr "Tempo padrão de expiração para SLINE: Não expira"
 
 #: modules/commands/os_stats.cpp:112
 #, c-format
 msgid "Default SQLINE expiry time: %d days"
-msgstr ""
+msgstr "Tempo padrão de expiração para SQLINE: %d dias"
 
 #: modules/commands/os_stats.cpp:116
 #, c-format
 msgid "Default SQLINE expiry time: %d hours"
-msgstr ""
+msgstr "Tempo padrão de expiração para SQLINE: %d horas"
 
 #: modules/commands/os_stats.cpp:120
 #, c-format
 msgid "Default SQLINE expiry time: %d minutes"
-msgstr ""
+msgstr "Tempo padrão de expiração para SQLINE: %d minutos"
 
 #: modules/commands/os_stats.cpp:114
 msgid "Default SQLINE expiry time: 1 day"
-msgstr ""
+msgstr "Tempo padrão de expiração para SQLINE: 1 dia"
 
 #: modules/commands/os_stats.cpp:118
 msgid "Default SQLINE expiry time: 1 hour"
-msgstr ""
+msgstr "Tempo padrão de expiração para SQLINE: 1 hora"
 
 #: modules/commands/os_stats.cpp:122
 msgid "Default SQLINE expiry time: 1 minute"
-msgstr ""
+msgstr "Tempo padrão de expiração para SQLINE: 1 minuto"
 
 #: modules/commands/os_stats.cpp:124
 msgid "Default SQLINE expiry time: No expiration"
-msgstr ""
+msgstr "Tempo padrão de expiração para SQLINE: Não expira"
 
 #: modules/commands/os_news.cpp:351
 msgid "Define messages to be randomly shown to users at logon"
