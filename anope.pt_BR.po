@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-16 13:47-0300\n"
+"PO-Revision-Date: 2020-04-17 00:06-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -8562,7 +8562,7 @@ msgstr ""
 
 #: modules/commands/cs_access.cpp:796
 msgid "The following feature/function names are available:"
-msgstr ""
+msgstr "Os seguintes nomes de recursos/funções estão disponíveis:"
 
 #: modules/commands/cs_access.cpp:584
 msgid ""
@@ -8580,12 +8580,12 @@ msgstr ""
 #: modules/commands/ms_check.cpp:54
 #, c-format
 msgid "The last memo you sent to %s (sent on %s) has been read."
-msgstr ""
+msgstr "O último memo que você enviou para %s (enviado em %s) foi lido."
 
 #: modules/commands/ms_check.cpp:52
 #, c-format
 msgid "The last memo you sent to %s (sent on %s) has not yet been read."
-msgstr ""
+msgstr "O último memo que você enviou para %s (enviado em %s) ainda não foi lido."
 
 #: modules/commands/ns_info.cpp:189
 #, c-format
@@ -8610,50 +8610,50 @@ msgstr ""
 #: modules/commands/cs_enforce.cpp:190
 #, c-format
 msgid "The limit on %s is not valid."
-msgstr ""
+msgstr "O limite no %s não é válido."
 
 #: modules/commands/os_forbid.cpp:193
 msgid "The mask must contain at least one non wildcard character."
-msgstr ""
+msgstr "A máscara deve conter pelo menos um caractere que não seja curinga."
 
 #: modules/commands/ms_set.cpp:153
 #, c-format
 msgid "The memo limit for %s may not be changed."
-msgstr ""
+msgstr "O limite de memo para %s não pode ser alterado."
 
 #: modules/commands/cs_mode.cpp:347
 #, c-format
 msgid "The mode lock list of %s is full."
-msgstr ""
+msgstr "A lista de bloqueio de modo do %s está cheia."
 
 #: modules/commands/ns_set.cpp:355
 #, c-format
 msgid "The new display MUST be a nickname of the nickname group %s."
-msgstr ""
+msgstr "O novo display DEVE ser um nick do grupo de %s."
 
 #: include/language.h:98
 #, c-format
 msgid "The new display is now %s."
-msgstr ""
+msgstr "O novo display é agora %s."
 
 #: modules/commands/os_svs.cpp:57
 #, c-format
 msgid "The nick %s is now being changed to %s."
-msgstr ""
+msgstr "O nick %s agora está sendo alterado para %s."
 
 #: modules/commands/bs_bot.cpp:149
 msgid "The old information is the same as the new information specified."
-msgstr ""
+msgstr "A informação antiga é a mesma que a nova informação especificada."
 
 #: modules/commands/os_info.cpp:157
 #, c-format
 msgid "The oper info already exists on %s."
-msgstr ""
+msgstr "A informação de oper já existe em %s."
 
 #: modules/commands/os_info.cpp:147
 #, c-format
 msgid "The oper info list for %s is full."
-msgstr ""
+msgstr "A lista de informações de oper para %s está cheia."
 
 #: modules/commands/ns_info.cpp:183
 #, c-format
@@ -8667,42 +8667,46 @@ msgstr ""
 
 #: modules/commands/os_session.cpp:433
 msgid "The session exception list is empty."
-msgstr ""
+msgstr "A lista de exceção de sessão está vazia."
 
 #: modules/commands/ns_recover.cpp:121
 msgid ""
 "The user with your nick has been removed. Use this command again\n"
 "to release services's hold on your nick."
 msgstr ""
+"O usuário com seu nick foi removido. Use este comando novamente\n"
+"para liberar dos serviços o seu nick."
 
 #: modules/pseudoclients/memoserv.cpp:195
 #, c-format
 msgid "There are %d memos on channel %s."
-msgstr ""
+msgstr "Existem %d memos para o canal %s."
 
 #: modules/commands/bs_botlist.cpp:47
 msgid ""
 "There are no bots available at this time.\n"
 "Ask a Services Operator to create one!"
 msgstr ""
+"Não existem bots disponíveis no momento.\n"
+"Pergunte a um Operador dos Serviços como criar um!"
 
 #: modules/commands/os_dns.cpp:213
 msgid "There are no configured servers."
-msgstr ""
+msgstr "Não há servidores configurados."
 
 #: modules/commands/os_forbid.cpp:392
 #, c-format
 msgid "There are no forbids of type %s."
-msgstr ""
+msgstr "Não há proibições do tipo %s."
 
 #: modules/commands/ns_group.cpp:162
 msgid "There are too many nicks in your group."
-msgstr ""
+msgstr "Há muitos nicks no seu grupo."
 
 #: modules/commands/cs_log.cpp:123
 #, c-format
 msgid "There currently are no logging configurations for %s."
-msgstr ""
+msgstr "Atualmente, não há configurações de log para %s."
 
 #: modules/pseudoclients/memoserv.cpp:193
 #, c-format
