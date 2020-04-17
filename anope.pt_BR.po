@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-17 00:06-0300\n"
+"PO-Revision-Date: 2020-04-17 10:12-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -4024,84 +4024,84 @@ msgstr "Define as mensagens que serão exibidas aos usuários que são operadores"
 
 #: modules/commands/ms_del.cpp:44
 msgid "Delete a memo or memos"
-msgstr "Apaga um ou vários memos"
+msgstr "Exclui um ou vários memos"
 
 #: modules/commands/hs_del.cpp:19
 msgid "Delete the vhost of another user"
-msgstr "Remove o vHost de outro usuário"
+msgstr "Exclui o vHost de outro usuário"
 
 #: modules/commands/cs_xop.cpp:302
 #, c-format
 msgid "Deleted %d entries from %s %s list."
-msgstr ""
+msgstr "Excluídas %d entradas da %s %s lista."
 
 #: modules/commands/cs_access.cpp:277
 #, c-format
 msgid "Deleted %d entries from %s access list."
-msgstr ""
+msgstr "Excluídas %d entradas da lista de acesso do %s."
 
 #: modules/commands/cs_akick.cpp:228
 #, c-format
 msgid "Deleted %d entries from %s autokick list."
-msgstr ""
+msgstr "Excluídas %d entradas da lista de autokick do %s."
 
 #: modules/commands/bs_badwords.cpp:170
 #, c-format
 msgid "Deleted %d entries from %s bad words list."
-msgstr ""
+msgstr "Excluídas %d entradas da lista de palavrões do %s."
 
 #: modules/commands/os_session.cpp:149
 #, c-format
 msgid "Deleted %d entries from session-limit exception list."
-msgstr ""
+msgstr "Excluídas %d entradas de limite de sessões da lista de exceções."
 
 #: modules/commands/os_sxline.cpp:32
 #, c-format
 msgid "Deleted %d entries from the %s list."
-msgstr ""
+msgstr "Excluídas %d entradas da lista do %s."
 
 #: modules/commands/os_akill.cpp:33
 #, c-format
 msgid "Deleted %d entries from the AKILL list."
-msgstr ""
+msgstr "Excluídas %d entradas da lista de AKILL."
 
 #: modules/commands/cs_access.cpp:275
 #, c-format
 msgid "Deleted 1 entry from %s access list."
-msgstr ""
+msgstr "Excluída 1 entrada da lista de acesso do canal %s."
 
 #: modules/commands/cs_akick.cpp:226
 #, c-format
 msgid "Deleted 1 entry from %s autokick list."
-msgstr ""
+msgstr "Excluída 1 entrada da lista de autokick do canal %s."
 
 #: modules/commands/bs_badwords.cpp:168
 #, c-format
 msgid "Deleted 1 entry from %s bad words list."
-msgstr ""
+msgstr "Excluída 1 entrada da lista de  palavrões do canal %s."
 
 #: modules/commands/os_session.cpp:147
 msgid "Deleted 1 entry from session-limit exception list."
-msgstr ""
+msgstr "Excluída 1 entrada de sessão de limite da lista de exceções."
 
 #: modules/commands/os_sxline.cpp:30
 #, c-format
 msgid "Deleted 1 entry from the %s list."
-msgstr ""
+msgstr "Excluída 1 entrada da lista do %s."
 
 #: modules/commands/os_akill.cpp:31
 msgid "Deleted 1 entry from the AKILL list."
-msgstr ""
+msgstr "Excluída 1 entrada da lista de AKILL."
 
 #: modules/commands/os_info.cpp:208
 #, c-format
 msgid "Deleted info from %s."
-msgstr ""
+msgstr "Informações excluídas de %s."
 
 #: modules/commands/cs_xop.cpp:300
 #, c-format
 msgid "Deleted one entry from %s %s list."
-msgstr ""
+msgstr "Excluída uma entrada da lista %s %s."
 
 #: modules/commands/ms_del.cpp:129
 msgid ""
@@ -4143,7 +4143,7 @@ msgstr "Exclui do banco de dados o vHost atribuído ao nick especificado."
 
 #: modules/commands/hs_del.cpp:59
 msgid "Deletes the vhost for all nicks in a group"
-msgstr "Remove o vHost de todos os nicks de um grupo"
+msgstr "Exclui o vHost de todos os nicks de um grupo"
 
 #: modules/commands/hs_del.cpp:93
 msgid ""
@@ -4156,26 +4156,26 @@ msgstr ""
 #: modules/commands/os_dns.cpp:653
 #, c-format
 msgid "Depooled %s."
-msgstr ""
+msgstr "Despachado %s."
 
 #: modules/commands/cs_info.cpp:53 modules/commands/ns_alist.cpp:48 modules/commands/cs_access.cpp:799
 #: modules/commands/cs_list.cpp:75
 msgid "Description"
-msgstr ""
+msgstr "Descrição"
 
 #: modules/commands/cs_set.cpp:239
 #, c-format
 msgid "Description of %s changed to %s."
-msgstr ""
+msgstr "Descrição do canal %s alterada para %s."
 
 #: modules/commands/cs_set.cpp:245
 #, c-format
 msgid "Description of %s unset."
-msgstr ""
+msgstr "Descrição do canal %s apagada."
 
 #: modules/commands/bs_info.cpp:90 modules/commands/bs_kick.cpp:1115
 msgid "Disabled"
-msgstr ""
+msgstr "Desabilitado"
 
 #: modules/commands/cs_suspend.cpp:134
 msgid ""
@@ -4188,21 +4188,29 @@ msgid ""
 " \n"
 "Reason may be required on certain networks."
 msgstr ""
+"Não permite que qualquer pessoa use o canal fornecido.\n"
+"Pode ser cancelado usando o comando UNSUSPEND\n"
+"para preservar todos os dados e configurações anteriores \n"
+"do canal. Se um tempo para expiração for dado, o canal só \n"
+"será liberado depois desse período de tempo, senão a expiração \n"
+"padrão de configuração é usada.\n"
+" \n"
+"Motivo pode ser necessário em algumas redes."
 
 #: modules/commands/hs_request.cpp:337
 #, c-format
 msgid "Displayed %d records (%d total)."
-msgstr ""
+msgstr "Exibido %d registros (%d total)."
 
 #: modules/commands/hs_list.cpp:122
 #, c-format
 msgid "Displayed all records (count: %d)."
-msgstr ""
+msgstr "Mostrando todos os registros (contagem: %d)."
 
 #: modules/commands/hs_list.cpp:120
 #, c-format
 msgid "Displayed records from %d to %d."
-msgstr ""
+msgstr "Registros exibidos de %d para %d."
 
 #: modules/commands/hs_list.cpp:116
 #, c-format
@@ -4269,28 +4277,28 @@ msgstr "Não use AMSG!"
 
 #: modules/commands/bs_kick.cpp:1266
 msgid "Don't use bolds on this channel!"
-msgstr ""
+msgstr "Não use negrito neste canal!"
 
 #: modules/commands/bs_kick.cpp:1274
 msgid "Don't use colors on this channel!"
-msgstr ""
+msgstr "Não use cores neste canal!"
 
 #: modules/commands/bs_kick.cpp:1290
 msgid "Don't use italics on this channel!"
-msgstr ""
+msgstr "Não use itálico neste canal!"
 
 #: modules/commands/bs_kick.cpp:1282
 msgid "Don't use reverses on this channel!"
-msgstr ""
+msgstr "Não use reverso neste canal!"
 
 #: modules/commands/bs_kick.cpp:1408
 #, c-format
 msgid "Don't use the word \"%s\" on this channel!"
-msgstr ""
+msgstr "Não use a palavra \"%s\" neste canal!"
 
 #: modules/commands/bs_kick.cpp:1298
 msgid "Don't use underlines on this channel!"
-msgstr ""
+msgstr "Não use sublinhado neste canal!"
 
 #: modules/commands/ns_drop.cpp:61
 msgid ""
@@ -4307,17 +4315,17 @@ msgstr ""
 #: modules/commands/ns_set.cpp:513
 #, c-format
 msgid "E-mail address for %s changed to %s."
-msgstr ""
+msgstr "Endereço de e-mail para %s alterado para %s."
 
 #: modules/commands/ns_set.cpp:519
 #, c-format
 msgid "E-mail address for %s unset."
-msgstr ""
+msgstr "Endereço de e-mail para %s apagado."
 
 #: src/mail.cpp:80
 #, c-format
 msgid "E-mail for %s is invalid."
-msgstr ""
+msgstr "E-mail para %s é inválido."
 
 #: modules/commands/os_news.cpp:309
 #, c-format
@@ -4361,12 +4369,12 @@ msgstr ""
 
 #: modules/commands/ns_info.cpp:98
 msgid "Email address"
-msgstr ""
+msgstr "Endereço de e-mail"
 
 #: modules/commands/ns_getemail.cpp:41
 #, c-format
 msgid "Email matched: %s (%s) to %s."
-msgstr ""
+msgstr "E-mail correspondido: %s (%s) para %s."
 
 #: modules/fantasy.cpp:19
 msgid "Enable fantaisist commands"
@@ -4382,7 +4390,7 @@ msgstr "Ativa e desativa os modos de manutenção"
 
 #: modules/commands/bs_info.cpp:89 modules/commands/bs_kick.cpp:1114
 msgid "Enabled"
-msgstr ""
+msgstr "Ativado"
 
 #: modules/commands/cs_set.cpp:124
 #, c-format
