@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-25 16:34-0300\n"
+"PO-Revision-Date: 2020-04-25 17:09-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -5072,7 +5072,7 @@ msgstr "Valor de limite inválido. Tem de ser um número inteiro válido maior do q
 
 #: modules/commands/os_dns.cpp:591
 msgid "Invalid value for LIMIT. Must be numerical."
-msgstr ""
+msgstr "Valor inválido para LIMIT. Deve ser um valor numérico."
 
 #: modules/commands/cs_invite.cpp:19
 msgid "Invites you or an optionally specified nick into a channel"
@@ -5080,11 +5080,11 @@ msgstr "Convida você ou o nick fornecido para um canal"
 
 #: modules/commands/bs_kick.cpp:1201 modules/commands/bs_kick.cpp:1203 modules/commands/bs_kick.cpp:1206
 msgid "Italics kicker"
-msgstr ""
+msgstr "Kicka Itálicos"
 
 #: modules/commands/ns_group.cpp:91
 msgid "Join a group"
-msgstr ""
+msgstr "Entra em um grupo"
 
 #: modules/commands/ns_set.cpp:1319 modules/commands/cs_set.cpp:1305
 msgid "Keep modes"
@@ -5102,12 +5102,12 @@ msgstr ""
 
 #: modules/commands/ns_ajoin.cpp:100
 msgid "Key"
-msgstr ""
+msgstr "Chave"
 
 #: modules/commands/cs_getkey.cpp:50
 #, c-format
 msgid "Key for channel %s is %s."
-msgstr ""
+msgstr "Senha para o canal %s é %s."
 
 #: modules/commands/os_kick.cpp:19
 msgid "Kick a user from a channel"
@@ -5116,7 +5116,7 @@ msgstr "Kicka um usuário do canal"
 #: modules/commands/cs_ban.cpp:217 modules/commands/cs_kick.cpp:116
 #, c-format
 msgid "Kicked %d/%d users matching %s from %s."
-msgstr ""
+msgstr "Kickado %d/%d usuários correspondentes %s para %s."
 
 #: modules/commands/cs_kick.cpp:19
 msgid "Kicks a specified nick from a channel"
@@ -5137,62 +5137,62 @@ msgstr ""
 
 #: modules/commands/os_kill.cpp:19
 msgid "Kill a user"
-msgstr ""
+msgstr "Killa (desconecta) um usuário"
 
 #: modules/commands/cs_enforce.cpp:217
 msgid "LIMIT enforced by "
-msgstr ""
+msgstr "LIMIT forçado por "
 
 #: modules/commands/cs_enforce.cpp:221
 #, c-format
 msgid "LIMIT enforced on %s, %d users removed."
-msgstr ""
+msgstr "LIMIT forçado em %s, %d usuários removidos."
 
 #: modules/commands/os_session.cpp:246
 msgid "LIST threshold"
-msgstr ""
+msgstr "LIST limite"
 
 #: modules/commands/os_akill.cpp:388 modules/commands/os_sxline.cpp:427 modules/commands/os_sxline.cpp:661
 msgid "LIST [mask | list | id]"
-msgstr ""
+msgstr "LIST [máscara | list | id]"
 
 #: modules/commands/os_session.cpp:525
 msgid "LIST [mask | list]"
-msgstr ""
+msgstr "LIST [máscara | list]"
 
 #: modules/commands/ns_access.cpp:104 modules/commands/ns_cert.cpp:260 modules/commands/ns_ajoin.cpp:233
 msgid "LIST [nickname]"
-msgstr ""
+msgstr "LIST [nick]"
 
 #: modules/commands/os_news.cpp:31
 msgid "LOGONNEWS {ADD|DEL|LIST} [text|num]"
-msgstr ""
+msgstr "LOGONNEWS {ADD|DEL|LIST} [texto|num]"
 
 #: modules/commands/ns_set.cpp:834
 msgid "Language changed to English."
-msgstr ""
+msgstr "Linguagem alterada para Português do Brasil."
 
 #: modules/commands/ns_set.cpp:836
 #, c-format
 msgid "Language for %s changed to %s."
-msgstr ""
+msgstr "Linguagem para %s alterado para %s."
 
 #: modules/commands/ms_cancel.cpp:72
 #, c-format
 msgid "Last memo to %s has been cancelled."
-msgstr ""
+msgstr "Último memo para %s foi cancelado."
 
 #: modules/commands/ns_info.cpp:95
 msgid "Last quit message"
-msgstr ""
+msgstr "Última mensagem de saída"
 
 #: modules/commands/ns_info.cpp:92 modules/commands/cs_access.cpp:472
 msgid "Last seen"
-msgstr ""
+msgstr "Visto pela última vez"
 
 #: modules/commands/ns_info.cpp:81 modules/commands/ns_info.cpp:86
 msgid "Last seen address"
-msgstr ""
+msgstr "Último endereço"
 
 #: modules/commands/cs_topic.cpp:264
 msgid "Last topic"
@@ -5204,30 +5204,30 @@ msgstr "Última utilização"
 
 #: modules/commands/ns_list.cpp:75
 msgid "Last usermask"
-msgstr ""
+msgstr "Última user-mask"
 
 #: modules/commands/cs_access.cpp:459 modules/commands/cs_access.cpp:472 modules/commands/cs_access.cpp:697
 msgid "Level"
-msgstr ""
+msgstr "Nível"
 
 #: modules/commands/cs_access.cpp:660
 #, c-format
 msgid "Level for %s on channel %s changed to %d."
-msgstr ""
+msgstr "Nível para%s no canal %s alterado para %d."
 
 #: modules/commands/cs_access.cpp:658
 #, c-format
 msgid "Level for %s on channel %s changed to founder only."
-msgstr ""
+msgstr "Nível de %s no canal %s alterado para somente o fundador."
 
 #: modules/commands/cs_access.cpp:643
 #, c-format
 msgid "Level must be between %d and %d inclusive."
-msgstr ""
+msgstr "Nível de acesso deve estar inclusive entre %d e %d."
 
 #: modules/commands/os_dns.cpp:218 modules/commands/os_session.cpp:506 modules/commands/os_session.cpp:514
 msgid "Limit"
-msgstr ""
+msgstr "Limite"
 
 #: modules/commands/ns_list.cpp:19
 msgid "List all registered nicknames that match a given pattern"
@@ -5500,27 +5500,27 @@ msgstr "Carrega um módulo"
 
 #: modules/commands/cs_register.cpp:39
 msgid "Local channels cannot be registered."
-msgstr ""
+msgstr "Canais locais não podem ser registrados."
 
 #: modules/commands/cs_log.cpp:142
 #, c-format
 msgid "Log list for %s:"
-msgstr ""
+msgstr "Lista de Log para %s:"
 
 #: modules/commands/cs_log.cpp:227
 #, c-format
 msgid "Logging changed for command %s on %s, now using log method %s%s%s."
-msgstr ""
+msgstr "Log mudado para comando %s em %s, agora utilizando o método de log %s%s%s."
 
 #: modules/commands/cs_log.cpp:220
 #, c-format
 msgid "Logging for command %s on %s with log method %s%s%s has been removed."
-msgstr ""
+msgstr "Log para comando %s em %s com o método de log %s%s%s foi removido."
 
 #: modules/commands/cs_log.cpp:248
 #, c-format
 msgid "Logging is now active for command %s on %s, using log method %s%s%s."
-msgstr ""
+msgstr "O log agora está ativo para o comando %s em %s, usando o método de log %s%s%s."
 
 #: modules/commands/os_login.cpp:60
 #, c-format
@@ -5530,16 +5530,16 @@ msgstr "Login no %s"
 #: modules/commands/os_news.cpp:36
 #, c-format
 msgid "Logon news item #%d deleted."
-msgstr ""
+msgstr "O item de notícias de logon #%d foi excluído."
 
 #: modules/commands/os_news.cpp:35
 #, c-format
 msgid "Logon news item #%s not found!"
-msgstr ""
+msgstr "Item de notícias de logon #%s não encontrado!"
 
 #: modules/commands/os_news.cpp:32
 msgid "Logon news items:"
-msgstr ""
+msgstr "Itens de notícias de logon:"
 
 #: modules/commands/os_login.cpp:102
 #, c-format
@@ -5564,11 +5564,14 @@ msgid ""
 "This command is only useful if your oper block is configured\n"
 "with a password."
 msgstr ""
+"Desloga você em %s para deixar de ter privilégios de Operador dos Serviços. \n"
+"Este comando pode ser desnecessário se seu oper block está configurado \n"
+"sem uma senha."
 
 #: modules/commands/cs_seen.cpp:213
 #, c-format
 msgid "Looking for yourself, eh %s?"
-msgstr ""
+msgstr "Procurando por você mesmo, eh %s?"
 
 #: modules/commands/cs_mode.cpp:773
 #, c-format
@@ -5596,6 +5599,29 @@ msgid ""
 "any mode name. Examples include bans, excepts, inviteoverrides, ops, halfops, and voices. If what\n"
 "is not given then all basic modes are removed."
 msgstr ""
+"Controla travas de modos e modos de acesso (que é diferente do acesso de canal) em um canal.\n"
+" \n"
+"O comando %s LOCK permite adicionar, excluir e visualizar travas de modo em um canal.\n"
+"Se um modo estiver travado ou ativado, os serviços não permitirão que esse modo seja alterado. \n"
+"O comando SET irá limpar todas as travas de modo existentes e configurar os novos dados, \n"
+"enquanto ADD e DEL modificam a trava de modo existente. \n"
+" \n"
+"Exemplo: \n"
+"     MODE #canal LOCK ADD +bmnt *!*@*aol*\n"
+" \n"
+"O comando %s SET permite que você configure modos por meio de serviços. Coringas * e ? \n"
+"podem ser fornecidos como parâmetros para listar e status dos modos. \n"
+" \n"
+"Example:\n"
+"     MODE #canal SET +v *\n"
+"       Configura o status de voice para todos os usuários no canal.\n"
+" \n"
+"     MODE #canal SET -b ~c:*\n"
+"       Limpa todos os bans estendidos que começam com ~c:\n"
+" \n"
+"O comando %s CLEAR é uma maneira fácil de limpar modos em um canal. o que (what) \n"
+"pode ser qualquer nome de modo. Exemplos incluem bans, exceções, inviteoverrides, ops, halfops \n"
+"e voices. Se o que (what) não é fornecido, então todos os modos básicos são removidos."
 
 #: modules/commands/cs_akick.cpp:434
 msgid "Maintain the AutoKick list"
@@ -6230,7 +6256,7 @@ msgid "No logon news items to delete!"
 msgstr "Não existe logon news para apagar!"
 
 #: modules/commands/os_logsearch.cpp:133
-#, fuzzy, c-format
+#, c-format
 msgid "No matches for %s found."
 msgstr "Resultado para %s não encontrado."
 
@@ -6241,9 +6267,9 @@ msgstr "Não há entradas correspondentes na lista %s %s ."
 
 #: modules/commands/cs_xop.cpp:428 modules/commands/cs_flags.cpp:335 modules/commands/cs_access.cpp:269
 #: modules/commands/cs_access.cpp:433
-#, fuzzy, c-format
+#, c-format
 msgid "No matching entries on %s access list."
-msgstr "Não há entradas correspondentes na lista %s  de acesso."
+msgstr "Não há entradas correspondentes na lista %s de acesso."
 
 #: modules/commands/cs_akick.cpp:224 modules/commands/cs_akick.cpp:368
 #, c-format
@@ -6256,7 +6282,6 @@ msgid "No matching entries on %s bad words list."
 msgstr "Não há entradas correspondentes na lista %s de palavras ofensivas."
 
 #: modules/commands/os_session.cpp:145 modules/commands/os_session.cpp:490
-#, fuzzy
 msgid "No matching entries on session-limit exception list."
 msgstr "Não há entradas correspondentes na lista de exceção de sessão-limite."
 
@@ -6279,23 +6304,23 @@ msgstr "Não há memos para exibir."
 
 #: modules/commands/os_modinfo.cpp:187
 msgid "No modules currently loaded matching that criteria."
-msgstr ""
+msgstr "Nenhum módulo atualmente carregado corresponde a esse critério."
 
 #: modules/commands/ns_recover.cpp:55
 msgid "No one is using your nick, and services are not holding it."
-msgstr ""
+msgstr "Ninguém está usando o seu nick e os serviços não estão segurando."
 
 #: modules/commands/os_login.cpp:30 modules/commands/os_login.cpp:77
 msgid "No oper block for your nick."
-msgstr ""
+msgstr "Não há bloco de oper (operblock) para seu nick."
 
 #: modules/commands/os_news.cpp:47
 msgid "No oper news items to delete!"
-msgstr ""
+msgstr "Não há itens oper notícias para excluir!"
 
 #: modules/commands/os_news.cpp:57
 msgid "No random news items to delete!"
-msgstr ""
+msgstr "Nenhuma notícia randômica para excluir!"
 
 #: modules/commands/hs_list.cpp:111
 msgid "No records to display."
