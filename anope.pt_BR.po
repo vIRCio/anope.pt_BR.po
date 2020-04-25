@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-21 21:43-0300\n"
+"PO-Revision-Date: 2020-04-25 16:34-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -5023,48 +5023,52 @@ msgstr "Informações sobre carregar um módulo"
 #: modules/commands/bs_info.cpp:54
 #, c-format
 msgid "Information for bot %s:"
-msgstr ""
+msgstr "Informação do bot %s:"
 
 #: include/language.h:108
 #, c-format
 msgid "Information for channel %s:"
-msgstr ""
+msgstr "Informação do canal %s:"
 
 #: modules/commands/os_logsearch.cpp:57
 #, c-format
 msgid "Invalid duration %s, using %d days."
-msgstr ""
+msgstr "Duração inválida %s, usando %d dias."
 
 #: include/language.h:68
 msgid "Invalid expiry time."
-msgstr ""
+msgstr "Tempo para expirar inválido."
 
 #: modules/commands/os_session.cpp:346
 msgid ""
 "Invalid hostmask. Only real hostmasks are valid, as exceptions are not matched against nicks or usernames."
 msgstr ""
+"Máscaras de host inválida. Somente máscaras de hosts reais são válidas, \n"
+"as exceções não são correspondentes aos nicks ou nomes de usuários."
 
 #: modules/commands/os_logsearch.cpp:73
 #, c-format
 msgid "Invalid limit %s, using %d."
-msgstr ""
+msgstr "Limite inválido %s, usando %d."
 
 #: include/language.h:99
 msgid "Invalid passcode has been entered, please check the e-mail again, and retry."
-msgstr ""
+msgstr "Código de segurança inválido, verifique seu e-mail e tente novamente."
 
 #: modules/commands/ns_register.cpp:83 modules/commands/ns_register.cpp:86
 msgid "Invalid passcode."
-msgstr ""
+msgstr "Código de segurança inválido."
 
 #: modules/commands/os_session.cpp:339
 #, c-format
 msgid "Invalid session limit. It must be a valid integer greater than or equal to zero and less than %d."
 msgstr ""
+"Limite de sessão inválido. Tem de ser um número inteiro válido \n"
+"maior ou igual a zero e menor do que %d."
 
 #: modules/commands/os_session.cpp:188
 msgid "Invalid threshold value. It must be a valid integer greater than 1."
-msgstr ""
+msgstr "Valor de limite inválido. Tem de ser um número inteiro válido maior do que 1."
 
 #: modules/commands/os_dns.cpp:591
 msgid "Invalid value for LIMIT. Must be numerical."
