@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-25 17:09-0300\n"
+"PO-Revision-Date: 2020-04-27 16:04+0200\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -2739,6 +2739,14 @@ msgid ""
 "topic lock is set, the channel topic will be unchangeable by users who do not have\n"
 "the TOPIC privilege."
 msgstr ""
+"Permite manipular o tópico do canal especificado.\n"
+"O comando SET altera o tópico do canal para o tópico dado\n"
+"ou o remove se nenhum tópico for dado. O comando APPEND\n"
+"anexa o tópico dado ao tópico existente.\n"
+" \n"
+"LOCK e UNLOCK podem ser usados para ativar e desativar o bloqueio do tópico. Quando\n"
+"o bloqueio de tópicos é definido, o tópico do canal será imutável por usuários que não possuem\n"
+"o privilégio TÓPICO."
 
 #: modules/commands/os_kick.cpp:62
 #, c-format
@@ -3049,7 +3057,7 @@ msgstr "Tipo de ban"
 #: modules/commands/cs_set.cpp:174
 #, c-format
 msgid "Ban type for channel %s is now #%d."
-msgstr ""
+msgstr "O tipo de ban para o canal %s é #%d agora."
 
 #: modules/commands/cs_ban.cpp:39
 msgid "Bans a given nick or mask on a channel"
@@ -3076,7 +3084,7 @@ msgstr ""
 #: modules/commands/cs_enforce.cpp:166
 #, c-format
 msgid "Bans enforced on %s."
-msgstr ""
+msgstr "Bans aplicados em %s."
 
 #: modules/commands/bs_kick.cpp:1131 modules/commands/bs_kick.cpp:1133 modules/commands/bs_kick.cpp:1136
 msgid "Bolds kicker"
@@ -6324,7 +6332,7 @@ msgstr "Nenhuma notícia randômica para excluir!"
 
 #: modules/commands/hs_list.cpp:111
 msgid "No records to display."
-msgstr ""
+msgstr "Não há registros a serem exibidos."
 
 #: modules/commands/ns_getemail.cpp:47
 #, c-format
@@ -7329,34 +7337,34 @@ msgstr ""
 
 #: modules/commands/os_dns.cpp:218
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 #: modules/commands/os_dns.cpp:375
 #, c-format
 msgid "Server %s added to zone %s."
-msgstr ""
+msgstr "Server %s adicionado à zona %s."
 
 #: modules/commands/os_dns.cpp:345
 #, c-format
 msgid "Server %s already exists."
-msgstr ""
+msgstr "Server %s já existe."
 
 #: modules/commands/os_dns.cpp:430 modules/commands/os_dns.cpp:493 modules/commands/os_dns.cpp:532
 #: modules/commands/os_dns.cpp:571 modules/commands/os_dns.cpp:604 modules/commands/os_dns.cpp:639
 #: modules/commands/os_noop.cpp:31
 #, c-format
 msgid "Server %s does not exist."
-msgstr ""
+msgstr "Server %s não existe."
 
 #: modules/commands/os_dns.cpp:619
 #, c-format
 msgid "Server %s has no configured IPs."
-msgstr ""
+msgstr "Server %s não possui IPs configurados."
 
 #: modules/commands/os_dns.cpp:357
 #, c-format
 msgid "Server %s is already in zone %s."
-msgstr ""
+msgstr "Server %s já está na zona %s."
 
 #: modules/commands/os_dns.cpp:614
 #, c-format
@@ -7366,17 +7374,17 @@ msgstr ""
 #: modules/commands/os_dns.cpp:609
 #, c-format
 msgid "Server %s is not currently linked."
-msgstr ""
+msgstr "Server %s não está linkado no momento."
 
 #: modules/commands/os_dns.cpp:443
 #, c-format
 msgid "Server %s is not in zone %s."
-msgstr ""
+msgstr "Server %s não está na zona %s."
 
 #: modules/commands/os_dns.cpp:384
 #, c-format
 msgid "Server %s is not linked to the network."
-msgstr ""
+msgstr "Server %s não está linkado a rede."
 
 #: modules/commands/os_dns.cpp:644
 #, c-format
@@ -7390,7 +7398,7 @@ msgstr ""
 
 #: modules/commands/os_dns.cpp:255
 msgid "Servers"
-msgstr ""
+msgstr "Servers"
 
 #: modules/commands/os_stats.cpp:155
 #, c-format
@@ -7399,7 +7407,7 @@ msgstr ""
 
 #: modules/commands/cs_log.cpp:127
 msgid "Service"
-msgstr ""
+msgstr "Serviço"
 
 #: modules/commands/ns_recover.cpp:51
 #, c-format
@@ -8016,7 +8024,7 @@ msgstr "Estatísticas e manutenção de dados do \"seen\""
 
 #: modules/commands/os_stats.cpp:131
 msgid "Statistics reset."
-msgstr ""
+msgstr "Reset de estatísticas."
 
 #: modules/commands/ns_update.cpp:36
 msgid "Status updated (memos, vhost, chmodes, flags)."
@@ -8024,11 +8032,11 @@ msgstr "Status atualizado (memos, vhost, chmodes, flags)."
 
 #: modules/commands/bs_kick.cpp:1432
 msgid "Stop flooding!"
-msgstr ""
+msgstr "Pare de floodar!"
 
 #: modules/commands/bs_kick.cpp:1448
 msgid "Stop repeating yourself!"
-msgstr ""
+msgstr "Pare de se repetir!"
 
 #: modules/commands/cs_set.cpp:746
 msgid "Stricter control of channel founder status"
@@ -8058,23 +8066,23 @@ msgstr ""
 
 #: modules/commands/ns_suspend.cpp:60
 msgid "Suspend a given nick"
-msgstr ""
+msgstr "Suspende o nick fornecido"
 
 #: modules/commands/ns_suspend.cpp:250 modules/commands/cs_suspend.cpp:236
 msgid "Suspend reason"
-msgstr ""
+msgstr "Motivo de suspensão"
 
 #: modules/commands/ns_suspend.cpp:246 modules/commands/cs_suspend.cpp:232
 msgid "Suspended"
-msgstr ""
+msgstr "Suspenso"
 
 #: modules/commands/ns_suspend.cpp:248 modules/commands/cs_suspend.cpp:234
 msgid "Suspended by"
-msgstr ""
+msgstr "Suspenso por"
 
 #: modules/commands/ns_suspend.cpp:252 modules/commands/cs_suspend.cpp:238
 msgid "Suspended on"
-msgstr ""
+msgstr "Suspenso em"
 
 #: modules/commands/ns_suspend.cpp:147
 msgid ""
@@ -8091,17 +8099,19 @@ msgstr ""
 
 #: modules/commands/ns_suspend.cpp:254 modules/commands/cs_suspend.cpp:240
 msgid "Suspension expires"
-msgstr ""
+msgstr "Suspensão expira"
 
 #: modules/commands/cs_sync.cpp:19
 msgid "Sync users channel modes"
-msgstr ""
+msgstr "Sincroniza os modos de usuário do canal"
 
 #: modules/commands/cs_sync.cpp:49
 msgid ""
 "Syncs all modes set on users on the channel with the modes\n"
 "they should have based on their access."
 msgstr ""
+"Sincroniza todos os modos de usuários definidos no canal\n"
+"com os modos que deveriam ter com base em seus acessos."
 
 #: modules/commands/hs_group.cpp:42
 msgid "Syncs the vhost for all nicks in a group"
@@ -8437,6 +8447,12 @@ msgid ""
 " %s CLEAR 30m\n"
 " Will remove all entries that were added within the last 30 minutes."
 msgstr ""
+"O comando CLEAR permite limpar a database através da remoção de todas as\n"
+"entradas que foram adicionadas na database dentro de um tempoespecífico.\n"
+" \n"
+"Exemplo:\n"
+" %s CLEAR 30m\n"
+" Remove todas as entradas que foram adicionadas nos últimos 30 minutos."
 
 #: modules/commands/bs_badwords.cpp:438
 msgid ""
@@ -8695,22 +8711,22 @@ msgstr "O último memo que você enviou para %s (enviado em %s) ainda não foi lido
 #: modules/commands/ns_info.cpp:189
 #, c-format
 msgid "The last quit message of %s will now be hidden from %s INFO displays."
-msgstr ""
+msgstr "A última mensagem de quit de %s não será mais escondida das exibições de INFO do %s ."
 
 #: modules/commands/ns_info.cpp:190
 #, c-format
 msgid "The last quit message of %s will now be shown in %s INFO displays."
-msgstr ""
+msgstr "A última mensagem de quit de %s será mostrada nas exibições de INFO do %s ."
 
 #: modules/commands/ns_info.cpp:177
 #, c-format
 msgid "The last seen user@host mask of %s will now be hidden from %s INFO displays."
-msgstr ""
+msgstr "A última máscara user@host vista do %s não será mostrada nas exibições de INFO do %s."
 
 #: modules/commands/ns_info.cpp:178
 #, c-format
 msgid "The last seen user@host mask of %s will now be shown in %s INFO displays."
-msgstr ""
+msgstr "A última máscara user@host vista do %s será mostrada nas exibições de INFO do %s."
 
 #: modules/commands/cs_enforce.cpp:190
 #, c-format
@@ -9241,6 +9257,12 @@ msgid ""
 "(However, anyone who knows the nickname can still get\n"
 "information on it using the INFO command.)"
 msgstr ""
+"Ativa e desativa a opção de privacidade do %s\n"
+"para o seu nick. Com PRIVATE definido, seu nick\n"
+"não aparecerá nas listas de nicks geradas com o \n"
+"comando LIST do %s. (No entanto, quem conhece\n"
+"seu apelido ainda pode obter informações usando o\n"
+"comando INFO.)"
 
 #: modules/commands/ns_list.cpp:236
 #, c-format
@@ -9302,6 +9324,20 @@ msgid ""
 "do not use this option unless necessary. Also, your\n"
 "network's administrators may have disabled this option."
 msgstr ""
+"Ativa e desativa a opção de proteção automática\n"
+"de segurança do seu nick. Com a proteção ativada,\n"
+"se outro usuário tentar usar o seu nick, eles terão\n"
+"um minuto para mudar para outro nick, após o qual\n"
+"o %s alterará o nick à força.\n"
+" \n"
+"Se a opção QUICKfor selecionada, o usuário terá\n"
+"apenas 20 segundos para mudar de nick em vez dos \n"
+"60 segundos habituais. Se você selecionar a opção\n"
+"IMMED, o nick será mudado imediatamente sem aviso\n"
+"prévio ou sem a chance de mudar de nick; por favor,\n"
+"não use esta opção a não ser que seja realmente \n"
+"necessário. Além disso, os administradores da rede\n"
+"podem desativar esta opção."
 
 #: modules/commands/ns_set.cpp:738
 #, c-format
