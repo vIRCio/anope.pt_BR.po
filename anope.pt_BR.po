@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-04-27 16:04+0200\n"
+"PO-Revision-Date: 2020-05-03 19:56-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -6337,50 +6337,50 @@ msgstr "Não há registros a serem exibidos."
 #: modules/commands/ns_getemail.cpp:47
 #, c-format
 msgid "No registrations matching %s were found."
-msgstr ""
+msgstr "Nenhum registro correspondente a %s foi encontrado."
 
 #: modules/commands/hs_request.cpp:220 modules/commands/hs_request.cpp:276
 #, c-format
 msgid "No request for nick %s found."
-msgstr ""
+msgstr "Nenhum pedido para o nick %s encontrado."
 
 #: src/access.cpp:55
 msgid "No signed kick when SIGNKICK LEVEL is used"
-msgstr ""
+msgstr "Nenhum kick assinado quando o SIGNKICK LEVEL é usado"
 
 #: modules/extra/stats/cs_fantasy_top.cpp:159 modules/extra/stats/cs_fantasy_stats.cpp:156
 #, c-format
 msgid "No stats for %s."
-msgstr ""
+msgstr "Sem estatísticas para %s."
 
 #: modules/commands/os_info.cpp:201
 #, c-format
 msgid "No such info \"%s\" on %s."
-msgstr ""
+msgstr "Nenhuma dessas informações \"%s\" em %s."
 
 #: modules/commands/cs_ban.cpp:219 modules/commands/cs_kick.cpp:118
 #, c-format
 msgid "No users on %s match %s."
-msgstr ""
+msgstr "Nenhum usuário em %s corresponde %s."
 
 #: modules/commands/bs_assign.cpp:188
 #, c-format
 msgid "No-bot mode is now off on channel %s."
-msgstr ""
+msgstr "O modo \"sem bot\" agora está desativado no canal %s."
 
 #: modules/commands/bs_assign.cpp:181
 #, c-format
 msgid "No-bot mode is now on on channel %s."
-msgstr ""
+msgstr "O modo \"sem bot\" agora está ativado no canal %s."
 
 #: modules/commands/os_mode.cpp:64
 #, c-format
 msgid "Non-status modes cleared on %s."
-msgstr ""
+msgstr "Modos sem status apagados em %s."
 
 #: modules/commands/bs_info.cpp:58 modules/commands/os_dns.cpp:226
 msgid "None"
-msgstr ""
+msgstr "Nenhum"
 
 #: modules/commands/cs_set.cpp:1029
 #, c-format
@@ -6393,7 +6393,7 @@ msgstr ""
 
 #: modules/commands/cs_mode.cpp:380 modules/commands/cs_mode.cpp:437
 msgid "Nothing to do."
-msgstr ""
+msgstr "Nada para fazer."
 
 #: modules/commands/hs_list.cpp:58 modules/commands/os_news.cpp:156 modules/commands/cs_entrymsg.cpp:116
 #: modules/commands/bs_badwords.cpp:194 modules/commands/ms_list.cpp:64 modules/commands/cs_xop.cpp:377
@@ -6403,11 +6403,11 @@ msgstr ""
 #: modules/commands/hs_request.cpp:305 modules/commands/os_session.cpp:506 modules/commands/os_session.cpp:514
 #: modules/commands/ns_ajoin.cpp:100 modules/commands/os_sxline.cpp:193 modules/commands/os_sxline.cpp:201
 msgid "Number"
-msgstr ""
+msgstr "Número"
 
 #: modules/commands/os_news.cpp:41
 msgid "OPERNEWS {ADD|DEL|LIST} [text|num]"
-msgstr ""
+msgstr "OPERNEWS {ADD|DEL|LIST} [texto|número]"
 
 #: modules/commands/ns_info.cpp:68 modules/commands/ns_info.cpp:72
 msgid "Online from"
