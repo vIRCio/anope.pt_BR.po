@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-05-03 19:56-0300\n"
+"PO-Revision-Date: 2020-05-03 20:22-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -6411,26 +6411,26 @@ msgstr "OPERNEWS {ADD|DEL|LIST} [texto|número]"
 
 #: modules/commands/ns_info.cpp:68 modules/commands/ns_info.cpp:72
 msgid "Online from"
-msgstr ""
+msgstr "Online de"
 
 #: modules/commands/os_oper.cpp:138
 #, c-format
 msgid "Oper %s is configured in the configuration file(s) and can not be removed by this command."
-msgstr ""
+msgstr "Operador %s está configurado no arquivo de configuração e não pode ser removido por este comando."
 
 #: modules/commands/os_info.cpp:268
 msgid "Oper Info"
-msgstr ""
+msgstr "Informação de Operadores"
 
 #: modules/commands/os_info.cpp:182 modules/commands/os_info.cpp:221
 #, c-format
 msgid "Oper info list for %s is empty."
-msgstr ""
+msgstr "Lista de informações de operadores para %s está vazia."
 
 #: modules/commands/os_news.cpp:46
 #, c-format
 msgid "Oper news item #%d deleted."
-msgstr ""
+msgstr "Item de notícias de operadores #%d excluído."
 
 #: modules/commands/os_news.cpp:45
 #, c-format
@@ -6439,46 +6439,46 @@ msgstr ""
 
 #: modules/commands/os_news.cpp:42
 msgid "Oper news items:"
-msgstr ""
+msgstr "Item de notícias de operadores:"
 
 #: modules/commands/os_oper.cpp:148
 #, c-format
 msgid "Oper privileges removed from %s (%s)."
-msgstr ""
+msgstr "Privilégios de Oper removidos de %s (%s)."
 
 #: modules/commands/os_oper.cpp:101 modules/commands/os_oper.cpp:189
 #, c-format
 msgid "Oper type %s has not been configured."
-msgstr ""
+msgstr "O tipo de operador %s não foi configurado."
 
 #: modules/commands/os_oline.cpp:37
 #, c-format
 msgid "Operflags %s have been added for %s."
-msgstr ""
+msgstr "Flag de operador %s foi adicionado para %s."
 
 #: modules/commands/os_oline.cpp:43
 #, c-format
 msgid "Operflags %s have been removed from %s."
-msgstr ""
+msgstr "Flag de operador %s foi removido de %s."
 
 #: modules/commands/os_oper.cpp:193
 #, c-format
 msgid "Opertype %s has no allowed commands."
-msgstr ""
+msgstr "Flag de operador %s não possui comandos permitidos."
 
 #: modules/commands/os_oper.cpp:215
 #, c-format
 msgid "Opertype %s has no allowed privileges."
-msgstr ""
+msgstr "Flag de operador %s não possui privilégios permitidos."
 
 #: modules/commands/os_oper.cpp:237
 #, c-format
 msgid "Opertype %s receives modes %s once identified."
-msgstr ""
+msgstr "Flag de operador %s recebe modos %s uma vez identificado."
 
 #: modules/commands/bs_kick.cpp:1219
 msgid "Ops protection"
-msgstr ""
+msgstr "Proteção de Ops"
 
 #: modules/commands/bs_info.cpp:58 src/misc.cpp:258
 msgid "Options"
@@ -6486,7 +6486,7 @@ msgstr "Opções"
 
 #: modules/commands/os_dns.cpp:668
 msgid "POOL server.name"
-msgstr ""
+msgstr "POOL servidor.nome"
 
 #: modules/commands/cs_mode.cpp:449
 msgid "Param"
@@ -6494,43 +6494,43 @@ msgstr ""
 
 #: modules/commands/ns_identify.cpp:38
 msgid "Password accepted - you are now recognized."
-msgstr ""
+msgstr "Senha aceita - você está reconhecido."
 
 #: modules/commands/os_login.cpp:44
 msgid "Password accepted."
-msgstr ""
+msgstr "Senha aceita."
 
 #: include/language.h:85
 msgid "Password authentication required for that command."
-msgstr ""
+msgstr "Autenticação com senha é necessária para usar o comando."
 
 #: modules/commands/ns_set.cpp:152 modules/commands/ns_set.cpp:218
 #, c-format
 msgid "Password for %s changed to %s."
-msgstr ""
+msgstr "Senha de %s alterada para %s."
 
 #: modules/commands/ns_set.cpp:154 modules/commands/ns_set.cpp:220
 #, c-format
 msgid "Password for %s changed."
-msgstr ""
+msgstr "Senha do %s alterada."
 
 #: modules/commands/ns_getpass.cpp:38
 #, c-format
 msgid "Password for %s is %s."
-msgstr ""
+msgstr "Senha de %s é %s."
 
 #: include/language.h:71
 msgid "Password incorrect."
-msgstr ""
+msgstr "Senha incorreta."
 
 #: modules/commands/ns_resetpass.cpp:39
 #, c-format
 msgid "Password reset email for %s has been sent."
-msgstr ""
+msgstr "E-mail de recuperação de senha para %s foi enviado."
 
 #: modules/commands/cs_set.cpp:1289
 msgid "Peace"
-msgstr ""
+msgstr "Paz"
 
 #: modules/commands/cs_set.cpp:440
 #, c-format
