@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-05-03 20:22-0300\n"
+"PO-Revision-Date: 2020-05-04 20:30-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -7143,24 +7143,24 @@ msgstr "SET nome.do.servidor opção valor"
 #: modules/commands/ns_cert.cpp:378
 #, c-format
 msgid "SSL certificate fingerprint accepted, you are now identified to %s."
-msgstr ""
+msgstr "Impressão digital do certificado SSL aceita, agora você está identificado como %s."
 
 #: modules/commands/ns_cert.cpp:398
 msgid "SSL certificate fingerprint accepted, you are now identified."
-msgstr ""
+msgstr "Impressão digital do certificado SSL aceita, agora você está identificado."
 
 #: modules/commands/cs_enforce.cpp:137
 #, c-format
 msgid "SSL only enforced on %s."
-msgstr ""
+msgstr "Forçando a usar somente SSL em %s."
 
 #: modules/commands/cs_enforce.cpp:131
 msgid "SSLONLY enforced by "
-msgstr ""
+msgstr "SSLONLY forçado por "
 
 #: modules/commands/os_shutdown.cpp:47
 msgid "Save databases and restart Services"
-msgstr "Salva o banco de dados e reinicia os serviços"
+msgstr "Salva o banco de dados e reinicia os Serviços"
 
 #: modules/commands/os_logsearch.cpp:32
 msgid "Searches logs for a matching pattern"
@@ -7168,56 +7168,56 @@ msgstr "Pesquisa nos logs um padrão correspondente"
 
 #: modules/commands/cs_set.cpp:1295
 msgid "Secure founder"
-msgstr ""
+msgstr "Fundador Seguro"
 
 #: modules/commands/cs_set.cpp:786
 #, c-format
 msgid "Secure founder option for %s is now off."
-msgstr ""
+msgstr "Modo fundador seguro para %s está agora desativado."
 
 #: modules/commands/cs_set.cpp:780
 #, c-format
 msgid "Secure founder option for %s is now on."
-msgstr ""
+msgstr "Modo fundador seguro para %s está agora ativado."
 
 #: modules/commands/cs_set.cpp:1297
 msgid "Secure ops"
-msgstr ""
+msgstr "Ops Seguros"
 
 #: modules/commands/cs_set.cpp:850
 #, c-format
 msgid "Secure ops option for %s is now off."
-msgstr ""
+msgstr "Modo de Ops seguros para %s está agora desativado."
 
 #: modules/commands/cs_set.cpp:844
 #, c-format
 msgid "Secure ops option for %s is now on."
-msgstr ""
+msgstr "Modo de Ops seguros para %s está agora ativado."
 
 #: modules/commands/cs_set.cpp:723
 #, c-format
 msgid "Secure option for %s is now off."
-msgstr ""
+msgstr "Modo de segurança para %s está agora desativado."
 
 #: modules/commands/cs_set.cpp:717
 #, c-format
 msgid "Secure option for %s is now on."
-msgstr ""
+msgstr "Modo de segurança para %s está agora ativado."
 
 #: modules/commands/ns_set.cpp:1044
 #, c-format
 msgid "Secure option is now off for %s."
-msgstr ""
+msgstr "Modo de segurança está agora desativado para %s."
 
 #: modules/commands/ns_set.cpp:1038
 #, c-format
 msgid "Secure option is now on for %s."
-msgstr ""
+msgstr "Modo segurança está agora ativado para %s."
 
 #: modules/commands/cs_enforce.cpp:42
 #, c-format
 msgid "Secureops enforced on %s."
-msgstr ""
+msgstr "Ops seguros forçado em %s."
 
 #: modules/commands/ns_set.cpp:1311 modules/commands/cs_set.cpp:1293
 msgid "Security"
@@ -7259,7 +7259,7 @@ msgstr "Envia uma menssagem para todos os usuários"
 
 #: modules/commands/ms_list.cpp:64
 msgid "Sender"
-msgstr ""
+msgstr "Remetente"
 
 #: modules/commands/ms_rsend.cpp:24
 msgid "Sends a memo and requests a read receipt"
@@ -7337,73 +7337,73 @@ msgstr ""
 
 #: modules/commands/os_dns.cpp:218
 msgid "Server"
-msgstr "Server"
+msgstr "Servidor"
 
 #: modules/commands/os_dns.cpp:375
 #, c-format
 msgid "Server %s added to zone %s."
-msgstr "Server %s adicionado à zona %s."
+msgstr "Servidor %s adicionado à zona %s."
 
 #: modules/commands/os_dns.cpp:345
 #, c-format
 msgid "Server %s already exists."
-msgstr "Server %s já existe."
+msgstr "Servidor %s já existe."
 
 #: modules/commands/os_dns.cpp:430 modules/commands/os_dns.cpp:493 modules/commands/os_dns.cpp:532
 #: modules/commands/os_dns.cpp:571 modules/commands/os_dns.cpp:604 modules/commands/os_dns.cpp:639
 #: modules/commands/os_noop.cpp:31
 #, c-format
 msgid "Server %s does not exist."
-msgstr "Server %s não existe."
+msgstr "Servidor %s não existe."
 
 #: modules/commands/os_dns.cpp:619
 #, c-format
 msgid "Server %s has no configured IPs."
-msgstr "Server %s não possui IPs configurados."
+msgstr "Servidor %s não possui IPs configurados."
 
 #: modules/commands/os_dns.cpp:357
 #, c-format
 msgid "Server %s is already in zone %s."
-msgstr "Server %s já está na zona %s."
+msgstr "Servidor %s já está na zona %s."
 
 #: modules/commands/os_dns.cpp:614
 #, c-format
 msgid "Server %s is already pooled."
-msgstr ""
+msgstr "Servidor %s já está em pool."
 
 #: modules/commands/os_dns.cpp:609
 #, c-format
 msgid "Server %s is not currently linked."
-msgstr "Server %s não está linkado no momento."
+msgstr "Servidor %s não está linkado no momento."
 
 #: modules/commands/os_dns.cpp:443
 #, c-format
 msgid "Server %s is not in zone %s."
-msgstr "Server %s não está na zona %s."
+msgstr "Servidor %s não está na zona %s."
 
 #: modules/commands/os_dns.cpp:384
 #, c-format
 msgid "Server %s is not linked to the network."
-msgstr "Server %s não está linkado a rede."
+msgstr "Servidor %s não está linkado na rede."
 
 #: modules/commands/os_dns.cpp:644
 #, c-format
 msgid "Server %s is not pooled."
-msgstr ""
+msgstr "Servidor %s não está em pool."
 
 #: modules/commands/os_dns.cpp:465
 #, c-format
 msgid "Server %s must be quit before it can be deleted."
-msgstr ""
+msgstr "Servidor %s deve ser encerrado antes de poder ser excluído."
 
 #: modules/commands/os_dns.cpp:255
 msgid "Servers"
-msgstr "Servers"
+msgstr "Servidores"
 
 #: modules/commands/os_stats.cpp:155
 #, c-format
 msgid "Servers found: %d"
-msgstr ""
+msgstr "Servidores encontrados: %d"
 
 #: modules/commands/cs_log.cpp:127
 msgid "Service"
@@ -7425,7 +7425,7 @@ msgstr ""
 
 #: include/language.h:70
 msgid "Services are in read-only mode!"
-msgstr ""
+msgstr "Serviços estão agora em modo somente-leitura!"
 
 #: modules/commands/os_defcon.cpp:186 modules/commands/os_defcon.cpp:213
 #, c-format
@@ -7439,7 +7439,7 @@ msgstr ""
 
 #: modules/commands/os_set.cpp:114
 msgid "Services are now in debug mode."
-msgstr ""
+msgstr "Serviços estão agora em modo de depuração ."
 
 #: modules/commands/os_set.cpp:159
 msgid "Services are now in expire mode."
@@ -7463,50 +7463,51 @@ msgstr ""
 
 #: src/mail.cpp:76
 msgid "Services have been configured to not send mail."
-msgstr ""
+msgstr "Os serviços foram configurados para não enviar e-mails."
 
 #: modules/commands/os_ignore.cpp:280
 msgid "Services ignore list:"
-msgstr ""
+msgstr "Lista de ignorados dos Serviços:"
 
 #: modules/commands/os_mode.cpp:33 modules/commands/os_kick.cpp:39
 msgid "Services is unable to change modes. Are your servers' U:lines configured correctly?"
 msgstr ""
+"Os serviços não podem alterar os modos. As linhas \"U\" dos seus servidores estão configuradas corretamente?"
 
 #: modules/commands/os_stats.cpp:140
 #, c-format
 msgid "Services up %s."
-msgstr ""
+msgstr "Serviços ativos %s."
 
 #: modules/commands/ns_set.cpp:266
 #, c-format
 msgid "Services will from now on set status modes on %s in channels."
-msgstr ""
+msgstr "Os serviços irão, a partir de agora, setar os modos de status em %s nos canais."
 
 #: modules/commands/cs_set.cpp:114
 #, c-format
 msgid "Services will no longer automatically give modes to users in %s."
-msgstr ""
+msgstr "Os serviços deixarão de fornecer automaticamente modos aos usuários %s."
 
 #: modules/commands/ns_set.cpp:272
 #, c-format
 msgid "Services will no longer set status modes on %s in channels."
-msgstr ""
+msgstr "Os serviços não setarão mais os modos de status em %s nos canais."
 
 #: modules/commands/cs_set.cpp:108
 #, c-format
 msgid "Services will now automatically give modes to users in %s."
-msgstr ""
+msgstr "Os serviços agora fornecerão automaticamente modos aos usuários %s."
 
 #: modules/commands/ns_set.cpp:940
 #, c-format
 msgid "Services will now reply to %s with messages."
-msgstr ""
+msgstr "Os serviços agora responderão a %s com mensagens."
 
 #: modules/commands/ns_set.cpp:946
 #, c-format
 msgid "Services will now reply to %s with notices."
-msgstr ""
+msgstr "Os serviços agora responderão a %s com notices."
 
 #: modules/commands/os_reload.cpp:34
 msgid "Services' configuration has been reloaded."
@@ -7519,11 +7520,11 @@ msgstr "Sessão"
 #: modules/commands/os_session.cpp:382
 #, c-format
 msgid "Session limit for %s set to %d."
-msgstr ""
+msgstr "Limite de sessão para %s ajustado para %d."
 
 #: modules/commands/os_session.cpp:257 modules/commands/os_session.cpp:534
 msgid "Session limiting is disabled."
-msgstr ""
+msgstr "Limite de Sessão está desativado."
 
 #: modules/commands/os_stats.cpp:195
 #, c-format
@@ -7838,27 +7839,27 @@ msgstr ""
 #: modules/commands/cs_access.cpp:648 modules/commands/cs_access.cpp:689
 #, c-format
 msgid "Setting %s not known.  Type %s%s HELP LEVELS for a list of valid settings."
-msgstr ""
+msgstr "Setando %s não é conhecido.  Digite %s%s HELP LEVELS para obter uma lista de configurações válidas."
 
 #: modules/commands/os_set.cpp:133
 msgid "Setting for DEBUG must be ON, OFF, or a positive number."
-msgstr ""
+msgstr "A configuração para DEBUG deve ser ON, OFF, ou um número positivo."
 
 #: modules/commands/os_set.cpp:162
 msgid "Setting for NOEXPIRE must be ON or OFF."
-msgstr ""
+msgstr "A configuração para NOEXPIRE deve ser ON ou OFF."
 
 #: modules/commands/os_set.cpp:56
 msgid "Setting for READONLY must be ON or OFF."
-msgstr ""
+msgstr "A configuração para READONLY deve ser ON ou OFF."
 
 #: modules/commands/os_set.cpp:95
 msgid "Setting for super admin must be ON or OFF."
-msgstr ""
+msgstr "A configuração para o super-administrador deve serON ou OFF."
 
 #: modules/commands/cs_set.cpp:74
 msgid "Should services automatically give status to users"
-msgstr ""
+msgstr "Os serviços devem fornecer status automaticamente aos usuários"
 
 #: modules/commands/os_stats.cpp:203
 msgid "Show status of Services and network"
@@ -7867,7 +7868,7 @@ msgstr "Mostra o status dos Serviços da rede"
 #: modules/commands/os_logsearch.cpp:152
 #, c-format
 msgid "Showed %d/%d matches for %s."
-msgstr ""
+msgstr "Mostrou %d/%d correspondências para %s."
 
 #: modules/commands/cs_set.cpp:872
 msgid "Sign kicks that are done with the KICK command"
