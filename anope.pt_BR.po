@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-05-04 20:30-0300\n"
+"PO-Revision-Date: 2020-05-04 20:58-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -7872,12 +7872,12 @@ msgstr "Mostrou %d/%d correspondências para %s."
 
 #: modules/commands/cs_set.cpp:872
 msgid "Sign kicks that are done with the KICK command"
-msgstr ""
+msgstr "Assina kicks que são feitos com o comando KICK"
 
 #: modules/commands/cs_set.cpp:921
 #, c-format
 msgid "Signed kick option for %s is now off."
-msgstr ""
+msgstr "A opção de kick assinado para %s está agora desativado."
 
 #: modules/commands/cs_set.cpp:913
 #, c-format
@@ -7885,139 +7885,142 @@ msgid ""
 "Signed kick option for %s is now on, but depends of the\n"
 "level of the user that is using the command."
 msgstr ""
+"A opção de kick assinado para %s está agora ativado, mas \n"
+"depende do nível do usuário que está usando o comando."
 
 #: modules/commands/cs_set.cpp:906
 #, c-format
 msgid "Signed kick option for %s is now on."
-msgstr ""
+msgstr "A opção de kick assinado para %s está agora ativado."
 
 #: modules/commands/cs_set.cpp:1299
 msgid "Signed kicks"
-msgstr ""
+msgstr "Assinatura de kicks"
 
 #: modules/commands/ms_send.cpp:59 modules/commands/ms_rsend.cpp:60
 #, c-format
 msgid "Sorry, %s currently has too many memos and cannot receive more."
-msgstr ""
+msgstr "Desculpe, %s atualmente tem muitos memos e não pode receber mais."
 
 #: modules/commands/cs_seen.cpp:294
 #, c-format
 msgid "Sorry, I have not seen %s."
-msgstr ""
+msgstr "Desculpe, eu não vi %s."
 
 #: modules/commands/bs_badwords.cpp:404
 msgid "Sorry, bad words list modification is temporarily disabled."
-msgstr ""
+msgstr "Desculpe, a modificação da lista de palavrões está temporariamente desativada."
 
 #: modules/commands/bs_assign.cpp:30 modules/commands/bs_assign.cpp:98
 msgid "Sorry, bot assignment is temporarily disabled."
-msgstr ""
+msgstr "Desculpe, a atribuição de bot está temporariamente desativada."
 
 #: modules/commands/bs_assign.cpp:164 modules/commands/bs_bot.cpp:281
 msgid "Sorry, bot modification is temporarily disabled."
-msgstr ""
+msgstr "Desculpe, a modificação do bot está temporariamente desativada."
 
 #: modules/commands/bs_kick.cpp:813 modules/commands/bs_kick.cpp:878 modules/fantasy.cpp:42
 msgid "Sorry, bot option setting is temporarily disabled."
-msgstr ""
+msgstr "Desculpe, configuração da opção de bot está temporariamente desativado."
 
 #: modules/commands/bs_set.cpp:115
 msgid "Sorry, changing bot options is temporarily disabled."
-msgstr ""
+msgstr "Desculpe, a alteração das opções do bot está temporariamente desativada."
 
 #: modules/commands/cs_xop.cpp:112 modules/commands/cs_xop.cpp:235 modules/commands/cs_xop.cpp:444
 #, c-format
 msgid "Sorry, channel %s list modification is temporarily disabled."
-msgstr ""
+msgstr "Desculpe, a modificação da lista do canal %s está temporariamente desativada."
 
 #: modules/commands/cs_flags.cpp:405 modules/commands/cs_access.cpp:547
 msgid "Sorry, channel access list modification is temporarily disabled."
-msgstr ""
+msgstr "Desculpe, modificação da lista de acesso do canal está temporariamente desativado."
 
 #: modules/commands/cs_akick.cpp:469
 msgid "Sorry, channel autokick list modification is temporarily disabled."
-msgstr ""
+msgstr "Desculpe, a modificação da lista de autokick do canal está temporariamente desativada."
 
 #: modules/commands/cs_drop.cpp:29
 msgid "Sorry, channel de-registration is temporarily disabled."
-msgstr ""
+msgstr "Desculpe, desregistrar (drop) de canal está temporariamente desativado."
 
 #: modules/commands/cs_register.cpp:35
 msgid "Sorry, channel registration is temporarily disabled."
-msgstr ""
+msgstr "Desculpe, registro de canais está temporariamente desativado."
 
 #: modules/commands/bs_kick.cpp:181
 msgid "Sorry, kicker configuration is temporarily disabled."
-msgstr ""
+msgstr "Desculpe, configuração de kick está temporariamente desativado."
 
 #: modules/commands/ms_set.cpp:216
 msgid "Sorry, memo option setting is temporarily disabled."
-msgstr ""
+msgstr "Desculpe, configuração de opção memo está temporariamente desativado."
 
 #: include/language.h:116
 msgid "Sorry, memo sending is temporarily disabled."
-msgstr ""
+msgstr "Desculpe, o envio de memo está temporariamente desativado."
 
 #: modules/commands/ns_drop.cpp:29
 msgid "Sorry, nickname de-registration is temporarily disabled."
-msgstr ""
+msgstr "Desculpe, desregistro (drop) de nick está temporariamente desativado."
 
 #: modules/commands/ns_group.cpp:120
 msgid "Sorry, nickname grouping is temporarily disabled."
-msgstr ""
+msgstr "Desculpe, agrupamento de nick está temporariamente desativado."
 
 #: modules/commands/ns_register.cpp:139
 msgid "Sorry, nickname registration is temporarily disabled."
-msgstr ""
+msgstr "Desculpe, registro de nick está temporariamente desativado."
 
 #: modules/commands/ns_access.cpp:33
 #, c-format
 msgid "Sorry, the maximum of %d access entries has been reached."
-msgstr ""
+msgstr "Desculpe, o máximo de %d entradas de acesso foi atingido."
 
 #: modules/commands/ns_ajoin.cpp:141
 #, c-format
 msgid "Sorry, the maximum of %d auto join entries has been reached."
-msgstr ""
+msgstr "Desculpe, o máximo de %d entradas automáticas foi atingido."
 
 #: modules/commands/ns_cert.cpp:173
 #, c-format
 msgid "Sorry, the maximum of %d certificate entries has been reached."
-msgstr ""
+msgstr "Desculpe, o máximo de %d entradas de certificado foi atingido."
 
 #: modules/commands/ms_ignore.cpp:55
 #, c-format
 msgid "Sorry, the memo ignore list for %s is full."
-msgstr ""
+msgstr "Desculpe, a lista de ignorados do memo para %s está cheia."
 
 #: modules/commands/cs_xop.cpp:201 modules/commands/cs_flags.cpp:174 modules/commands/cs_access.cpp:204
 #, c-format
 msgid "Sorry, you can only have %d access entries on a channel, including access entries from other channels."
 msgstr ""
+"Desculpe, você só pode ter %d entradas de acesso em um canal, incluindo entradas de acesso de outros canais."
 
 #: modules/commands/cs_akick.cpp:177
 #, c-format
 msgid "Sorry, you can only have %d autokick masks on a channel."
-msgstr ""
+msgstr "Desculpe, você só pode ter %d máscaras no autokick em um canal."
 
 #: modules/commands/bs_badwords.cpp:286
 #, c-format
 msgid "Sorry, you can only have %d bad words entries on a channel."
-msgstr ""
+msgstr "Desculpe, você só pode ter %d entradas de palavrões em um canal."
 
 #: include/language.h:103
 #, c-format
 msgid "Sorry, you have already exceeded your limit of %d channels."
-msgstr ""
+msgstr "Desculpe, você já excedeu seu limite de %d canais."
 
 #: include/language.h:102
 #, c-format
 msgid "Sorry, you have already reached your limit of %d channels."
-msgstr ""
+msgstr "Desculpe, você já atingiu seu limite de %d canais."
 
 #: modules/commands/os_dns.cpp:218
 msgid "State"
-msgstr ""
+msgstr "Estado"
 
 #: modules/commands/cs_seen.cpp:117
 msgid "Statistics and maintenance for seen data"
@@ -8041,29 +8044,29 @@ msgstr "Pare de se repetir!"
 
 #: modules/commands/cs_set.cpp:746
 msgid "Stricter control of channel founder status"
-msgstr ""
+msgstr "Controle mais rigoroso do status de fundador do canal"
 
 #: modules/commands/cs_set.cpp:810
 msgid "Stricter control of chanop status"
-msgstr ""
+msgstr "Controle mais rigoroso do status de OP"
 
 #: modules/commands/cs_info.cpp:50 modules/commands/ns_alist.cpp:75
 msgid "Successor"
-msgstr ""
+msgstr "Sucessor"
 
 #: modules/commands/cs_set.cpp:1006
 #, c-format
 msgid "Successor for %s changed to %s."
-msgstr ""
+msgstr "Sucessor do %s alterado para %s."
 
 #: modules/commands/cs_set.cpp:1008
 #, c-format
 msgid "Successor for %s unset."
-msgstr ""
+msgstr "Sucessor do %s apagado."
 
 #: modules/commands/os_set.cpp:81
 msgid "Super admin can not be set because it is not enabled in the configuration."
-msgstr ""
+msgstr "Super-administrador não pode ser ajustado porque não está ativado na configuração."
 
 #: modules/commands/ns_suspend.cpp:60
 msgid "Suspend a given nick"
@@ -8129,6 +8132,9 @@ msgid ""
 " \n"
 "Lists all nicks in your group."
 msgstr ""
+"Sintaxe: %s\n"
+" \n"
+"Lista todos os nicks no seu grupo."
 
 #: modules/commands/ns_group.cpp:363
 #, c-format
@@ -8359,7 +8365,7 @@ msgstr ""
 
 #: modules/commands/cs_seen.cpp:261
 msgid "Tells you about the last time a user was seen"
-msgstr ""
+msgstr "Informa sobre a última vez que um usuário foi visto"
 
 #: modules/commands/os_shutdown.cpp:19
 msgid "Terminate Services WITHOUT saving"
@@ -8517,7 +8523,7 @@ msgstr ""
 
 #: modules/commands/ns_set.cpp:713
 msgid "The IMMED option is not available on this network."
-msgstr ""
+msgstr "A opção IMMED não está disponível nesta rede."
 
 #: modules/commands/cs_access.cpp:821
 #, c-format
@@ -8592,7 +8598,7 @@ msgstr ""
 
 #: modules/commands/cs_seen.cpp:172
 msgid "The STATS command prints out statistics about stored nicks and memory usage."
-msgstr ""
+msgstr "O comando STATS imprime estatísticas sobre nicks armazenados e uso de memória."
 
 #: modules/commands/ns_register.cpp:291
 msgid ""
@@ -8630,35 +8636,35 @@ msgstr ""
 #: modules/commands/cs_ban.cpp:64
 #, c-format
 msgid "The %s list for %s is full."
-msgstr ""
+msgstr "A %s lista para %s está cheia."
 
 #: modules/commands/os_sxline.cpp:220
 #, c-format
 msgid "The %s list has been cleared."
-msgstr ""
+msgstr "A lista %s foi apagada."
 
 #: modules/commands/os_akill.cpp:377
 msgid "The AKILL list has been cleared."
-msgstr ""
+msgstr "A lista de AKILL foi apagada."
 
 #: modules/commands/os_defcon.cpp:136 modules/commands/os_defcon.cpp:225
 #, c-format
 msgid "The Defcon level is now at: %d"
-msgstr ""
+msgstr "O nível Defcon está agora em: %d"
 
 #: modules/commands/ns_info.cpp:171
 #, c-format
 msgid "The E-mail address of %s will now be hidden from %s INFO displays."
-msgstr ""
+msgstr "O endereço de e-mail de %s agora ficará oculto no comando %s INFO."
 
 #: modules/commands/ns_info.cpp:172
 #, c-format
 msgid "The E-mail address of %s will now be shown in %s INFO displays."
-msgstr ""
+msgstr "O endereço de e-mail de %s agora será mostrado no comando %s INFO."
 
 #: modules/commands/cs_flags.cpp:449
 msgid "The available flags are:"
-msgstr ""
+msgstr "As flags disponíveis são:"
 
 #: modules/commands/os_defcon.cpp:240
 msgid ""
@@ -8666,21 +8672,24 @@ msgid ""
 "set of restrictions to services useful during an attempted\n"
 "attack on the network."
 msgstr ""
+"O sistema defcon pode ser usado para implementar um sistema \n"
+"pré-definido. Ajutando várias restrições a serviços úteis durante \n"
+"uma tentativa de ataque na rede."
 
 #: modules/ns_maxemail.cpp:51
 #, c-format
 msgid "The email address %s has reached its usage limit of %d users."
-msgstr ""
+msgstr "O endereço de e-mail %s atingiu seu limite de uso de %d usuários."
 
 #: modules/ns_maxemail.cpp:49
 #, c-format
 msgid "The email address %s has reached its usage limit of 1 user."
-msgstr ""
+msgstr "O endereço de e-mail %s atingiu seu limite de uso de 1 usuário."
 
 #: modules/commands/cs_entrymsg.cpp:142
 #, c-format
 msgid "The entry message list for %s is full."
-msgstr ""
+msgstr "A lista de mensagens de entrada para o %s está cheia."
 
 #: modules/commands/cs_access.cpp:796
 msgid "The following feature/function names are available:"
