@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-05-04 20:58-0300\n"
+"PO-Revision-Date: 2020-05-11 12:27+0200\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -2156,7 +2156,7 @@ msgstr "Lista de AKILL está vazia."
 
 #: modules/commands/bs_kick.cpp:1211 modules/commands/bs_kick.cpp:1213 modules/commands/bs_kick.cpp:1216
 msgid "AMSG kicker"
-msgstr ""
+msgstr "AMSG kicker"
 
 #: modules/commands/ns_alist.cpp:48
 msgid "Access"
@@ -3026,29 +3026,29 @@ msgstr "Privilégios disponíveis para %s:"
 
 #: modules/commands/cs_enforce.cpp:162
 msgid "BANS enforced by "
-msgstr ""
+msgstr "BANS aplicados por "
 
 #: modules/commands/bs_kick.cpp:1121 modules/commands/bs_kick.cpp:1123 modules/commands/bs_kick.cpp:1126
 msgid "Bad words kicker"
-msgstr ""
+msgstr "Bad words kicker"
 
 #: modules/commands/bs_badwords.cpp:252
 #, c-format
 msgid "Bad words list for %s:"
-msgstr ""
+msgstr "Lista de palavras proibidas de %s:"
 
 #: modules/commands/bs_badwords.cpp:364
 msgid "Bad words list is now empty."
-msgstr ""
+msgstr "A lista de palavras proibidas está vazia."
 
 #: modules/commands/bs_set.cpp:129
 msgid "Ban expiry may not be longer than 1 day."
-msgstr ""
+msgstr "A expiração do ban não pode ter mais de 1 dia de duração."
 
 #: modules/commands/cs_ban.cpp:140 modules/commands/cs_ban.cpp:175
 #, c-format
 msgid "Ban on %s expires in %s."
-msgstr ""
+msgstr "O ban de %s expira em %s."
 
 #: modules/commands/cs_info.cpp:60
 msgid "Ban type"
@@ -3088,7 +3088,7 @@ msgstr "Bans aplicados em %s."
 
 #: modules/commands/bs_kick.cpp:1131 modules/commands/bs_kick.cpp:1133 modules/commands/bs_kick.cpp:1136
 msgid "Bolds kicker"
-msgstr ""
+msgstr "Bolds kicker"
 
 #: modules/commands/bs_bot.cpp:26 modules/commands/bs_bot.cpp:175
 #, c-format
@@ -3632,7 +3632,7 @@ msgstr ""
 
 #: modules/extra/stats/m_chanstats.cpp:517 modules/extra/stats/m_chanstats.cpp:525
 msgid "Chanstats"
-msgstr ""
+msgstr "Chanstats"
 
 #: modules/extra/stats/m_chanstats.cpp:102
 #, c-format
@@ -4764,7 +4764,7 @@ msgstr "Exceção para %s foi atualizado para %d."
 #: modules/pseudoclients/chanserv.cpp:465 modules/pseudoclients/nickserv.cpp:557
 #: modules/pseudoclients/nickserv.cpp:562
 msgid "Expires"
-msgstr ""
+msgstr "Expira"
 
 #: src/xline.cpp:397
 #, c-format
@@ -4890,7 +4890,7 @@ msgstr "Comando GETPASS indisponível porque a criptografia está em uso."
 
 #: modules/commands/ns_recover.cpp:84
 msgid "Ghost with your nick has been killed."
-msgstr ""
+msgstr "O ghost com o seu nick foi eliminado."
 
 #: modules/commands/os_oline.cpp:19
 msgid "Give Operflags to a certain user"
@@ -4952,7 +4952,7 @@ msgstr "Oculta canal do comando LIST"
 
 #: modules/commands/os_session.cpp:192
 msgid "Host"
-msgstr ""
+msgstr "Host"
 
 #: modules/commands/os_session.cpp:207
 #, c-format
@@ -4971,7 +4971,7 @@ msgstr "Eu nunca vi %s neste canal."
 
 #: modules/commands/os_akill.cpp:360 modules/commands/os_sxline.cpp:203
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: modules/commands/os_oper.cpp:72
 msgid "INFO [type]"
@@ -4979,7 +4979,7 @@ msgstr "INFO [tipo]"
 
 #: modules/commands/os_dns.cpp:218
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #: modules/commands/os_dns.cpp:500
 #, c-format
@@ -5096,17 +5096,17 @@ msgstr "Entra em um grupo"
 
 #: modules/commands/ns_set.cpp:1319 modules/commands/cs_set.cpp:1305
 msgid "Keep modes"
-msgstr ""
+msgstr "Modos de Keep"
 
 #: modules/commands/ns_set.cpp:603 modules/commands/cs_set.cpp:377
 #, c-format
 msgid "Keep modes for %s is now off."
-msgstr ""
+msgstr "Modo Keep para %s está desligado."
 
 #: modules/commands/ns_set.cpp:597 modules/commands/cs_set.cpp:369
 #, c-format
 msgid "Keep modes for %s is now on."
-msgstr ""
+msgstr "Modo Keep para %s está ligado."
 
 #: modules/commands/ns_ajoin.cpp:100
 msgid "Key"
@@ -5295,6 +5295,12 @@ msgid ""
 "specified, lists only channels matching pattern that have the +s or\n"
 "+p mode."
 msgstr ""
+"Lista todos os canais em uso no servidor do IRC , estando os canais\n"
+"registrados ou não.\n"
+" \n"
+"Se algum padrão é fornecido, o comando lista apenas canais que correspndam a ele. \n"
+"Se um nick é fornecido, lista apenas os canais nos quais o usuário com o nick fornecido está presente. \n"
+"Se SECRET é especificado, lista apenas canais que correspondem padrão que possuem os modos +s ou +p."
 
 #: modules/commands/ns_alist.cpp:127
 msgid ""
@@ -6390,6 +6396,10 @@ msgid ""
 "become the new founder and it will be as if the\n"
 "channel had no successor set."
 msgstr ""
+"Note, no entanto, que se o substituto já tiver muitos canais\n"
+"registrados (%d), ele não poderá se tornar\n"
+"o novo founder e será como se o canal não\n"
+"tivesse um substituto definido."
 
 #: modules/commands/cs_mode.cpp:380 modules/commands/cs_mode.cpp:437
 msgid "Nothing to do."
@@ -6435,7 +6445,7 @@ msgstr "Item de notícias de operadores #%d excluído."
 #: modules/commands/os_news.cpp:45
 #, c-format
 msgid "Oper news item #%s not found!"
-msgstr ""
+msgstr "Oper news item #%s não encontrado!"
 
 #: modules/commands/os_news.cpp:42
 msgid "Oper news items:"
@@ -9088,6 +9098,17 @@ msgid ""
 "      Searches the last 21 days worth of logs for messages\n"
 "      containing Anope and lists the most recent 500 of them."
 msgstr ""
+"Este comando pesquisa os arquivos de log de serviços para obter mensagens\n"
+"que correspondem ao padrão dado. O dia e o argumento limite\n"
+"pode ser usado para especificar quantos dias de logs para pesquisar\n"
+"e o número de respostas a limitar. Por padrão, este\n"
+"comando pesquisa uma semana de logs e limita\n"
+"a 50 o número de respostas.\n"
+" \n"
+"Por exemplo:\n"
+"    LOGSEARCH +21d +500l Anope\n"
+"      Pesquisa os últimos 21 dias de registros de mensagens\n"
+"      contendo Anope e lista os 500 mais recentes deles."
 
 #: modules/commands/cs_status.cpp:106
 msgid ""
