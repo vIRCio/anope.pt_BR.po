@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-14 22:30-0300\n"
-"PO-Revision-Date: 2020-05-11 12:27+0200\n"
+"PO-Revision-Date: 2020-05-18 01:07-0300\n"
 "Last-Translator: Ciro Moniz <cirinho@canalbahia.net>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.3.1\n"
 
 #: modules/commands/os_forbid.cpp:324
 #, c-format
@@ -3628,7 +3628,7 @@ msgstr "Canais aos quais %s tem acesso:"
 #: modules/commands/os_stats.cpp:181
 #, c-format
 msgid "Channels: %lu entries, %lu buckets, longest chain is %d"
-msgstr ""
+msgstr "Canais: %lu entradas, %lu baldes, a cadeia mais longa é %d"
 
 #: modules/extra/stats/m_chanstats.cpp:517 modules/extra/stats/m_chanstats.cpp:525
 msgid "Chanstats"
@@ -6545,12 +6545,12 @@ msgstr "Paz"
 #: modules/commands/cs_set.cpp:440
 #, c-format
 msgid "Peace option for %s is now off."
-msgstr ""
+msgstr "A opção de paz para %s agora está desativada."
 
 #: modules/commands/cs_set.cpp:434
 #, c-format
 msgid "Peace option for %s is now on."
-msgstr ""
+msgstr "A opção de paz para %s está agora ativada."
 
 #: modules/commands/cs_set.cpp:1301
 msgid "Persistent"
@@ -6558,7 +6558,7 @@ msgstr "Persistente"
 
 #: include/language.h:126
 msgid "Please contact an Operator to get a vHost assigned to this nick."
-msgstr ""
+msgstr "Por favor contacte um Operador para ter um vHost assinado à este apelido."
 
 #: include/language.h:73
 msgid ""
@@ -6569,11 +6569,11 @@ msgstr ""
 
 #: modules/commands/os_jupe.cpp:30
 msgid "Please use a valid server name when juping."
-msgstr ""
+msgstr "Por favor use um nome de servidor válido quando utilizar o comando jumping."
 
 #: include/language.h:104
 msgid "Please use the symbol of # when attempting to register."
-msgstr ""
+msgstr "Por favor utilize o símbolo de  # ao tentar registrar-se."
 
 #: src/mail.cpp:78
 #, c-format
@@ -6619,15 +6619,15 @@ msgstr "Impede que um bot seja associado por não operadores do IRC"
 
 #: modules/commands/bs_assign.cpp:153
 msgid "Prevent a bot from being assigned to a channel"
-msgstr "Impe que um bot seja associado ao canal"
+msgstr "Impedir que um bot seja associado ao canal"
 
 #: modules/commands/cs_suspend.cpp:58
 msgid "Prevent a channel from being used preserving channel data and settings"
-msgstr ""
+msgstr "Impedir que um canal seja usado preservando os dados e as configurações do canal"
 
 #: modules/commands/cs_set.cpp:1043
 msgid "Prevent the channel from expiring"
-msgstr ""
+msgstr "Impedir que o canal expire"
 
 #: modules/commands/ns_list.cpp:186
 msgid "Prevent the nickname from appearing in the LIST command"
@@ -6635,15 +6635,15 @@ msgstr "Impede do nick aparecer no comando LIST"
 
 #: modules/commands/ns_set.cpp:1104
 msgid "Prevent the nickname from expiring"
-msgstr ""
+msgstr "Impedir que um apelido expire"
 
 #: src/access.cpp:46
 msgid "Prevents users being kicked by Services"
-msgstr ""
+msgstr "Impedir que um usuário seja chutado pelos Serviços"
 
 #: modules/commands/bs_info.cpp:58 modules/commands/ns_list.cpp:297 modules/commands/cs_list.cpp:262
 msgid "Private"
-msgstr ""
+msgstr "Privado"
 
 #: modules/commands/bs_set.cpp:190
 #, c-format
@@ -6737,7 +6737,7 @@ msgstr ""
 
 #: modules/commands/os_noop.cpp:21
 msgid "REVOKE server"
-msgstr ""
+msgstr "REVOGAR servidor"
 
 #: modules/commands/os_news.cpp:56
 #, c-format
@@ -6759,22 +6759,22 @@ msgstr "Lê o(s) memo(s)"
 
 #: modules/commands/bs_info.cpp:56
 msgid "Real name"
-msgstr ""
+msgstr "Nome real"
 
 #: modules/commands/os_list.cpp:153
 msgid "Realname"
-msgstr ""
+msgstr "Nome real"
 
 #: modules/commands/os_ignore.cpp:266 modules/commands/cs_akick.cpp:392 modules/commands/cs_akick.cpp:405
 #: modules/commands/os_akill.cpp:344 modules/commands/os_akill.cpp:361 modules/commands/os_forbid.cpp:358
 #: modules/commands/os_session.cpp:514 modules/commands/os_sxline.cpp:193 modules/commands/os_sxline.cpp:204
 msgid "Reason"
-msgstr ""
+msgstr "Motivo"
 
 #: src/xline.cpp:386
 #, c-format
 msgid "Reason for %s updated."
-msgstr ""
+msgstr "Motivo para for %s atualizado."
 
 #: modules/commands/ns_recover.cpp:214
 msgid ""
